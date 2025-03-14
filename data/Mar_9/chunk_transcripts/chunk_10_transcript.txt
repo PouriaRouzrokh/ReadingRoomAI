@@ -1,0 +1,137 @@
+==== Beginning of Part 10 ====
+[1:30:00]of open source on github or maybe somewhere to use and if they are
+[1:30:03]maybe the copyright does not permit that and even if the copyright works
+[1:30:07]maybe those models are not yet prepared for
+[1:30:10]whatever question answering general question answering in all fields of
+[1:30:14]medicine that might be the reason but i would be
+[1:30:17]happy to see some of those models here as well as you said so
+[1:30:20]again very cool very cool website and i believe we need to
+[1:30:24]advocate using github as much as possible
+[1:30:27]another interesting thing that i found in this leaderboard that
+[1:30:31]makes my previous claim kind of wrong is that
+[1:30:35]the first model is not it doesn't support rag
+[1:30:39]so it's just answering questions based on whatever knowledge it has
+[1:30:42]and this is crazy that it knows this much about medicine
+[1:30:47]so that that makes me think that maybe it is because the very large context
+[1:30:52]window that gemini 2 has let's see let's see if we can find any
+[1:30:55]comparison of the llm context window comparison i think that we
+[1:31:02]should see some sort of yeah but i think most of the questions
+[1:31:06]people will ask in this scenario will not
+[1:31:09]occupy lots of input context no i believe that because it's
+[1:31:14]so maybe they are using that with rag it's not it's not so gemini do you say
+[1:31:20]that gemini 2 flash cannot do rag uh in this uh if you go back to med
+[1:31:24]rnr uh they use the icon of these those
+[1:31:28]books on the book pile for the models that
+[1:31:30]support right and this doesn't have that
+[1:31:33]the perplexity model of course that uh have supports right because it's such
+[1:31:37]uh internet and then augments the whole thing
+[1:31:40]um with the results uh and gemini 2 flash
+[1:31:44]itself supports rag but the thinking version
+[1:31:47]as we have seen this with the deep seek r1
+[1:31:51]they the reasoning ones don't support rag in their raw form i agree now i
+[1:31:57]understand what you say though i think that what they probably
+[1:32:01]meant here is that if you want to upload an image or maybe upload some
+[1:32:05]references and test the models grounded in those uh then for that
+[1:32:10]sake you should be careful of which models you are playing with um
+[1:32:14]yeah that could be another explanation of what they mean by these but
+[1:32:18]yeah i'm not sure which it's still true yeah very interesting very interesting
+[1:32:22]regardless of how gemini did that the fact that among a lot of battles
+[1:32:27]136 battles 136 battles there are still
+[1:32:31]uh a top there makes me very amazed that there were
+[1:32:35]all right so uh this is mid rnr what else do you want to talk about
+[1:32:41]um i'm okay with whatever direction you take it on
+[1:32:45]uh let me see what i have
+[1:32:50]yeah there is the large language diffusion models
+[1:32:55]in the um topics that we are uh talking about
+[1:33:00]and there you there will be the uh tools from the product hunt
+[1:33:05]uh that i wanted to cover which is again another
+[1:33:09]whole uh different thing maybe just a quick mention of a paper and
+[1:33:15]an article on the medical part and then i
+[1:33:19]the rest of my list are just technical things
+[1:33:22]not too much relevant on the medicine okay so feel free to go ahead
+[1:33:28]okay so i start with this one
+[1:33:35]uh i think you can see this again from the
+[1:33:44]sub stack of eryctopo uh and i really quickly
+[1:33:48]covered this because my knowledge of this space is really limited but i think
+[1:33:54]it's another important area that you're going to
+[1:33:56]um see more from in the uh in the next few months probably and the first
+[1:34:03]diagnostic immunum and this is uh related uh scientists
+[1:34:08]going to um sequencing and let me
+[1:34:12]cover here uh yeah uh they go and sequenced uh the heavy chain
+[1:34:20]of the b cells uh on on which is one of the receptors
+[1:34:25]and also the beta chain of the t cells and these receptors are built in these
+[1:34:31]cells based on what antigens the patient is exposed to
+[1:34:36]or what disease they have and the theory was here that okay
+[1:34:40]loss of information is encoded in the sequence of these
+[1:34:44]receptors of the immune cells of patients
+[1:34:49]why not we gather a big data set of these sequences and train a generative
+[1:34:55]model on these sequences and then try to
+[1:34:59]use these generative models to classify basically based on the new unseen
+[1:35:06]blood samples of new patients to see what diseases they have based on
+[1:35:11]i mean those generative models had access to
+[1:35:14]what diseases those patients in the training data set had
+[1:35:17]and what sequences these receptors
+[1:35:24]had so they find a kind of a pattern among
+[1:35:29]the sequences and the diseases so this knowledge could be used on unseen cases
+[1:35:34]to go from the receptor sequence to what
+[1:35:38]the disease they have so the promise here is to just take a blood
+[1:35:41]sample from a patient and based on the sequences in the immune
+[1:35:45]cells or in combination with other features like
+[1:35:49]some other proteins in the blood sample and lots of other
+[1:35:54]clinical features come up with a more accurate diagnosis and this is
+[1:35:59]in the space of the proteomics and immunomics
+[1:36:03]this omics kind of like world that you gather
+[1:36:08]whatever data you can from the patients and then
+[1:36:11]you come up with the more personalized and more accurate diagnosis
+[1:36:15]for that patient so it was new to me that
+[1:36:18]this sort of information from the immune cells
+[1:36:22]is going to be used again with AI to help with the diagnosis
+[1:36:27]and based on the paper let me share the blog post by Nature as well on this
+[1:36:33]topic
+[1:36:36]this was the first work that was done on the successful
+[1:36:43]use of immunome to diagnose diseases and it was done for
+[1:36:51]autoimmune diseases like lupus which are very difficult to diagnose
+[1:36:55]and the criteria for the diagnosis is changing every
+[1:36:59]few years as you've seen in the textbooks and
+[1:37:03]Nature had an article AI tool diagnosis diabetes HIV and COVID from a
+[1:37:07]blood sample and the one-shot approach that uses
+[1:37:10]machine learning to screen immune cells could help to detect
+[1:37:13]conditions with overlapping symptoms and I think with what
+[1:37:19]AlphaFold is doing on proteins and with what
+[1:37:23]these teams are doing with these receptors of immune cells
+[1:37:28]we are going to have lots of and lots and lots more information about each
+[1:37:32]patient in the future and these will really make help
+[1:37:37]make more accurate diagnosis for the patients based on just probably simple
+[1:37:41]blood samples and yeah this was something that I just
+[1:37:44]wanted to mention in this episode but I've not
+[1:37:50]dug deep into how the model is trained and I think it wasn't
+[1:37:56]that detailed in the paper as well so this was one thing and then the rest
+[1:38:03]of the things on my list are non-medical things so if you
+[1:38:07]have anything else you want to cover first
+[1:38:10]feel free to share first of all this was very interesting I really like the idea
+[1:38:14]of taking a look at into immunological cells and then looking at the receptor
+[1:38:18]proteins which is something that you know
+[1:38:21]but will not immediately come to mind but you know if again if you have an
+[1:38:25]interdisciplinary knowledge you might find very interesting niche
+[1:38:30]areas of science to work on and back to our very
+[1:38:33]very first conversation on this episode that
+[1:38:36]you know there are going to be lots of new opportunities for people who are
+[1:38:41]still interested to remain in science I mean
+[1:38:43]who thought that one day we can just come up and
+[1:38:47]basically look at immunological cells like these and then apply
+[1:38:51]AI on that to come up with some diagnosis and a lot of cool other things
+[1:38:54]could also happen in future thank you for sharing I have two things
+[1:38:58]that might kind of shift us
+[1:39:03]I mean help us shift gear from medical world to voluntary engineering world
+[1:39:07]both very futuristic kind of studies
+[1:39:11]that I would like to share with you let me open those
+[1:39:15]and share my screen with you both of those actually raised a lot of
+[1:39:22]attention I am going to first
+[1:39:27]go to this one so let me share sure and then we are here
+[1:39:34]hopefully you're seeing my screen now
+[1:39:39]all right so this is the first paper towards an AI
+[1:39:43]co-scientist came out on February 26th
+[1:39:47]and this is from Google and Stanford and I bring from Imperial
+[1:39:53]College so multi-institute kind of work and with
+[1:39:57]lots of co-authors as you can see
+==== Ending of Part 10 ====

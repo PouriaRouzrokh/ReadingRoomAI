@@ -1,0 +1,142 @@
+==== Beginning of Part 7 ====
+[1:00:00]I think it was on page 44, I guess.
+[1:00:08]You can just click on the link again and it will directly go to that section.
+[1:00:16]The problem is that I accidentally closed the page that I need to open.
+[1:00:22]No problem. Let me see what page it was.
+[1:00:25]It's on page 59.
+[1:00:28]I'm trying to open the blog post itself. I believe I had the link somewhere here.
+[1:00:34]Probably the page.
+[1:00:37]You said to come here and click on this link again?
+[1:00:42]Yes.
+[1:00:45]It should go to the right section, the dual process theory and diagnosis.
+[1:00:49]It basically references the Daniel Kahneman system 1 and system 2 thinking
+[1:00:54]and how experts, physicians, most of the time, or after they get expert actually at what they do,
+[1:01:01]refer to system 1 of thinking when a patient is presented to them.
+[1:01:08]They really quickly can match the pattern of the symptoms and signs of that patient
+[1:01:15]to some disease model that they have in their mind.
+[1:01:19]It says that medical students and novice physicians most of the time use system 2 of thinking
+[1:01:25]because they don't have really rigorous or sophisticated mental models of diseases
+[1:01:30]and they need to just go through every sign and symptom
+[1:01:34]and they don't have a good pattern matching skill at the time.
+[1:01:39]It was a really concise but really informative section.
+[1:01:46]The next section which is on Bayesian reasoning was also really interesting to follow
+[1:01:52]as I'm probably going to read in the next few days.
+[1:01:55]This book is actually something that I didn't have on my radar.
+[1:01:58]I kind of overlooked it in this blog post as well
+[1:02:01]but I should definitely go and take a look at these chapters at least.
+[1:02:04]It looks a very nice book.
+[1:02:07]It's kind of fascinating that they are going through such literature to put together...
+[1:02:11]Yeah, exactly.
+[1:02:12]It shows that they have a really multidisciplinary kind of theme
+[1:02:17]and they are taking this really seriously
+[1:02:22]that they are diving deep into the textbooks in the medical domain
+[1:02:27]and also taking into account the concepts in there
+[1:02:34]and then applying these elements to match at least what is established
+[1:02:39]in the diagnosis field of medicine.
+[1:02:43]This is one of the reasons I really like these team's works
+[1:02:49]and I'm really optimistic about the results of their next research projects.
+[1:02:56]I agree. I agree.
+[1:02:58]Let's see if we have anything else to share from here.
+[1:03:01]We talked about most of that.
+[1:03:04]This basically now gets into the details of how these outputs are made.
+[1:03:08]I believe it's very interesting how structured the entire output
+[1:03:12]and the entire management plan is coming out of the Gemini models here.
+[1:03:17]Very, very nice work.
+[1:03:19]Let's talk maybe a little bit about the evaluation of the work as well.
+[1:03:22]As we can see here, they basically had a longitudinal kind of setup.
+[1:03:28]Here, we are looking at three different visits.
+[1:03:31]As Muin mentioned, this is with respect to patient actors.
+[1:03:36]These are not real patients.
+[1:03:38]Obviously, these are just patient actors, but they are educated patient actors.
+[1:03:41]They are well-trained about what presentations to have
+[1:03:46]and how to communicate those presentations with the physicians.
+[1:03:50]Obviously, these PCPs who participated in this study probably didn't know if they are
+[1:03:55]I assume that they didn't know that they are talking with a patient actor.
+[1:03:59]They probably were just treating a real patient.
+[1:04:02]Then what happens is that this simulated patient tries to converse
+[1:04:08]with whatever agent that is behind the mobile screen,
+[1:04:12]which could be a real PCP, which could be Amy.
+[1:04:15]Then whenever the Amy was called, the entire process that we just talked about was initiated.
+[1:04:21]Basically, they put together some conversations.
+[1:04:24]Then the data between the visits were also fed to the model.
+[1:04:28]For example, if some test results are back in between visit 1 and 2,
+[1:04:32]then the model is going to take into account those results as well.
+[1:04:36]Then it goes through NICE guidance and BMJ best practice.
+[1:04:39]These are two sets of medical guidelines.
+[1:04:42]The model tries to ground itself within those guidelines.
+[1:04:46]Then based on those coming up with some evaluation and maybe management plans or whatever,
+[1:04:51]and then it goes back to the patient.
+[1:04:53]The patient actor acts based on that.
+[1:04:56]Then the third visit happens.
+[1:04:58]Now the process goes on and on.
+[1:05:00]Then we have this very nice, very interesting evaluation results page,
+[1:05:05]and a very simple one at the same time.
+[1:05:07]You see that this is the red dots.
+[1:05:10]The red curve basically is showing Amy performance,
+[1:05:12]and the blue is the control PCP group.
+[1:05:15]You see that, for example, the appropriateness of the management plans,
+[1:05:20]preciseness of that, avoiding inappropriate recommendations.
+[1:05:25]When you look at most of these, almost in all of them, Amy actually did better,
+[1:05:30]which is kind of crazy, to be honest with you.
+[1:05:33]I understand how physicians then become kind of scared and frustrated
+[1:05:38]when they look at these kind of outputs.
+[1:05:41]Yeah, exactly.
+[1:05:44]One of the other trends that you can see is that the performance is getting better
+[1:05:54]in some of these plots after the visits get accumulated.
+[1:06:00]It's, I think, signaling that probably most of the time,
+[1:06:05]maybe the right diagnosis is not just made in the first visit,
+[1:06:08]and the treatment and the course of the whole diagnosis and treatment is best done
+[1:06:14]if multiple visits are done.
+[1:06:18]Of course, more data will be gathered, and probably test results will be back.
+[1:06:24]Yeah, I think that is another pattern that you can see,
+[1:06:28]at least in some of the plots here.
+[1:06:30]Yeah.
+[1:06:31]Most of the times, the AI is, again, outperforming physicians.
+[1:06:36]Yeah, and I'm mostly interested in this diagram, Moin, specifically.
+[1:06:41]This is the third diagram on the investigation section.
+[1:06:45]You see that the way that I understand it is that when the patient first comes in,
+[1:06:49]both the human doctors and AI doctor kind of order the same sort of labs
+[1:06:55]or tests to be done for the patient.
+[1:06:58]But from the second visit onwards, it seems that the AI acts much better
+[1:07:03]in keeping the list of investigations proposed to the patient short,
+[1:07:09]whereas probably humans are actually ordering more and more diagnostic tests.
+[1:07:14]Some of those might not even be necessary.
+[1:07:16]And this is something that we do see in practice as well.
+[1:07:19]I mean, sometimes we just order too many labs, too many diagnostic tests for the patient.
+[1:07:24]Part of that might be because the provider is not that certain about the diagnosis.
+[1:07:29]Maybe they don't have the intuition.
+[1:07:31]And as you were just talking about, you know, type 1, type 2 thinking,
+[1:07:35]maybe they are not that well-trained in pattern matching and intuitive thinking.
+[1:07:40]But, I mean, looking at it from a patient's perspective,
+[1:07:44]this is just a huge amount of money saved between these two lines, right?
+[1:07:48]Because the patient has a lot of money for tests that are not that necessary,
+[1:07:53]whereas if AI is proposing those tests,
+[1:07:56]maybe the number of tests that they need to go through is actually much fewer,
+[1:08:01]and then the amount of money that they need to spend for their own health is actually much less.
+[1:08:05]And this means a lot.
+[1:08:07]And also the gap is even bigger for the same title in the treatment part,
+[1:08:14]the treatment is sufficiently precise, which is, again, another interesting finding.
+[1:08:20]And all the three comparisons are significant in the statistical tests that they have done.
+[1:08:28]And, yeah, again, lots of costs will be saved here by not probably too much prescribing things,
+[1:08:38]and lots of adverse reactions are avoided.
+[1:08:41]Yeah, very, very interesting figure, very interesting work.
+[1:08:45]And I guess we can talk for the entire video about this article,
+[1:08:49]which let's just bring it up for the sake of being loyal to their work.
+[1:08:55]So this is the first paper that came out, Amy.
+[1:08:57]And this is also a nice one.
+[1:08:59]I mean, I think we probably do not need to deep dive into this,
+[1:09:02]unless if you have something to say or share about this one.
+[1:09:05]But I guess this is exactly the engine that they used in their second work as well.
+[1:09:09]So two very interesting blog posts for people who want to learn a little bit about the work that Google did,
+[1:09:14]and probably is going to lead the future of AI incorporation into medicine.
+[1:09:19]Yeah, just something about the last figure of this very blog post.
+[1:09:25]Yeah, this one.
+[1:09:27]And I think you remember when this paper was published.
+[1:09:31]At the time, they weren't called this Amy.
+[1:09:34]They just mentioned it is a specialized kind of Gemini model that we are working on.
+[1:09:39]But now they say that this was basically the precursor of Amy.
+[1:09:44]And again, the pattern that was mentioned in the first blog post by Eric Topol
+[1:09:50]was first probably seen here,
+[1:09:52]when Amy alone was doing much better than clinicians assisted by Amy,
+[1:09:57]or by Serge, or unassisted.
+==== Ending of Part 7 ====

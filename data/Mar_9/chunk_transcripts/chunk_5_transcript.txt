@@ -1,0 +1,210 @@
+==== Beginning of Part 5 ====
+[0:40:00]and what are your, I mean, me and you,
+[0:40:03]views on the future of medicine and radiology
+[0:40:06]and how AI will change that perspective.
+[0:40:08]And I was like, I don't know,
+[0:40:10]but I will try my best to share
+[0:40:16]how, what is my mindset on the whole thing
+[0:40:19]and what we can at least do in these days
+[0:40:23]to be prepared for whatever happens.
+[0:40:25]But expecting specific predictions for the future,
+[0:40:29]I think at this stage is too cruel.
+[0:40:32]I mean, that is not something that is doable.
+[0:40:35]Exactly, I agree.
+[0:40:36]I totally agree.
+[0:40:38]All right.
+[0:40:39]Okay, so I shift gears into something
+[0:40:42]that we both have on our list
+[0:40:44]and is I think related to this topic
+[0:40:49]as we talk at least to the part that,
+[0:40:52]in one part, this article by Eric Topol mentioned
+[0:40:55]that AI is still not very good
+[0:41:00]or capable at navigating human conversation
+[0:41:04]in the context of clinical reasoning
+[0:41:07]and taking patient histories.
+[0:41:10]And I want to shift gears to the AIME,
+[0:41:13]which is exactly something that is being developed
+[0:41:16]by Google on navigating human conversation
+[0:41:22]and basically replacing the whole patient-physician
+[0:41:27]interaction in the first, basically, visit.
+[0:41:31]And you can share your screen and then go through it.
+[0:41:35]And then I will maybe add whatever I think is the rest
+[0:41:40]to talk about when you were ready.
+[0:41:43]All right, so let me share the,
+[0:41:45]so I'm going to share the second paper, let's see.
+[0:41:49]Yeah, yeah.
+[0:41:50]I also wanted to start with the second paper first
+[0:41:52]and then reference the first one
+[0:41:54]to see what that was about.
+[0:41:56]Okay, so are you seeing my screen now?
+[0:41:58]Yes.
+[0:41:59]Perfect, okay.
+[0:42:00]So yeah, this is a very nice blog post,
+[0:42:02]very recent one, March 6th, all right.
+[0:42:06]And it came out of Google from Diagnostic to Treatment,
+[0:42:09]Advancing AIME for Longitudinal Disease Management.
+[0:42:13]And then AIME, if you're not familiar with it,
+[0:42:15]is a previous publication, not that old, from Google.
+[0:42:20]And this is basically from January 12th
+[0:42:23]in which they just introduced an AI system
+[0:42:26]for diagnostic medical reasoning and conversation.
+[0:42:28]So basically this was an AI-based agentic system
+[0:42:33]that could listen to some patient's history,
+[0:42:36]analyze what they are saying, go and check the evidence,
+[0:42:39]and then come up with some diagnostic tools.
+[0:42:42]And now on top of that,
+[0:42:44]what this team has come up with is another paper.
+[0:42:47]Let me go back.
+[0:42:48]And now they are saying that not only we diagnose
+[0:42:51]the diseases using our system,
+[0:42:52]but even we go through the evidence
+[0:42:54]and put together some management plans for you.
+[0:42:57]And we even take care of that empathy part
+[0:43:00]and talk with the patients and make sure
+[0:43:02]that the patients are going to receive
+[0:43:04]the best kind of responses that they deserve
+[0:43:07]from a medical provider.
+[0:43:08]So they are basically jumping towards replacing
+[0:43:15]most of the major functionalities of a doctor,
+[0:43:18]at least in a remote visit, throughout a mobile application.
+[0:43:21]And we know that this is part of the day-to-day
+[0:43:25]provider-patient interactions
+[0:43:27]because not all of the interactions happen
+[0:43:30]in a hospital setting or in an office setting.
+[0:43:32]Some of that happens, sometimes you just go ahead
+[0:43:36]and talk with your PCP on a mobile application,
+[0:43:39]and sometimes they ask you questions,
+[0:43:40]provide you with plans.
+[0:43:41]And obviously, if it is something serious,
+[0:43:43]they invite you to go and see them in clinic
+[0:43:45]or maybe go to an emergency room.
+[0:43:47]But from time to time,
+[0:43:48]these interactions happen on a mobile phone.
+[0:43:50]And what this paper is showing at the moment,
+[0:43:53]this blog post is showing is that maybe we can go ahead
+[0:43:56]and say that now AI is ready to replace
+[0:43:59]part of these interactions.
+[0:44:01]So this is my main take of the blog post.
+[0:44:03]So Moin, feel free to interrupt me,
+[0:44:05]feel free to say your own insights,
+[0:44:07]and then we can scroll and maybe wait
+[0:44:09]on some of the figures, show those,
+[0:44:11]because the figures are great here.
+[0:44:13]Yeah.
+[0:44:14]No, I mean, you mentioned what this new advances is about.
+[0:44:20]And I think the path that Google is taking on this
+[0:44:24]to kind of like complete the whole picture
+[0:44:28]of how AI is going to be integrated into clinical practice
+[0:44:31]and not just focusing on diagnosis too much
+[0:44:34]is very precious.
+[0:44:37]And these multiple visits
+[0:44:40]and then aggregating all the findings
+[0:44:42]and maybe asking for some paraclinic studies to be done
+[0:44:46]and then reason on the results of that is really cool
+[0:44:50]and really close to what actually is happening
+[0:44:54]in the real world of clinic.
+[0:44:57]The only thing that is limiting this study for now
+[0:45:00]is that they are working on
+[0:45:04]or researching with patient actors, as they mentioned,
+[0:45:10]like the OSCE exams that we have in medicine.
+[0:45:13]And this is not exactly like the real environment,
+[0:45:17]but this is a very important environment
+[0:45:21]that no mistakes could be done.
+[0:45:24]So it makes total sense that they are researching
+[0:45:29]with human actors like patients
+[0:45:32]and not real patients at this stage.
+[0:45:34]But I think this paves the way to start clinical trials
+[0:45:40]on really human patients that are not actors
+[0:45:44]to see how these tools compare with physicians.
+[0:45:50]And I think for, I mean, at the first stages,
+[0:45:54]if these clinical trials show good results,
+[0:45:58]just giving patients in rural areas
+[0:46:02]with low access to specialized physicians,
+[0:46:06]I think it is going to be a huge help
+[0:46:09]to the human community.
+[0:46:12]And I think it soon could be used in large-scale hospitals
+[0:46:18]and specialized points of cares.
+[0:46:22]And yeah, I'm really optimistic
+[0:46:25]about this line of research in Google.
+[0:46:29]And I really want to know what they are currently working on
+[0:46:32]that is going to be published there.
+[0:46:34]Yeah, I agree, I agree.
+[0:46:35]I mean, this is a very impactful research.
+[0:46:37]As you mentioned, the world of medicine as a whole
+[0:46:41]still is struggling with lots of human,
+[0:46:45]expert human workforce shortage.
+[0:46:48]This is something that we are seeing
+[0:46:50]not only in low-income countries,
+[0:46:53]but also even in some industrial countries,
+[0:46:56]even in the U.S. itself,
+[0:46:57]they have some serious shortages
+[0:46:58]in different specialties like radiology, for example,
+[0:47:01]and not all the states have access
+[0:47:03]to radiologists in an equal way.
+[0:47:06]And this is certainly the case for primary care physicians,
+[0:47:09]for many other specialties as well.
+[0:47:11]And if you go out of the U.S.,
+[0:47:12]go to some poorer part of the world,
+[0:47:15]definitely this is even a more troublesome issue.
+[0:47:19]So if you have some sort of automated solutions
+[0:47:22]that maybe can take care of at least some of the things
+[0:47:25]that are well-known in the medical literature,
+[0:47:28]are well-known with respect to their treatment plans,
+[0:47:33]with respect to how to diagnose them,
+[0:47:35]yet still people are dying from them,
+[0:47:36]or the burden of those diseases are very high
+[0:47:39]because we don't have appropriate medical workforce
+[0:47:43]to just send to those places
+[0:47:45]and take care of those diseases.
+[0:47:47]Now these systems can basically replace those
+[0:47:50]and hopefully have a very impactful effect
+[0:47:56]in public health aspects of those diseases.
+[0:47:58]This is what comes to my mind.
+[0:48:00]And to just talk a little bit about the algorithm,
+[0:48:03]so this is a very big picture.
+[0:48:04]This is an eagle eye view of their solution.
+[0:48:09]If you see here, you have the conversation
+[0:48:12]and application that looks like a chatbot.
+[0:48:15]The patient talks with an AI behind the scene.
+[0:48:18]And what happens in this AI system
+[0:48:20]is that whatever presentations that the patient has
+[0:48:25]is going to be analyzed by AI,
+[0:48:26]the content gets processed,
+[0:48:29]and then it is not going to answer your questions
+[0:48:32]based on the knowledge that the model itself has,
+[0:48:34]which is not a very limited knowledge.
+[0:48:38]We know that these models nowadays get trained
+[0:48:40]on very large corpus of data,
+[0:48:42]and their training data is being
+[0:48:44]more and more cleaned every day.
+[0:48:46]So even if it wants to answer based on its own knowledge,
+[0:48:50]it is not necessarily going to be wrong.
+[0:48:51]But just to make it even more accurate,
+[0:48:54]and just because medicine is a very critical domain,
+[0:48:57]this AI is going to ground itself
+[0:49:00]in some clinical evidence,
+[0:49:02]very well-established clinical evidence.
+[0:49:04]The guidelines that we have,
+[0:49:06]a lot of those guidelines are available to providers.
+[0:49:08]We use it in our day-to-day practice.
+[0:49:10]Whenever we are in doubt,
+[0:49:11]we just go and check those guidelines
+[0:49:13]and try to see what most recent research
+[0:49:16]has shown to be the best for the patients,
+[0:49:18]and then try to mimic those.
+[0:49:20]And this AI is going to do exactly the same thing.
+[0:49:22]It's going to search through those guidelines,
+[0:49:24]found the best management plan, bring it back,
+[0:49:26]and then it's going to come up with a response
+[0:49:28]based on that guideline.
+[0:49:30]And then finally, the user is going to receive
+[0:49:33]the final recommendation.
+[0:49:35]Another important aspect in this figure
+[0:49:37]is that they are saying that now our model,
+[0:49:40]our AI system is basically capable of handling
+[0:49:43]patient-provider interactions across longitudinal visits.
+[0:49:47]This basically means that the AI's memory
+[0:49:52]is not going to reset every time that the patient comes back
+[0:49:55]because most of the time,
+[0:49:57]the patient-provider interactions have...
+==== Ending of Part 5 ====

@@ -1,0 +1,95 @@
+==== Beginning of Part 12 ====
+[1:50:00]valleys. And again, I unfortunately don't remember what a specific problem this
+[1:50:06]story happened about, but one of the main scientists working in the field actually
+[1:50:12]claimed that, I mean, they were so amazed that they just wrote to Google and asked
+[1:50:15]them, hey, did you by any chance have access to years of heart, years of
+[1:50:20]information and data that I had saved on my personal hard drives? Because the
+[1:50:25]results that you came into overnight, but something that I found after I figured
+[1:50:30]after years of research, and I have not yet published those, they are just on my
+[1:50:34]laptop. And I don't, I'm pretty much sure that nobody has access to that. But this
+[1:50:38]actually, this system actually came up. So very, very fascinating work.
+[1:50:44]I mean, yeah, this is mind blowing. And it reminded me of a recent, I mean, I
+[1:50:51]think it was published probably in the previous year. But it was the discovery
+[1:50:58]of a new family of antibiotics. After, I think, 40 years, I think, we haven't had
+[1:51:06]lots of discoveries in the antibiotics. Before this new discovery by AI, that
+[1:51:14]exactly it was like AI was used to propose new chemicals that are easy to build in the
+[1:51:23]lab, and they are able to kill bacteria or suppress their growth. And it was, I
+[1:51:33]mean, this task was something that would take probably millions of dollars by these
+[1:51:39]pharmacy companies to research on. And one model with a large pool of chemical
+[1:51:48]proposed chemicals was able to reduce their pool of viable structures to build in the
+[1:51:55]lab into, I think, 20 or something. So the researchers only needed to experiment with
+[1:52:02]those few structures. And then they found one of them that was easy to build, was stable in
+[1:52:08]the human body, and it wasn't that harmful to the other human, to the human cells. And it
+[1:52:14]was able to kill those resistance bacteria. And I think these are things that we are
+[1:52:22]already seeing the effect of AI into discovering new knowledge. And I think this line
+[1:52:28]of research where AI is used to amplify the literature, the scientific literature, is the
+[1:52:35]kind of the highest level of AI usage that will lead to the explosion of knowledge, as they
+[1:52:43]say, and to the singularity that basically you don't know what will happen after AI is
+[1:52:50]going to be able to generate new knowledge that was not before known. Because in the
+[1:52:56]other cases, okay, AI is probably diagnosing something, I mean, the case of medicine, that
+[1:53:03]even you put lots of human effort into, people could also come up with the same results.
+[1:53:12]But coming up with the new knowledge that is going to be discovered, and then automating
+[1:53:17]this process and scaling it is something that you don't know where it's going to end. And
+[1:53:23]it is the one of the most interesting results of these advances in the LLMs and AI picture.
+[1:53:32]I agree. I agree. I mean, lots of mind blowing stuff happening. And I think that as we go
+[1:53:36]forward, more of these things will come into real practice. I would say that research is
+[1:53:41]an area that we have less obstacles for seeing AI entering into. So compared to clinical
+[1:53:48]research, where you have less regulations to deal with. So if an AI agent works like
+[1:53:54]this, or, you know, a little bit simpler than these, all those deep research agents that
+[1:53:59]nowadays are very common, since one month ago. So I believe that the research labs are
+[1:54:05]going to become very, very much more productive. And this is just a transient phase until we
+[1:54:12]see some agents or some AI systems that are fully automated. So they even don't need any
+[1:54:16]human in the loop to generate new science. And then that would be more interesting phase
+[1:54:22]of research that might be that we might see in the future years. But at least for now, a
+[1:54:27]lot of AI copilots to help with research. And maybe Moin, just very quickly, let's talk
+[1:54:32]about so far, we have talked about how AI has actually helped biology and medicine. And
+[1:54:37]now let's talk a little bit about how biology can help AI. And this was something that I
+[1:54:42]saw two days ago, I don't think that the entire idea is very new. I saw some papers from
+[1:54:47]2022 to 2024. But something that caught my eyes recently, was the release of a product
+[1:54:57]that was named CL1. Let me Google it again, because I think this paper that I came up
+[1:55:03]with, yeah, from Cortical Labs. And so this is a company that produces devices like this,
+[1:55:11]which is very interesting, because it's basically just using real biologic neurons for computing.
+[1:55:19]And this basically is a computer case. But within that, instead of having mother birds or
+[1:55:25]chips or things like that, I mean, we do have some chips, obviously, but the core is going to be
+[1:55:30]just a very well controlled culture of human or other animal brain neurons. So and those neurons
+[1:55:40]are going to take care of all the computations. Now, obviously, this is a very, very primitive
+[1:55:45]idea. But if you just scroll down, I believe I saw it here. But if not, I can go back to the
+[1:55:50]previous paper and show that to you. Maybe they also have it here. Yeah, they're going to disrupt
+[1:55:56]the NVIDIA's kind of like a structure. I do think that if one thing, if one phenomenon can put an
+[1:56:03]end to this, NVIDIA's dominance in the world of processors are startups like this that try to
+[1:56:10]disrupt the entire paradigm of processors as a whole. And NVIDIA is also probably having an eye
+[1:56:19]on this. And they might even come and buy some of these startups before they become too dangerous
+[1:56:23]for them. But at least the current idea of processors might change, not in the very far
+[1:56:30]future. And this is the figure that I just wanted to share with you. So what you see here is
+[1:56:35]actually a very nice representation, a schematic representation of the processor. And you see that
+[1:56:44]this is a very nice controlled closed loop system. You have a chip here and you see some real
+[1:56:53]biological neurons growing on that. And then you have a sensory region and an output region. And
+[1:56:59]these are basically just chips, perceptory chips, I mean computer-like chips that are there.
+[1:57:07]And then what they achieved to do was that by just providing this system with some examples
+[1:57:14]that reminded me of reinforcement learning, but I'm not quite sure if it is reinforcement
+[1:57:18]learning or something else. But basically by just showing this system some imaging or some
+[1:57:25]intuitions of a Pong game, they came up with a system that could play that game.
+[1:57:30]And this is very interesting because now the brain behind the system is not any artificial
+[1:57:36]neurons on our NVIDIA chips, but it's basically just real biological neurons that are like your
+[1:57:43]brain, your brain, and my brain, and they're just doing this. This basically means that now we can
+[1:57:48]come up with very nice interactions between biological processors and actual, I mean,
+[1:57:54]traditional electronic processors. And this is interesting. This could revolutionize everything.
+[1:58:01]And I believe if nothing else, it can at least, you know, help a lot with the cost of those
+[1:58:07]electronic processors. Because not to say that these biological ones are cheap to develop and
+[1:58:13]grow, but I believe in the long term, these are going to be much more accessible and much easier
+[1:58:18]to regenerate and, you know, grow compared to the ones that are electronic. So very mind-blowing
+[1:58:23]piece of research. And again, that, you know, lab that we called, talked about, Cortical Labs,
+[1:58:30]it seems that that company is doing a lot of things in this field. There are multiple research
+[1:58:34]papers already released by them. If you're interested, you can go and take a look at that.
+[1:58:38]And then the sealed one is actually now for sale. I'm not sure how much they're going to sell it for.
+[1:58:44]Yeah, they have not put any actual price here, but no, maybe if you are wealthy enough, go ahead
+[1:58:49]and buy one of these and see if you can play a game on it. And if you did, let us know as well.
+[1:58:54]Yeah. And one thing that has really blew my mind here, and I'm still thinking about, is how they
+[1:59:02]were able to kind of convey the information from the game, probably some pixels or maybe some
+[1:59:10]inputs, some digital inputs to these cells. What was that interface? I mean, we are seeing this
+[1:59:18]sort of silicon interface with the natural kind of neurons with what Neuralink, for example,
+[1:59:28]is doing. But I've always been curious about how those signals from the digital world is going or
+[1:59:35]directed into these biologic neurons and how they know to direct these signals in an appropriate way
+[1:59:46]and how they train those cells. I mean, yeah, on a technological level, I think this is a
+[1:59:53]great advancement and lots of potential is there to do more complicated.
+==== Ending of Part 12 ====

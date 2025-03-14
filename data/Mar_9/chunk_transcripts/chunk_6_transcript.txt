@@ -1,0 +1,139 @@
+==== Beginning of Part 6 ====
+[0:50:00]happens, you know, in a longitudinal access, you know, you come to your provider, you ask,
+[0:50:06]you present some of your symptoms, the provider gives you some recommendations, you go and
+[0:50:10]try to, you know, follow those recommendations, maybe two or three days afterwards, you come
+[0:50:15]back to your provider, maybe you have done some blood work in between, the results of
+[0:50:18]those blood work is not ready for the provider.
+[0:50:21]Maybe you try the medicine in between, and now you're going to give some feedback to
+[0:50:24]your provider about whether or not the medicine worked, and now the provider can reflect on
+[0:50:29]this new data and also have in mind the previous presentations that you shared with them and
+[0:50:35]then tell you something new, you know, come up with some new sets of recommendations.
+[0:50:39]That's what this AI system is capable of doing.
+[0:50:43]And this is the base presentation of the model, and as we go forward, they have more interesting
+[0:50:48]figures basically now sharing more details about their system.
+[0:50:53]So again, as you see here, this is the three main steps we discussed above, just showing
+[0:50:58]how the management plan is going to put together, and it's based on, again, clinical guidelines,
+[0:51:03]and they talk about what guidelines they're exactly using, I believe they also evaluated
+[0:51:08]their work against some real doctors, and both the AI system and the real doctors have
+[0:51:12]access to equal guidelines.
+[0:51:14]So they, you know, removed the confounder of real doctors working with many different
+[0:51:21]guidelines, and they say that we are going to keep the clinical guidelines on which you
+[0:51:25]need to ground yourself equal, and then let's see whose performance is going to be better.
+[0:51:32]And I think these sort of longitudinal studies, I mean, if they are done soon in a clinical
+[0:51:39]trial or on a larger scale, considering all the risks and these things, will make a highly
+[0:51:47]valuable data set for training further generations of these AI models, because you can find about
+[0:51:56]the patient's feedback on the effect of the medication, whether the diagnosis was right
+[0:52:03]or wrong, and then these really will give the model a really good source of kind of
+[0:52:10]like feedback to tune its reasoning skills, and it will make the personalized medicine
+[0:52:20]picture that we all have in mind much more realistic, because this time the model is
+[0:52:25]learning about maybe one medication is not going to work for all the patients with the
+[0:52:30]same diagnosis, and they can come up with different probably adverse reactions or something.
+[0:52:38]And yeah, the thing that makes this sort of research really valuable is when it gets done
+[0:52:46]or researched on a huge or large-scale population, and designing those clinical trials is, of
+[0:52:54]course, a really difficult task to do, but I think those are just the next steps that
+[0:52:59]we will find a way to take the risks into account and come up with a solution that works
+[0:53:07]best for both the research side and the patient side.
+[0:53:10]Very true, very true, and I guess one point that you and I keep emphasizing in every episode
+[0:53:16]of this videocast is that regardless of how much we advance in terms of architectures
+[0:53:21]and in terms of different tricks for training AI systems, the importance of the data that
+[0:53:28]these systems are trained on is incomparable to anything else, so basically the better
+[0:53:34]data you have for training, the better your model's performance is going to be, and it's
+[0:53:39]not even about the size of the data, it's about the quality of the data.
+[0:53:42]So even if you have a small data set, but if it is as insightful as this longitudinal
+[0:53:49]data that this system is currently interacting with, then probably the models that are trained
+[0:53:54]on that data is going to be much better than models which might be trained on medical textbooks,
+[0:53:59]because now these models are trained on actual patient data, what happens to the patient
+[0:54:04]in practice.
+[0:54:05]I totally agree with that.
+[0:54:06]Let's scroll down, let's talk about this two-agent architecture of this system, and this is very
+[0:54:11]important because I believe as we go forward we are going to see more and more multi-agent
+[0:54:17]architectures in the world of medicine as well.
+[0:54:21]So here they are using two agents, and this is very interesting for me because one of
+[0:54:26]these agents is only designed to handle appropriate conversation with the patient.
+[0:54:32]They call it a dialogue agent, and they mention that the purpose of this agent is to basically
+[0:54:37]empathize with the patient who is sharing their problems, and this is very interesting
+[0:54:43]because I remember, and back to our previous conversation, one of the assumptions that
+[0:54:47]people had in the beginning that AI started to incorporate, being incorporated into medical
+[0:54:53]diagnosis and treatment, people said that, yeah, you know, maybe AI replaces our clinical
+[0:54:59]reasoning one day, but it is never going to replace our power of empathy.
+[0:55:03]You know, when you have a human doctor who is talking with you, the kind of feeling and
+[0:55:09]sensation that you receive from a human doctor is incomparable to any automated robot-like
+[0:55:16]AI that might do the same thing, and yet you see now that people are actually trying to
+[0:55:21]even get rid of this assumption, and now you have AI agents that their only job is
+[0:55:26]to basically mimic a very empathic conversation with you, and, you know, and they mention
+[0:55:33]that this is behind the scenes buying time for this MX agent, which is the main reason
+[0:55:37]or agent to go and dig into the literature and come up with a plan, yet at the same time
+[0:55:41]you are feeling that, what kind of a care I am receiving, right?
+[0:55:44]And if you are a patient, and imagine that you do not know who you are talking to, I
+[0:55:49]mean, you would think that maybe this is a real doctor, maybe this is an AI doctor,
+[0:55:52]but this entity that is in front of you is able to take care of your emotions, and that
+[0:55:58]in my humble mind is the only thing that matters, because we as humans need to feel calm, right?
+[0:56:04]And a lot of time that I go to bedside, I know better than multiple different medications
+[0:56:10]that we can administer to our patients when they are anxious, say Atarax or anything that
+[0:56:15]we want to give them.
+[0:56:16]The simple fact that you just hold their hands and reassure them verbally that you are going
+[0:56:20]to do good, you know, you are going to feel better by tomorrow, this works miraculously,
+[0:56:25]right?
+[0:56:26]I mean, this is much better than anything else.
+[0:56:28]So this first agent, even though it's very simple, and it's just probably just prompted
+[0:56:32]to, you know, respond in an appropriate way to the patient, this is going to be as impactful
+[0:56:37]and as important as the reason or agent.
+[0:56:39]And the second reason or agent, as we talked about, this is the one that gets this entire
+[0:56:44]history and presentation from the first agent, goes and looks into all those guidelines,
+[0:56:50]and then tries to come up with a plan.
+[0:56:53]And you see here that these guidelines are basically used due to the long context capability
+[0:57:00]of GemIIni.
+[0:57:01]And they talk about that if we are using GemIIni, GemIIni has kind of enabled us to now feed
+[0:57:06]all these long guidelines into the context of the model, and this is one of the aspects
+[0:57:10]that makes GemIIni really shine.
+[0:57:12]And then they come up with a plan, give the plan back to the first agent that now can,
+[0:57:17]in addition to, you know, empathizing with the patient, providing some recommendations
+[0:57:22]to them.
+[0:57:23]And did you go to the book that is referenced in the first sentence of this section?
+[0:57:32]And that is a really interesting book, and it just kind of like made me interested in
+[0:57:39]it.
+[0:57:40]This is it.
+[0:57:41]And you can go to the first page of the cover, where the, I'm not sure why the cover is not
+[0:57:47]shown in here.
+[0:57:49]Let's see.
+[0:57:51]Yeah.
+[0:57:52]Yeah.
+[0:57:53]It seems that the book, original pages, maybe starting from here, front matter.
+[0:57:59]This is the...
+[0:58:00]Yeah, let's go through.
+[0:58:01]I see.
+[0:58:02]Improving diagnosis in healthcare.
+[0:58:03]Yeah.
+[0:58:04]Go on.
+[0:58:05]Improving diagnosis in healthcare, and this section that is referenced, I read that the
+[0:58:13]dual process theory and diagnosis, the diagram was really cool, and how the doctors handled
+[0:58:19]the diagnosis scenario was kind of like described in very good details, and also the next section
+[0:58:27]right after it is probabilistic or Bayesian reasoning in this book, which is about improving
+[0:58:33]diagnosis in healthcare, which really intrigued me to go peek into and see how they are actually
+[0:58:43]describing or using Bayesian theory in the diagnostic cases for physicians.
+[0:58:49]And yeah, it was just cool to see how these theories are being applied basically in something
+[0:58:56]in medicine that really needs that, really needs to, I mean, the physician really needs
+[0:59:01]to know about the probabilities of the, or the prevalence of diseases to see if it makes
+[0:59:08]sense that this patient with these symptoms really has this diagnosis.
+[0:59:13]So yeah, just something cool that was referenced in this blog post.
+[0:59:18]Yeah.
+[0:59:19]Nice.
+[0:59:20]So is this the book that...
+[0:59:21]Is this the same book?
+[0:59:22]Yes.
+[0:59:23]I think so.
+[0:59:24]Yeah.
+[0:59:25]Is this the diagram that you were talking about?
+[0:59:26]Or, I mean, do you mean the book cover?
+[0:59:30]I think it was this one.
+[0:59:32]I'm not sure if it's exactly the right edition or something.
+[0:59:39]Let's see from the authors, Erin Bollock, Brian Miller.
+[0:59:43]Can you see them in the Amazon page?
+[0:59:46]Let me go back there again.
+[0:59:51]Yeah.
+[0:59:52]Oh, I think that's the same thing, yeah.
+[0:59:55]So maybe we can see that diagram here.
+[0:59:57]Let's see.
+[0:59:58]Yeah.
+[0:59:59]Yeah.
+==== Ending of Part 6 ====

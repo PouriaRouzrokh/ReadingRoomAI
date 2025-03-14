@@ -1,0 +1,120 @@
+==== Beginning of Part 9 ====
+[1:20:00]but apparently it does a very good job in telling you jokes, right?
+[1:20:04]So I think this is one of those kind of names that one model is being published just to see what the score is going to be
+[1:20:13]and then we find out, okay, this is the next project by OpenAI, they just didn't want to share the name.
+[1:20:19]No, you're right, you're right. So probably this is such a model that has not yet been released.
+[1:20:23]But whatever it is, I would love to see. Now keep this name in mind.
+[1:20:29]Next time you understand about Roman Empire.
+[1:20:31]It looks like some name that Elon Musk will give his models.
+[1:20:35]So I really doubt whether it's the next version of Glock.
+[1:20:39]Glock 4 maybe. But anyways, so this was the original chatbot arena or LM arena that came out
+[1:20:47]and people used to work with it. This is one of the most reliable kind of benchmarks
+[1:20:52]whenever we are ranking LLMs because it is very fair.
+[1:20:56]AI can go there and as simple as you just saw, it can rank one of these models better than the other.
+[1:21:01]And now we have the same thing in medical worlds.
+[1:21:03]So people, and I would like to find out who actually created this so that we can give them some credit.
+[1:21:10]Yeah, from Joe Lab from Stanford.
+[1:21:13]He's a really good researcher. I mean, I really like his work. James Zhao, I think.
+[1:21:21]So Dr. Zhao, very, very incredible and impactful piece of work that he and his lab did from Stanford.
+[1:21:30]And they put together something very similar to LM arena, only for the LLMs used in clinical area.
+[1:21:38]And they call that MedArena. And it is MedArena.ai. You just can't come here.
+[1:21:42]At the moment, if you want to play with this, you just need to have an MPI.
+[1:21:46]An MPI is basically a national provider identification number that physicians in the U.S. have.
+[1:21:51]I'm not sure if they have or they will have any way for physicians from other parts of the world to also take part in.
+[1:21:58]Yeah, they were opening up and I mean, there was a cool comment when they shared this MedArena on their own LinkedIn page.
+[1:22:10]Someone in the comments said, you know that MDs exist in the other parts of the world other than the U.S.
+[1:22:17]And they said, yeah, we know this and we are doing our best to make it possible for MDs from other parts of the world to take part in it.
+[1:22:25]And I think for now they are asking for a kind of like a license number or something equivalent to MPI.
+[1:22:34]And they go probably manually through them to verify them. But they are thinking about adding that.
+[1:22:40]Yeah, exactly. I hope so. I hope so. Because this is a very interesting piece of work.
+[1:22:44]And I believe these models will benefit from more people evaluating them in the long run.
+[1:22:48]And specifically if the people are from medical industries in different places of the world.
+[1:22:52]This ranking will basically become better and better in terms of addressing needs from different geographical regions.
+[1:23:01]So this is something very cool. And again, the way that it works is very similar.
+[1:23:05]So say for example, if I ask a question here, what is the best antipsychotic medication for an admitted patient with delirium and long QTc?
+[1:23:21]And so we know that these antipsychotic medications are not the best choices for people who are delirious in the hospital
+[1:23:28]and have long QTc in the hospital under EKGs because it can make things even worse.
+[1:23:33]So now let's see. Two random models are going to come up with an answer.
+[1:23:37]I am not quite sure. Based on my knowledge, once I looked this up for a real patient,
+[1:23:41]and the best answer was Quetiapine if I'm not wrong. But we can take a quick look at it.
+[1:23:47]So this one is saying that I am not a medical professional.
+[1:23:51]And this information is for general educational purposes. Always consult.
+[1:23:55]And they are going to talk about...
+[1:23:58]Could you zoom in a little bit?
+[1:24:01]Yeah, yeah, yeah. Thanks for the reminder. Let's zoom in.
+[1:24:04]So I'm first reading Model B because Model A apparently answered the answer that I like more.
+[1:24:10]I just want to see what Model B is saying.
+[1:24:12]So it starts by saying that don't rely on my recommendation, which is a good starting thing.
+[1:24:19]And then it says that the usual go-to antipsychotics,
+[1:24:24]while every antipsychotic carries some degree of QT prolongation risk, which is a true statement.
+[1:24:29]One of the agents considered to have among the lowest impact on the QT interval is Aripreprazole.
+[1:24:34]To be honest, I've never used inpatient for any patient,
+[1:24:37]but maybe lower propensity for QT prolongation than many atypical.
+[1:24:43]And then some explanations, important considerations in practice.
+[1:24:47]All right. The very first thing that I really wanted to see here was citing some references that I'm not seeing.
+[1:24:53]Now let's go to this one. This one is saying that it's Quetiapine.
+[1:24:57]And I honestly am more in agreement with this with my very limited medical knowledge at this point,
+[1:25:02]but I prefer Quetiapine to other ones.
+[1:25:07]And then here are the key points from the studies.
+[1:25:09]And this one is actually citing some references for me.
+[1:25:13]Let's just open one of them, make sure that this is not a hallucination.
+[1:25:17]There we go. Comparisons of antipsychotics for the treatments of patients with delirium and QTC interval prolongation.
+[1:25:23]A clinical decision analysis.
+[1:25:25]This is exactly the kind of paper that I needed for answering this question.
+[1:25:29]So for me, the winner of this head-to-head battle is very clear.
+[1:25:33]It's definitely model A. It is using references.
+[1:25:36]It is giving me the answer that I have already heard about, and I know that it's going to be the good choice.
+[1:25:43]So this medication usually goes with the name Zyprexa in the hospitals,
+[1:25:48]and we usually order that for the patients who become delirious and have long QTC.
+[1:25:52]And then we can go ahead and continue the conversation.
+[1:25:56]Or we can just, as we did with the LM-RNA, just say that I prefer model A.
+[1:26:02]And when we do so, we understand that, look at this one, model B is OpenAI-01,
+[1:26:09]which is basically their best reasoner model that actually gave me an answer that looks like to be wrong,
+[1:26:15]and it's not citing any references.
+[1:26:17]Model A is perplexity based on Lama 3.1, even not the Lama 3.2, small or large.
+[1:26:25]So, I mean, perplexity, meaning this small battle that we had here,
+[1:26:32]and it shows to me that, I'm not jumping to conclusions based on one comparison,
+[1:26:36]but I think that for such questions, perplexity is going to be better than just asking chatGPT what to do and what not to do.
+[1:26:44]Yeah, I think those kinds of models that can search internet and look for the guidelines
+[1:26:52]or the latest research in the field are going to be much more suited for questions in the medical domain,
+[1:27:00]because everything is changing very fast.
+[1:27:03]And these guidelines may not be available in the weights of the model very easily,
+[1:27:09]probably buried with lots of other information that will make it difficult for the model to differentiate
+[1:27:16]which source of information was in the guidelines and which weren't.
+[1:27:20]But most of them are available online, so if the model has access to the internet and can search,
+[1:27:25]I think that would be much more reliable.
+[1:27:27]I agree, I totally agree with you.
+[1:27:29]And then let's just take a look at their leaderboard and see what models are standing on top.
+[1:27:33]So, interesting, I didn't know this.
+[1:27:36]Interestingly, the best model so far is Gemini 2 FlashThinking,
+[1:27:41]which, if I'm not wrong, is the same model behind the AIME AI system we just talked about.
+[1:27:48]I'm not sure if they are using the Thinking version of Gemini 2,
+[1:27:51]but I believe they were using Gemini 2.
+[1:27:53]Amoyan, correct me if I'm wrong.
+[1:27:55]Yeah, again, I'm not sure for the Thinking part,
+[1:27:58]but yeah, this is the latest version of the Gemini family model,
+[1:28:05]and it was basically the thing that is powering AIME.
+[1:28:08]Yeah, and very, very nice that we see that on top.
+[1:28:11]And then we have GPT-40, and then O3 Mini is on rank 5.
+[1:28:16]And again, very interesting, Gemini 2 Flash is better than the Reasoner model from OpenAI on doing things.
+[1:28:24]I am now becoming more and more a fan of Gemini, to be honest with you.
+[1:28:28]Even on simple use cases, when you are just using API,
+[1:28:33]my recent codings were mostly based on Gemini, and it's doing a great job.
+[1:28:38]The API is good.
+[1:28:39]Even you can just use it with OpenAI-like APIs,
+[1:28:42]and now you see that on these rankings, it's also two of the Gemini models are in 1-4,
+[1:28:48]and they are outrunning the O3 model from OpenAI.
+[1:28:52]And the interesting thing is that I'm not sure if other LLMs were included in the whole competition here,
+[1:29:02]but you don't see any specifically medical LLM here.
+[1:29:08]All of them are general LLMs that are answering medical questions on the side,
+[1:29:14]but some of the fine-tuned versions of these LLMs that are published for the medical domain,
+[1:29:22]they aren't listed here.
+[1:29:24]It would be cool if they are included.
+[1:29:26]Maybe they are included and they're losing. I'm not sure.
+[1:29:28]So I don't think so, because if you scroll down,
+[1:29:31]they have this head-to-head comparison of every single model in their RNI against each other,
+[1:29:37]and I believe that the only models that they have included are these nine models that we are seeing here.
+[1:29:43]So maybe in the future they add more models.
+[1:29:47]To be honest with you, I think that part of the story is also the copyright issues that such models usually have,
+[1:29:52]because very few of those models, as far as I understand, are available as kind of...
+==== Ending of Part 9 ====

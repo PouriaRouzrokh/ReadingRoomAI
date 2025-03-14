@@ -1,0 +1,191 @@
+==== Beginning of Part 8 ====
+[1:10:00]which was the first findings showing that maybe the picture that we have,
+[1:10:05]that physicians with AR are always superior to either of them alone.
+[1:10:10]Here you see that again,
+[1:10:12]the AI performed the clinicians even using AIME itself.
+[1:10:18]It was cool that I found finally that the model
+[1:10:23]used there was basically AIME or the precursor to AIME.
+[1:10:27]This is a very nice figure as you said.
+[1:10:31]Again, I'm very happy that I will have a chance to present.
+[1:10:36]I'm definitely going to present this paper in front of
+[1:10:38]some of our medical colleagues in
+[1:10:40]the hospital that I'm currently practicing in next Wednesday.
+[1:10:43]I really want to see how they react to that.
+[1:10:45]Maybe by the time that we come back together to record the next episode,
+[1:10:49]I can tell you some of their feedback about this.
+[1:10:52]I can imagine what their reaction would be,
+[1:10:56]but I don't want to go ahead of myself and try to get something that is wrong.
+[1:11:03]But yeah, I can imagine that.
+[1:11:05]Yeah. I remember at the time that one of the complaints that
+[1:11:10]physicians or the community as a whole was making about this research was that,
+[1:11:16]okay, maybe those Najm cases,
+[1:11:19]those complicated Najm cases that these were evaluated on,
+[1:11:23]maybe those were in the training sets of the AI model,
+[1:11:27]so it made sense that they are working better.
+[1:11:29]But based on the figure I shared from the Erick Topol blog post,
+[1:11:34]this result is replicated in many other research projects as well.
+[1:11:40]Of course, there are controversial results in other projects showing that,
+[1:11:45]yeah, people or physicians with AI are outperforming AI alone.
+[1:11:50]But I think this is some finding that is being
+[1:11:53]replicated by other projects that couldn't be ignored.
+[1:11:57]Of course, there isn't going to be a simple solution or
+[1:12:03]explanation of when this is happening or on what task this is happening.
+[1:12:08]But this is some finding that at least in some tasks in medicine,
+[1:12:13]AI itself should be let alone doing whatever it wants probably,
+[1:12:18]or maybe not that extreme.
+[1:12:19]But AI alone is at least outperforming others.
+[1:12:23]Maybe some other tasks,
+[1:12:26]maybe humans alone are better.
+[1:12:28]This was basically what the article,
+[1:12:30]the first article was suggesting that we should just separate
+[1:12:34]the tasks and maybe let them do their work,
+[1:12:38]and then aggregate them on some higher level after they worked separately on
+[1:12:43]their own tasks in order not to interrupt
+[1:12:46]or basically bias one's conclusions with the other mindset,
+[1:12:52]something like that, yeah.
+[1:12:54]I totally agree, and let's wait.
+[1:12:57]Let's wait to see what happens in maybe one year from now
+[1:13:00]if such tools are actually used in practice.
+[1:13:03]I think that there are some people out there that unless they really see
+[1:13:06]some patients being treated by these AI systems,
+[1:13:09]they're not going to believe their efficiency and their efficacy.
+[1:13:12]But I believe that sooner or later,
+[1:13:15]we will see some of these tools being used in medical practice,
+[1:13:18]as some people never believe that we are going to have autonomous cars,
+[1:13:23]and now we are seeing those on our streets.
+[1:13:25]These things will also come into existence.
+[1:13:27]Yeah.
+[1:13:28]All right. Moin, let's go forward.
+[1:13:31]I have a couple of things to share,
+[1:13:32]but do you want to shift gears and maybe you share something,
+[1:13:36]or do you want to go ahead and share something?
+[1:13:38]To be honest, because of the problem of the webcam sharing,
+[1:13:42]I prefer that you share the screens on the cases that we now shared material.
+[1:13:48]I was thinking maybe it's a good time to just mention the MedR&R
+[1:13:52]that we both have on our list.
+[1:13:54]Exactly, that's what I was going to say.
+[1:13:57]Let's go through that.
+[1:13:58]I have that one to share,
+[1:14:00]and another thing that I found interesting as well.
+[1:14:03]Yeah, feel free to.
+[1:14:04]Yeah, whatever you want to cover next,
+[1:14:06]but that was just one suggestion.
+[1:14:08]To be honest, and you're not taking a look at behind the scenes.
+[1:14:11]This is how I put together these articles usually.
+[1:14:14]Let's take a look at this one.
+[1:14:16]I want to find that out.
+[1:14:19]Hard truths about AI in health care.
+[1:14:21]I'm not sure if you have seen this website.
+[1:14:23]This is a nice blog post that I came about.
+[1:14:28]Very nicely done by Jan Beger.
+[1:14:31]I mean, this looks like a blog.
+[1:14:33]Yeah, I think I know him.
+[1:14:34]He usually posts kind of like summarizes important AI papers
+[1:14:41]in the field of health care.
+[1:14:42]I really like his posts on LinkedIn.
+[1:14:45]Yeah, exactly.
+[1:14:47]Nice social media presence,
+[1:14:48]but I didn't know that he has also put together this blog post.
+[1:14:51]And this is kind of interesting.
+[1:14:53]I mean, one day in the hospital when I had time,
+[1:14:56]I started to just carelessly scrolling this and see what I found.
+[1:15:00]But even though the sentences are very short,
+[1:15:03]you will probably end up thinking about some of them for an hour at least.
+[1:15:07]So, and this is a living document as he has mentioned himself.
+[1:15:10]So this is just being updated.
+[1:15:12]The last time I checked this, it was 60 facts.
+[1:15:14]Now it has become 80.
+[1:15:15]So he's keeping adding to that.
+[1:15:17]And as people see that he is going to add things.
+[1:15:19]So it just starts with very simple statements.
+[1:15:21]AI in health care isn't coming.
+[1:15:22]It's already here.
+[1:15:23]The real question, will we use it wisely or let it fail?
+[1:15:27]The era of AI pilots is over.
+[1:15:29]It's not adopt or fall behind.
+[1:15:30]So some of those, I mean, not necessarily you're going to agree
+[1:15:33]with all of the things that he's mentioned here.
+[1:15:36]But the fact that these sentences are here and some people are thinking
+[1:15:40]about these sentences is valuable.
+[1:15:42]So basically, you can also ask yourself whether or not you are going
+[1:15:45]to have an argument for or against any of these.
+[1:15:49]For example, today, AI backs up radiologists' expertise,
+[1:15:52]reinforcing their knowledge and decision making,
+[1:15:54]which we already know is true.
+[1:15:56]Many of our, at least in the US, many of the radiology centers,
+[1:16:03]many of the imaging centers or even academic centers have AI already
+[1:16:06]deployed into their PAC systems.
+[1:16:08]And AI is auto-detecting some of the abnormalities for them, at least.
+[1:16:13]And this is, for example, I found this sentence very interesting
+[1:16:16]the first time I read it.
+[1:16:17]The real AI revolution is happening in the back office.
+[1:16:20]While everyone focuses on clinical applications,
+[1:16:23]AI is quietly transforming healthcare operations.
+[1:16:26]This is very important.
+[1:16:27]I mean, we think that, and we tend to think that, I think even more
+[1:16:31]than us people who are out of the world of medicine tend to think
+[1:16:34]that medicine is all about diagnosing diseases,
+[1:16:37]coming up with a management plan and then treating patients.
+[1:16:40]It's not like that.
+[1:16:41]Behind the scene, this entire huge industry of medicine is being operated
+[1:16:46]by a lot of different operations.
+[1:16:49]That is something like, you know, how to keep the hospitals clean,
+[1:16:52]how to keep record of whatever patients that come to the hospitals,
+[1:16:56]you know, how to manage the workflow of the patients,
+[1:16:59]how to do teraging in the rooms,
+[1:17:01]things like that that are less talked about.
+[1:17:04]They are very, very important.
+[1:17:05]And I believe AI is already being applied to those as well,
+[1:17:08]even though we just have a detection by us and tend not to discuss them.
+[1:17:13]So anyway, this is...
+[1:17:14]When you were mentioning this, one other example that came to my mind
+[1:17:17]was how to optimize the distribution of human labor in medicine
+[1:17:23]into the whole country.
+[1:17:25]I mean, where to put which kind of specialties,
+[1:17:29]how the population is growing in certain areas to care about
+[1:17:33]what specialties they're going to need.
+[1:17:35]And I think these are really problems that AI is very fit to solve.
+[1:17:41]And it's not that risky to put it on the AI side.
+[1:17:47]And probably not many people are thinking about these kind of applications.
+[1:17:52]As you mentioned, everyone, when AI is mentioned in medicine,
+[1:17:56]just thinks about diagnosis and radiology and something like that.
+[1:17:59]Exactly. I agree with you.
+[1:18:01]And again, so this is a nice read for people who are interested.
+[1:18:04]And this is the statement that you just talked about.
+[1:18:06]AI doesn't need more data, it needs better data.
+[1:18:08]And I believe you probably can find a lot of the things that are talked about here.
+[1:18:14]Yeah. So this is one thing.
+[1:18:15]And now let's talk about that medRNA that I introduced earlier.
+[1:18:21]And this is a very cool website that came out.
+[1:18:25]So some of the people who are watching us might already be familiar with LLMCIS,
+[1:18:30]if I'm not wrong.
+[1:18:32]Because the name was changed to chatbot RNA, if I'm not wrong.
+[1:18:36]Something like that.
+[1:18:37]LM RNA, yeah, chatbot RNA.
+[1:18:39]Formerly LLMCIS, yeah.
+[1:18:41]So this is a website that comes out of the engineering part of the world.
+[1:18:48]And these people who are in the software engineering, developing LLMs and LMMs,
+[1:18:52]they just put together kind of a head-to-head battle between different models
+[1:18:57]in an anonymous format so that you and I can go there and just try to,
+[1:19:02]for example, ask whatever question that we have in our mind from two random models
+[1:19:08]that we don't know what they exactly are.
+[1:19:10]And then see their responses.
+[1:19:12]And then, you know, for example, tell me a joke.
+[1:19:16]And let's see what happens.
+[1:19:18]And then two models will start to generate a response for us.
+[1:19:21]And I believe this is just based on Grad.io as far as I understand.
+[1:19:24]Yeah, it really looks familiar.
+[1:19:26]Yeah, Grad.io.
+[1:19:28]So basically, you just see it here, you know, here's a classic.
+[1:19:31]Here's a classic one.
+[1:19:32]Why don't skeletons fight each other?
+[1:19:34]Because they don't have the guts.
+[1:19:36]And then here, why don't scientists trust atoms?
+[1:19:39]Because they make up everything.
+[1:19:41]I believe A was a little bit better, to be honest with you.
+[1:19:45]Yeah.
+[1:19:46]So now that I scored this, you just simply understand that, interestingly,
+[1:19:50]model B was Cloud 3.5 Sonnet, and model A is Roman Empire.
+[1:19:55]Model A was Roman Empire?
+[1:19:58]I'm not even sure what Roman Empire is.
+==== Ending of Part 8 ====

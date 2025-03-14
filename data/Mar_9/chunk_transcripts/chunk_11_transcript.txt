@@ -1,0 +1,199 @@
+==== Beginning of Part 11 ====
+[1:40:00]And they did a phenomenal job.
+[1:40:01]I mean, this is not the first time that we are covering an AI system to help with the research.
+[1:40:06]I believe that we've once talked about a kind of simulating...
+[1:40:10]Virtual lab idea kind of thing.
+[1:40:12]Exactly. Virtual lab with some agents trying to mimic the entire processes that happen in a lab.
+[1:40:19]This paper is basically just focusing on the first part of any research, which is to come up with...
+[1:40:26]I mean, worthy proposals, or maybe a worthful kind of hypothesis to work on.
+[1:40:34]So they are not going to do an entire research using AI.
+[1:40:37]They are basically putting together a multi-agentic AI framework to just look at the literature,
+[1:40:43]maybe receive some feedback from the human user to understand what field they're interested to work on,
+[1:40:48]or what is the problem that they are mostly interested in.
+[1:40:52]And then they come up with some proposals and hypotheses for them to work on.
+[1:40:57]And this is a very interesting paper,
+[1:41:00]not only for the sake of the multi-agentic AI framework they propose that we're going to talk about,
+[1:41:06]but because they basically tested their protocol,
+[1:41:10]tested the system on three different problems, three different real problems.
+[1:41:14]And then they kind of tried to validate the proposals that the model came up with,
+[1:41:20]or the AI system came up with.
+[1:41:22]And it created a lot of hype around how AI is going to revolutionize research,
+[1:41:27]because some of the hypotheses were so cool and state-of-the-art,
+[1:41:31]that even the actual experts who are working in the field were kind of amazed
+[1:41:36]that how this AI system could basically come up with those proposals
+[1:41:39]in as short as maybe a couple of hours, or I believe the longest one was two days only.
+[1:41:45]So this is a very cool work.
+[1:41:46]So let's take a look at the way that they are doing this.
+[1:41:49]And again, if you look at the entire framework, it's not that complicated.
+[1:41:54]Something that you can easily do, I mean,
+[1:41:58]easily might be too much of an oversimplification or underestimation of their work,
+[1:42:02]but basically not that challenging to do with now all these agentic frameworks that we have.
+[1:42:07]So here's the human scientist.
+[1:42:08]The human scientist interacts with the system by specifying a research goal in the natural language.
+[1:42:15]And then they can also suggest their own ideas and proposals,
+[1:42:19]provide feedback and reviews,
+[1:42:20]and interact via a chat interface to guide the co-scientist system.
+[1:42:24]So exactly, you are just dealing with an intern.
+[1:42:27]Imagine, but this is just a PhD-level intern,
+[1:42:30]somehow a body of someone who knows a lot.
+[1:42:33]So the scientific inputs could be something like that.
+[1:42:35]Scientific describes a research goal along with preferences,
+[1:42:38]experiment constraints, and other attributes.
+[1:42:40]And then from that point onwards, something happens.
+[1:42:45]So first of all, the first agent is going to receive this kind of research goal and
+[1:42:51]some configuration and go through the literature
+[1:42:55]and figure out what is happening in the world that the scientist is interested in.
+[1:42:58]So it basically is a literature review agent that
+[1:43:01]digs all the possible literature that they can access using regular search.
+[1:43:08]Then whatever they find comes to a reflection agent,
+[1:43:12]and the reflection agent is going to just reflect on whatever things that we found,
+[1:43:16]trying to write full review,
+[1:43:18]trying to somehow simulate a review.
+[1:43:20]And they even have something that they call a tournament review,
+[1:43:23]which is very interesting.
+[1:43:25]And tournament review is basically a kind of competition between different hypotheses or proposals.
+[1:43:30]So imagine that this AI agent is coming up with five different proposals,
+[1:43:33]and now they are putting together a contest
+[1:43:37]in which these different proposals are going to be challenged against each other,
+[1:43:41]are going to be tested against each other.
+[1:43:42]And who is going to test that?
+[1:43:44]Again, another agent that is now going to take care of
+[1:43:48]just comparing these hypotheses towards each other and, you know,
+[1:43:51]ranking them from the best to the worst.
+[1:43:53]And then afterwards, this is a loop itself,
+[1:43:56]so it can go on and on unless, you know,
+[1:43:58]we are kind of satisfied with the proposals that we have.
+[1:44:02]And then another agent named evolution agent is going to
+[1:44:06]make them a little bit simplified, you know,
+[1:44:10]make sure that parts of those that could be inspired from
+[1:44:13]already developed ideas or already mature ideas are actually changed as necessary.
+[1:44:18]And then the research is extended.
+[1:44:22]So basically, this makes the proposal a little bit more mature.
+[1:44:24]And then finally, the proximity agent,
+[1:44:27]to be honest with you, I'm not quite sure what this one is doing here,
+[1:44:29]but I believe the meta review agent is going to finally put together
+[1:44:33]in the format of a proposal.
+[1:44:35]And these proposals are going to be shown to the user.
+[1:44:38]The user can obviously provide feedback,
+[1:44:40]and this loop goes on and on.
+[1:44:42]And whenever the user is satisfied,
+[1:44:44]basically, they are going to have the proposals.
+[1:44:47]And there is obviously, these are agents,
+[1:44:49]so they have access to memory,
+[1:44:50]they have access to some tools to use.
+[1:44:52]The first obvious tool is a search tool.
+[1:44:54]They can search the internet,
+[1:44:56]and they can come up with additional tools as needed.
+[1:44:58]And this is how the system works.
+[1:45:00]And now, the three systems that they've worked on,
+[1:45:03]which is basically this second,
+[1:45:07]I'm not sure if you've seen this part,
+[1:45:09]this second part is talking about those three different experiments.
+[1:45:14]So this is three different cases studies, better to say.
+[1:45:18]The first one is on drug repurposing for acute myeloid leukemia, or AML.
+[1:45:25]So they said that let's use this system to see
+[1:45:28]if we can put together some new medications to treat AML.
+[1:45:32]And this was the prompt.
+[1:45:34]As short as you can see on the screen,
+[1:45:36]suggest an existing drug that could be repurposed
+[1:45:38]for acute myeloid leukemia treatment
+[1:45:40]and provide experimentally testable concentrations
+[1:45:43]for an IC50 assay, which is an immunologic assay, apparently.
+[1:45:47]The drug should inhibit the proliferation of AML cell lines,
+[1:45:50]particularly this specific cell line that I'm not familiar with,
+[1:45:54]this one of the cell lines within AML.
+[1:45:57]And with preclinical evidence,
+[1:45:59]and so this is the AI co-scientist generates predictions
+[1:46:02]for AML drug repurposing,
+[1:46:03]scientists review and select candidates for in vitro experiments.
+[1:46:06]This is the interesting part of that.
+[1:46:08]So they took some of those medications
+[1:46:10]and they went to the lab, to the wet lab,
+[1:46:11]to create those and see how they do.
+[1:46:14]So some of the medications that were repurposed,
+[1:46:16]or basically AI proposed that this could have some benefits here,
+[1:46:19]where Binimetinib or Pacritinib,
+[1:46:22]some of those immunologic medications.
+[1:46:25]And then they went to the lab and in vitro experiments
+[1:46:28]show that the proposed co-scientists drug repurposing candidates
+[1:46:31]inhibit tumor activity in AML cell lines,
+[1:46:34]which is kind of interesting.
+[1:46:35]So let me just quickly scroll down
+[1:46:37]and see if I can find a better kind of figure
+[1:46:42]for this one to share with you,
+[1:46:43]because this is a very long paper, by the way,
+[1:46:45]this is about 80 pages.
+[1:46:47]Yeah, and they evaluate everything very, very nicely.
+[1:46:51]To be honest with you, I'm a little bit,
+[1:46:54]I want to be a little bit naughty here and say that,
+[1:46:55]you know, nowadays I'm a little bit pessimistic
+[1:46:59]about how much of this very, very long articles
+[1:47:02]are written by human.
+[1:47:03]But this is a very solid work.
+[1:47:04]So I'm pretty much sure that even if it is part of that,
+[1:47:06]it's AI generated,
+[1:47:07]everybody has gone through it to review that.
+[1:47:10]But let's come here.
+[1:47:12]This is one of the results figures for that first task.
+[1:47:17]No, sorry, it should be here.
+[1:47:18]Oh, yeah, I think this is it.
+[1:47:22]This one or the previous one, I guess, maybe this one.
+[1:47:25]Yeah, so yeah, this is the one.
+[1:47:27]So they are basically showing how these three medications
+[1:47:30]that the AI agent proposed
+[1:47:32]are reducing the concentration of those cells
+[1:47:35]within the in vivo environment,
+[1:47:37]so in vitro environment.
+[1:47:38]So basically you see that, you know,
+[1:47:40]as we increase the concentration, I believe,
+[1:47:44]so this is a dose response curve.
+[1:47:46]So those three medications inhibit MOL-M13 cell viability.
+[1:47:51]X-axis is the drug concentration.
+[1:47:53]So this is the drug concentration.
+[1:47:55]And then, and Y-axis is normalized cell viability.
+[1:48:00]So definitely if a medication is more effective,
+[1:48:04]then the viability of the cells should be lower
+[1:48:06]as the concentration of the medication increases.
+[1:48:08]And it seems that some of these medications,
+[1:48:10]specifically this one, Binimetinib,
+[1:48:12]is going to be super effective against that.
+[1:48:15]This was one task.
+[1:48:16]And let's also look at another task.
+[1:48:19]And this is also interesting.
+[1:48:22]So again, they are looking at another
+[1:48:25]kind of big challenges in medicine,
+[1:48:28]GI, basically the concept of liver fibrosis.
+[1:48:31]And they are saying to,
+[1:48:32]let's look for novel treatment targets for liver fibrosis.
+[1:48:36]So propose a novel hypothesis
+[1:48:38]about the specific epigenetic alterations
+[1:48:40]contributing to myofibroblast formation in liver fibrosis.
+[1:48:45]Okay.
+[1:48:45]So they're looking for what is causing that fibrosis.
+[1:48:48]The AI co-scientist identifies three novel epigenetic targets.
+[1:48:53]Now, in vitro experiments show that the drugs
+[1:48:56]based on co-scientists suggested epigenetic targets
+[1:48:58]reduce the fibrogenesis in human hepatic organoids.
+[1:49:01]So what they are saying here is that
+[1:49:03]the AI co-scientists actually proposed a few antigens,
+[1:49:09]let's simplify that,
+[1:49:10]that if targeted by appropriate medications
+[1:49:12]could reduce the amount of fibrosis within the liver.
+[1:49:16]And they actually went to the vet lab,
+[1:49:17]developed those medications,
+[1:49:20]and then checked it out on liver cells in vitro
+[1:49:24]and saw that actually those medications
+[1:49:27]reduced the amount of fibrosis within the liver cells,
+[1:49:31]which is really cool, right?
+[1:49:33]You know, you just give two hours
+[1:49:35]or maybe a few hours at most two days to an AI system
+[1:49:39]that is just working with a couple of agents
+[1:49:41]and entire internet search to do.
+[1:49:44]And then it comes back to you
+[1:49:45]and gives you some proposals, hypothesis,
+[1:49:48]that is not just something that you and I can think of,
+[1:49:51]even if you were experts in that field in a second.
+[1:49:53]This is very, very, very well taught.
+[1:49:56]And now if you actually go and test those,
+[1:49:58]they are very likely to be...
+==== Ending of Part 11 ====

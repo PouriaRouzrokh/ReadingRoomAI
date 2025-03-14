@@ -1,0 +1,91 @@
+==== Beginning of Part 15 ====
+[2:20:00]just you can copy and paste into your development environment. For example you can say I want to
+[2:20:09]make a to-do list application and it designs the tables and you can just chat with it to
+[2:20:15]change the architecture of those tables and yeah it says okay for the tasks you need a table with
+[2:20:21]these characteristics and and it should be related to this category to this categories table.
+[2:20:32]It tries to give you the most efficient way that you can design the database and the migrations
+[2:20:40]are available here so you can just copy and paste these codes into your code yeah and yeah you can
+[2:20:47]chat with it here to say okay I want for example the users table to also have a profile picture
+[2:20:54]section so it adds that and I can just go on and ask it add to the users
+[2:21:08]table the profile pictures kind of like feature as well and it updates probably the
+[2:21:22]table yeah the profile picture url and then the migrations is also updated here at Cone.
+[2:21:31]One question, can you directly edit the diagram itself? Let me see
+[2:21:42]I think I clicked something wrong let's yeah just do it once more
+[2:21:52]maybe edit maybe renaming some of the keys or adding a new row something like that because if
+[2:22:00]that is also included then this is this is a great solution I mean even right now it is a great
+[2:22:05]solution that you can just chat with it but sometimes it's much easier rather than asking
+[2:22:09]it to do something for you just go there and add that row there yeah I'm not sure what happened
+[2:22:16]here but yeah rename column make nullable make unique so yeah you can change some of the
+[2:22:25]characteristics here as well create index maybe click on that create index and see what happens
+[2:22:32]oh nothing okay I'm just let me choose the best index for the
+[2:22:36]id in the so it basically wrote a prompter for example you can make
+[2:22:44]the password hash the index maybe let's see how that works out
+[2:22:48]it tells you that there are security concerns so the fact that it tries to come up with the
+[2:22:57]efficient and efficient architecture for a database is very cool because
+[2:23:05]this is the area that I'm not very familiar with how to design efficient and these related
+[2:23:12]tables and it's cool that these AI assisted tools are proliferating in all areas of coding so
+[2:23:21]it makes it much more simpler I mean you could put a lot of time on learning how to write
+[2:23:28]a good skill code for making tables but using these tools you can have an easy start
+[2:23:35]I'm not sure if this is the best start that you can have based on what we talked about
+[2:23:41]in the long if we want to consider the long-term effects but it really helps just to start
+[2:23:48]coding and working on the projects that you had long in your mind I agree and this is a very cool
+[2:23:55]I don't know what was the name again moving this one postgres dot database dot build database dot
+[2:24:01]build yeah the website I guess the combination of this tool and the first one that you mentioned
+[2:24:09]yeah something like that the superbase and this is basically a tool I think by the superbase team
+[2:24:16]and you can connect it to so that's when you created your database you can deploy it directly
+[2:24:22]so yeah so help me understand now for example if you want to build a rag application that you
+[2:24:29]I mean and it's going to be I mean if I wanted to do that conventionally I would probably just
+[2:24:34]put together a server and put a set of a postgres database on that and then maybe come up with a
+[2:24:42]fast api kind of very simple back end for that and then the front end could be an xjs or whatever
+[2:24:48]application and I would just use that I mean as I will keep the server on and whenever someone
+[2:24:54]logs into my api they are going to interact using the front end with that back end and they receive
+[2:25:01]now I believe this could be easily handled in a serverless manner using these tools
+[2:25:06]right yeah yeah you can outsource the database part of your project and lots of other features
+[2:25:12]of your project to superbase and just maybe you all I think there is the possibility that
+[2:25:19]you can also outsource the front deployments or the server that is serving the front also to
+[2:25:26]superbase but just imagine the case that you yourself want to serve the front end on some
+[2:25:33]server you can connect that front end with these apis to those databases that is being served on
+[2:25:39]superbase servers and yeah you just outsource a big part of your project there but we have
+[2:25:47]we have a couple of very nice solutions for frontend already one of them is versil as far as
+[2:25:52]yes yes and uh let's see if they can be connected to each other versil and superbase
+[2:25:59]uh superbase for versil yeah by integrating superbase with versil developers can leverage
+[2:26:06]a superbase postgres database out and storage edge functions in real time while benefiting
+[2:26:11]from versil's free deployment capabilities so it seems that yeah you can do both which basically
+[2:26:19]means that now you have a free solution for your front and now you have a serverless free option
+[2:26:23]for your back and it's going to be very nice one yeah and one thing that is definitely happening
+[2:26:30]in the whole picture of these tools is that developing new applications is just getting
+[2:26:35]easier and easier the bar is getting lower and lower yeah yeah yeah and again this means that
+[2:26:43]everybody can now come up with their own ideas and maybe as they mentioned really in across the
+[2:26:47]weekend just put together something a project a product and launch it and people are saying that
+[2:26:53]you know very soon we are going to see one percent two percent worse off i mean i mean the startups
+[2:26:59]with one billion percent of money so this is something that is going to happen if thanks
+[2:27:05]to these tools that we have now i mean you you do not need to have a full engineering team to
+[2:27:10]build a website where you can just leverage these tools and do everything yourself very nice tools
+[2:27:16]very very nice tools all right and so um my list it finishes here somehow and yeah oh i have
+[2:27:27]sure but i'm gonna be very quick because i think we already have been spoken for two hours and a
+[2:27:32]half so i'm gonna make it very quick now let's see what to talk about i'm going to
+[2:27:38]maybe one thing to talk about very quickly is chain of draft i guess this is a nice paper to
+[2:27:44]talk about let's go through it together all right so i mean we are all familiar with chain of thought
+[2:27:52]i mean i i believe there is no one here that does not that is hearing us that does not know what
+[2:27:57]chain of thought is so chain of draft is actually an advancement of uh thinking acceleration tips
+[2:28:05]for non-reasoning uh llms meaning if you're if your llms are for the reasoning we do not usually
+[2:28:12]use chain of thought with them right this is mostly for gpt for all kind of models that are
+[2:28:17]not reasoner at baseline or maybe some people can later on use this trip use this trick
+[2:28:22]to train uh you know reasoner models based on that but for now uh say for example if you are
+[2:28:28]just dealing with gpt for omni or you're typically dealing with a model that is not reasoner cloud
+[2:28:33]3.5 sonnet for example you can just use this trick and it is very very easy and cute to implement
+[2:28:40]to get much better results from your models compared to chain of tasks so uh let's first
+[2:28:46]take a look at this diagram here this basically shows uh the performance of these three different
+[2:28:52]modes of question and answering the standard mode which basically means that without any chain of
+[2:28:56]thought or chain of draft uh the chain of thought is the yellow one and then we have the chain of
+[2:29:02]draft uh the chain of draft which is the orange one and as you can see when you look at the
+[2:29:07]accuracy in most of these benchmarks the chain of draft is actually on par if not better than
+[2:29:14]the chain of thought and if you look at the token count which translates to cost chain of draft is
+[2:29:19]much much more efficient and the way that it works is super simple so in chain of thought
+[2:29:25]you basically ask your model to start thinking and reasoning before it answers you right say
+[2:29:31]for example you have this question here and the model goes through the question let's think through
+[2:29:35]this step by step in chain of draft your model is still thinking about that but it is tasked and it
+[2:29:42]is forced to think as short and concise as possible say for example this question here is basically
+[2:29:49]asking the model to solve a very simple equation and here instead of just having the model in chain
+[2:29:55]of thought to basically as you can see it has just generated lots of sentences it just puts
+==== Ending of Part 15 ====

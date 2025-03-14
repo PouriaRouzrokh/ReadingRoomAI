@@ -1,0 +1,90 @@
+==== Beginning of Part 3 ====
+[0:20:00]It makes sense to the audience that these models with this long context are good at
+[0:20:07]analyzing this complicated and heterogeneous kind of data sets or data sources about one patient
+[0:20:16]and this will take a lot more time for a human to do. In the other approach, it is kind of the
+[0:20:26]reverse of the previous process. AI begins with analyzing medical data and suggesting
+[0:20:31]possible diagnosis and treatment plans and from here the physician takes on and then
+[0:20:37]analyzes those diagnosis and treatments to see whether they make sense, whether they can be
+[0:20:42]applied and they can also take into consideration the insurance coverage and healthcare resources
+[0:20:49]which I think AI can also do so. I'm not sure why they have separated these topics
+[0:20:55]for something that humans are better at and I don't think humans are better at finding what
+[0:21:03]are the good ways for treating the patient in a way that insurance coverage is the highest.
+[0:21:11]The final solution or suggestion they provide, the most radical model basically,
+[0:21:17]might be complete separation. Having AI handle certain routine cases independently like
+[0:21:22]normal chest x-rays or low-risk mammograms basically for screening tasks while doctors
+[0:21:28]focus on more complex disorders or rare conditions with atypical features.
+[0:21:34]This is another interesting approach and I think it also makes a lot of sense because
+[0:21:40]these rare cases or novel patterns that AI is not used to based on their public data sets or
+[0:21:49]based on the physicians that have come to a certain institute.
+[0:21:54]Physicians or human experts are better at navigating these cases and probably will
+[0:22:00]yield to a better performance at last. They mentioned two studies basically.
+[0:22:10]One of them is the screening, the mammography screening that we talked about in the previous
+[0:22:16]episode of our podcast which found out that the AI-assisted approach led to the identification
+[0:22:26]of 20% more breast cancers while reducing the overall radiologist workload almost in half.
+[0:22:33]It was a case where AI was separately able to go through the cases and screen those
+[0:22:44]mammograms into healthy or need some sort of revision. By doing that, not only they
+[0:22:54]were able to increase the rate of identification of cancers, they reduced the workload. This is
+[0:23:01]basically their third approach that AI is handling simpler cases or at least cases that it's most
+[0:23:08]confident in and then it puts the rest of the labor for the human physicians. By doing so,
+[0:23:18]a lot of time is saved, a lot of cost is saved, and the overall performance is improved.
+[0:23:26]This was very interesting first because the old saying that a human with AI is definitely
+[0:23:34]going to replace you, not the AI itself, which is probably not the whole picture at least for now.
+[0:23:43]The other thing I was thinking about was that maybe it's not a good idea to
+[0:23:50]put a high-end technology like these LMs and AIs in the hands of people who are not very
+[0:23:57]accustomed to using these. Maybe we need a new AI-oriented generation of physicians
+[0:24:05]that are nurtured with these tools and they know exactly how these models are
+[0:24:14]best used. Maybe these are not something that could be taught to patients. I was thinking
+[0:24:19]about the example of the things that happen in the industry like the advance of these
+[0:24:29]online taxis like Uber in the western countries. If such an application was in the hands of
+[0:24:38]some old-fashioned kind of taxi driver, probably nothing good will happen.
+[0:24:44]But new people who were not taxi drivers were able to use this new technology in a way that
+[0:24:50]they knew would best help them and help the other users. I think something maybe similar
+[0:24:57]will happen in here. I'm not sure, but maybe just a new generation of AI-oriented physicians need
+[0:25:03]to be taught or need to be nurtured in some way that could use these tools in a way that AI plus
+[0:25:12]physicians and humans could lead to better performance in AI alone.
+[0:25:18]Or maybe one of these three approaches that these two scientists mentioned here will work out.
+[0:25:28]I really want to know your views on this and how you think about it.
+[0:25:33]And I stopped my sharing screen because of the problem we have with the
+[0:25:40]recording of our own webcams. Yeah, sure. Actually, I wanted to go ahead. I think
+[0:25:48]it might be accidental, but I had another paper that kind of matches what you were just talking
+[0:25:53]about. Let me share this one with you as well. Then I'm going to talk a little bit about what
+[0:25:59]is my take on this issue as well. Let me share the screen here. All right. Hopefully,
+[0:26:10]are you seeing that? Yes. Okay. There is this paper that I went through a few days ago,
+[0:26:19]and it's kind of an interesting paper. It was published in Nature Human Behavior.
+[0:26:26]And that's an interesting kind of a study because they think about and they go through
+[0:26:32]different combinations of human and AI and try to understand what sort of combinations are useful
+[0:26:39]and what sort of combinations are not that useful. And they kind of battle against whatever
+[0:26:46]assumptions that we have with respect to collaboration of humans and AI, specifically
+[0:26:52]in medicine. We kind of believe, as you were saying, that if AI and humans collaborate together,
+[0:26:58]the combination of the two are going to be necessarily better than either of these alone.
+[0:27:02]But they just show that this is not the case. And it's a very interesting paper. I mean,
+[0:27:07]even by looking at the abstract and what they found. So this is basically a systematic review
+[0:27:12]and meta-analysis. So they went through a lot of papers. So this is a secondary study.
+[0:27:16]But here is what they found. So first, we found that on average, human-AI combinations perform
+[0:27:23]significantly worse than the best of humans or AI alone, which is kind of interesting.
+[0:27:30]So basically, it means that if there is a certain task in which humans really excel or in which AI
+[0:27:37]really excels, the addition of the other component is not necessarily going to make it better.
+[0:27:43]In fact, it is very likely that it is going to make it worse, which is kind of in line
+[0:27:48]with what you were just talking about. Second, we found performance losses in tasks that involved
+[0:27:54]making decisions and significantly greater gains in tasks that involved creating content.
+[0:28:00]So long story short, they're saying that if you are thinking about adding AI to tasks that
+[0:28:06]involve components of creativity, then yes, your performance is probably going to increase.
+[0:28:12]But if you're thinking of adding AI to tasks that need decision-making, and it's kind of a
+[0:28:18]decision-making question mark in which you are thinking of using some aids for that process,
+[0:28:25]it's not necessarily going to result in helping you. And then finally, when humans outperformed
+[0:28:32]AI alone, we found performance gains in the combination. But when AI outperformed humans
+[0:28:37]alone, we found losses. So the thing is very clear. So if you're thinking of adding the
+[0:28:45]other entity to the task, for example, if you have a task that is being done nicely by humans,
+[0:28:51]you still might see some benefits by adding AI to that. But the reverse scenario is not correct. So
+[0:28:57]if you're seeing that AI is doing a task flawlessly, adding humans to that is going to make it worse.
+[0:29:03]So this is kind of an interesting paper. I'm not going to deep dive into that. It has very nice
+[0:29:08]figures that you can go and take a look at it, and people who are interested might also do so.
+[0:29:14]But basically, these diagrams and the very nice way that they explain everything is
+[0:29:20]going to expand the three sentences that we highlighted in the abstracts.
+[0:29:24]This is saying basically the same thing as you said. And this is my take on this conversation
+[0:29:29]as well, which I believe we are at the moment that we are basically proving to ourselves that
+[0:29:35]whatever assumptions that we had about incorporation of AI into our day-to-day practice has been
+[0:29:41]inaccurate and somehow wrong. A lot of those assumptions were generated, were created,
+[0:29:47]because at some point, maybe we were afraid that if we say that AI is going to replace us,
+[0:29:58]then we are going to basically lose.
+==== Ending of Part 3 ====

@@ -1,0 +1,100 @@
+==== Beginning of Part 16 ====
+[2:30:00]together a very short concise annotation of the equation and this solves that for you.
+[2:30:06]This is the entire story and they're saying that this is much closer to how humans actually reason
+[2:30:10]about the stuff. They say that you know however humans typically employ a more efficient strategy
+[2:30:16]they draft concise intermediate touts that capture only essential information so basically humans are
+[2:30:23]not using chain of touts they are mostly using something that is similar to chain of draft and
+[2:30:28]again the prompt for doing this is very simple so this is the standard prompt uh let's let's find
+[2:30:35]out the here you go this is answer the question directly do not return any pre-ml explanation or
+[2:30:41]reasoning chain of tout think step by step to answer the following question return the answer
+[2:30:46]at the end of the response after separator and now chain of draft think step by step but only
+[2:30:52]keep a minimum draft for each thinking step with the five words at most return the answer at the
+[2:30:58]end of the response after separator and the key here is this five words at most and apparently
+[2:31:05]this cute trick works so beautifully that it's this technique outruns chain of tout across almost
+[2:31:12]all of the stuff and it is it kind of makes sense when you look at this retrospectively i mean this
+[2:31:17]these tricks do not come to mind prospectively that easy so kudos to these researchers but when
+[2:31:22]you look at it from a retrospective angle i mean this makes sense because you are just shortening
+[2:31:27]the context window of the amount that you put in the context window of those models and it still
+[2:31:31]works very nicely so this is one cute paper yeah go ahead and really interesting that i mean i was
+[2:31:39]expecting some sophisticated rl that has been utilized to make the model uh use the least
+[2:31:46]amount of tokens when we just uh that prompt everything has changed it's so cool that these
+[2:31:53]new types of research is being published and yeah definitely it's not easy when you are researching
+[2:32:00]this question it only seems simple or cute when you look backward yeah exactly and and to be honest
+[2:32:07]with you it seems that this same way of thinking is also being explored by other researchers so
+[2:32:12]for example this paper i'm not going to deep dive into it but these are these people are
+[2:32:16]basically using the same trick but not during inference during training so it is the paper is
+[2:32:22]named light thinker so they are basically offering a schema for training a model but instead of
+[2:32:28]having that being trained on the entire reasoning schema just being trained on very concise schema
+[2:32:34]during the training so again this is a line of work that we probably are going to see more and
+[2:32:38]more and i guess that the next line of reasoner models are going to be using this trick more and
+[2:32:44]more often because we know that reasoning and inference reasoning during inference time is also
+[2:32:49]not that cheap so you need to pay money for every single token that the model is generating
+[2:32:55]all right so that is it let me see if anything is uh left here a couple of things to mention to you
+[2:33:01]one of the nice ones is actually i'm going to introduce two resources uh one is a kind of book
+[2:33:08]that is released or released on archive a comprehensive guide to explainable ai and if
+[2:33:14]you open it this book is very long i mean this is not this is an entire book right a very very nice
+[2:33:21]one released on december 2024 so it's still very up to date and if you just go and it's coming out
+[2:33:27]of a lot of different centers and people with multiple different affiliations so kudos to all
+[2:33:32]of them and they are they put together a very nice piece of reading on introduction of
+[2:33:38]explainable ai foundations of that what does it mean to have explainable models in deep learning
+[2:33:45]and then they talk about interpretability of large language models and transform architecture
+[2:33:49]which is state-of-the-art at the moment so if some people are interested in doing research on
+[2:33:54]explainable ai i believe this is this book is 230 pages obviously not an easy read but this is this
+[2:34:01]is the most comprehensive introduction that you can find to any explainable ai territory so
+[2:34:08]definitely give it a try if you're interested very interesting yeah yeah this is one and then the very
+[2:34:16]quickly the next one which is uh probably less relevant to people like you and i mean who are
+[2:34:23]not training our own models but still it might satisfy our curiosity this is the ultra scale
+[2:34:29]playbook regarding training llms on gpu clusters so basically a group of researchers revealed all
+[2:34:36]the tricks for training llms on gpu clusters this basically means that now and this is a very very
+[2:34:43]very long blog post this is also kind of a book it's very nice with great figures and i believe
+[2:34:50]they start from the scratch they explain all the concepts and then how you can train a modern llm
+[2:34:56]on a gpu cluster of 500 gpus for example because neither of us are used to that number of gpus i
+[2:35:02]mean the most number of gpus i've ever trained on my life has been eight using ddp and 500 gpus
+[2:35:09]definitely will open the door to many different errors and issues and challenges that i even
+[2:35:15]cannot imagine at the moment so if people want this go ahead yeah this is a really precious resource
+[2:35:21]and uh the type of resource that and content that is not shared regularly and it is probably
+[2:35:30]only locked into the teams of google and open ai and it's really valuable that they are sharing
+[2:35:37]their experiences here and i can see thomas wolf in the authors who is i think the cto of hiding
+[2:35:44]face or c yes cto is i think yeah very definitely um it's going to be helpful for many people
+[2:35:52]no not me but we don't have we don't have to we don't have the resources to train on this amount
+[2:35:58]of gpus but again many researchers might benefit from it and kudos to hogging face for open sourcing
+[2:36:03]such a precious uh document then let's see what else do i have here to share with you guys
+[2:36:10]uh this paper was kind of interesting i'm just quickly going through that uh this is a blog post
+[2:36:16]for the paper the paper itself is also available it's called it's named minions embracing a small
+[2:36:21]language model shifting compute on device and cutting cloud costs in the process the idea again
+[2:36:27]is very simple yet very effective they are saying that you know basically we cannot use our own
+[2:36:33]laptops and computers for very complicated tasks because we cannot run state-of-the-art large
+[2:36:38]language models on them what if a state-of-the-art large language model acts like guru and tells a
+[2:36:46]lot of smaller language models each of which could be a minion to do what exactly and then
+[2:36:53]the complicated piece of computation is still done by the guru on the cloud so the idea is very
+[2:36:59]simple they said that you know whenever the user asks for something a look at a cloud-based model
+[2:37:05]let's figure out the paper here you go a cloud-based model is going to come up with a plan
+[2:37:10]and it's going to give very very small tasks to those on-site local models like for example if
+[2:37:18]we are just thinking about a very complicated framework this is a small piece of that that
+[2:37:22]go and read this document tell me this answer which you know maybe a quen or you know a mistral
+[2:37:28]or a llama 3.28 billion parameter can easily do can handle that those small models go and
+[2:37:35]do everything and they come back to their boss say that here's the results and then the boss on
+[2:37:38]the cloud takes care of concluding everything and answering the user the main magic happens because
+[2:37:45]those compute heavy part that for example a model should go and go through a very large
+[2:37:50]corpus of document to find a small answer could be done by a local model and the amount of money
+[2:37:55]that you are spending on the cloud models is very very limited to those few tokens that are
+[2:38:01]exchanged between your computer and the cloud again very nice interesting piece of work
+[2:38:09]and i want to share something oh no i mean i said thanks for sharing it's really
+[2:38:17]a useful concept to have in mind on how this whole thing could be more efficient yeah very very
+[2:38:24]cute idea i mean i did this past month i found a couple of cute works and let me finish by
+[2:38:29]the one that i really enjoyed which is this mistral ocr i'm not sure if yeah yeah if you heard
+[2:38:36]this is this is great man i mean i used that past couple of weeks and i it was such a flawless
+[2:38:42]experience i mean this is a paid api but you are going to end up paying one dollar for 1000 pd 1000
+[2:38:48]pages of pdf to be translated to markdown it's amazing which is nothing and it works so nicely
+[2:38:57]that i believe i mean if you just try to come up with your own hard-coded script to do these
+[2:39:02]things it's going to be much much more challenging it's a very nice api you just go to mistral
+[2:39:07]you basically uh click on this tried api i have already uh activated my own api it's very simple
+[2:39:14]i will get some api keys you can manage your usage and limits and again i believe somewhere
+[2:39:20]they talk about uh their the way that they do that if it's not here probably in the world in
+[2:39:26]there i believe i is rated somewhere but this is the amount of so look at this this is the pdf
+[2:39:33]and then this is the markdown generated and they can come up with a very accurate with imaging a
+[2:39:40]very accurate representation of the pdf in markdown taking care of the tables and everything
+[2:39:45]this is the table if you see yeah translated the images are gonna be extracted are gonna be
+[2:39:51]saved locally you can easily save this markdown to disk and then you know we know that markdowns
+[2:39:57]are much easier to be processed by
+==== Ending of Part 16 ====

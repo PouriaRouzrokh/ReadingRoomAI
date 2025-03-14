@@ -1,0 +1,2155 @@
+==== Beginning of Part 1 ====
+[0:00:00]to this. All right, so I mean, how are you? Hey, how are you? I'm doing fine. How are
+[0:00:08]you? Good as well. Thank you. Thank you very much. It has been about a month that we could
+[0:00:12]not record any video. And you and I were just talking that it was because you are an intern
+[0:00:16]in Iran. I'm an intern in the US. And unfortunately, when two interns decide to record a video
+[0:00:22]together, the matter of finding an appropriate time could take one year. All right, so that's
+[0:00:29]for us. We are lucky that it took only one month. So anyway, yeah, we really wanted to
+[0:00:35]put together a couple of times to talk earlier. But unfortunately, neither of us could do
+[0:00:39]that. A lot of stuff happened throughout the past one month. I mean, one month in AI world
+[0:00:45]is actually too, too long. But yeah, at least we are here today to talk about everything
+[0:00:51]that happened. Feel free to go ahead and let's talk about things that you felt like that
+[0:00:57]were amazing during the past one month, things that inspired you. And then I can talk a little
+[0:01:01]bit about everything. And then we can start going through all of them. Yeah, sure. Like
+[0:01:08]last time, we can first talk briefly about what are the main topics or what are the sort
+[0:01:14]of like, the main concepts that we are covering. For myself, I am not covering comprehensively
+[0:01:22]whatever happened in these one months, just the most recent ones, and maybe one or two
+[0:01:29]things that really stuck with me during this time. And then we can find a solution how
+[0:01:35]to start with these presentations. Okay, I start with myself. And let me see. Okay, I
+[0:01:45]first want to cover two kind of like articles about how human physicians and AI can perform
+[0:01:54]together to integrate their knowledge to solve cases. And that brings me to the new updates
+[0:02:03]on the AIME project by Google. And then I shift gears a little bit and go to something
+[0:02:11]technical about large language diffusion models, which was very cool, which was released
+[0:02:18]in the, I think, two weeks ago. And then after that, I go to something very different about
+[0:02:24]some applications and tools, mainly AI-powered, but this is a basically a list of cool products
+[0:02:33]that are rated each year by Product Hunt. And I'm going to cover some of the winners
+[0:02:38]and some of the cool tools I found there. So these are the main topics. I'm not, as
+[0:02:43]I mentioned, going to be very comprehensive here, just, I don't know, to cover some cool
+[0:02:50]topics that I found during these weeks. Perfect. Yeah, very nice set of topics. I think that
+[0:02:56]we have some overlap there. I'm also going to talk about AIME. AIME was one of the papers
+[0:03:01]that really inspired me. The second version of that specifically, that was just last week.
+[0:03:06]I have a couple of nice medical stuff to talk about. I wanted to first talk about MedArena
+[0:03:13]and that was one of the things that we can talk about and introduce it to people. And
+[0:03:19]then some nice products in the world of medicine and AI that is coming out. A couple of nice
+[0:03:26]LLM techniques, chain of draft, for example, that was a very cute technique that I really
+[0:03:30]enjoyed. And then I also went through some different studies, mostly research studies
+[0:03:38]that try to understand where we are at the moment with real deployment of AI in medicine
+[0:03:44]and what kind of issues might happen if we nowadays just go ahead and incorporate AI
+[0:03:50]into everything. I guess those papers are also important. A couple of, I mean, I have
+[0:03:55]a couple of futuristic topics to also talk about. One of them was the AI co-scientist
+[0:04:01]at Stanford and Google together released that. That was also very inspiring. And also the
+[0:04:06]CL1, the CL1 device that basically used human or animal neurons to do computations and then
+[0:04:16]up with AI on top of that. That was so futuristic. I really enjoyed that. And that brings me
+[0:04:22]to one simple question because I have some topics that I'm not going to deeply talk to,
+[0:04:26]I mean, to deep dive into, you know, to very extensively talk about, but still they really
+[0:04:31]inspired me throughout the past one month. So I'm going to quickly name those for myself
+[0:04:36]and I would be happy to hear what also inspired you the most before we talk about these items
+[0:04:41]that we have already collected. So, I mean, if you remember the last time that we recorded
+[0:04:46]one of these videos, it was almost the beginning of deep research being published by OpenAI.
+[0:04:52]It was only released to pro users and not too many people were able to play with that.
+[0:04:57]We already had something like that coming out on Gemini, but I believe throughout the
+[0:05:01]past one month, a few things happened. First of all, the deep research from OpenAI was
+[0:05:07]also released to plus users. So I had the leverage to play with that a little bit. And
+[0:05:11]then Perplexity also released that, that I know that you have been playing with so far.
+[0:05:16]And I know that Grok from X and Elon Musk's team also came out and it also has deep research.
+[0:05:21]So I guess now people are basically leveraging this deep research very nicely in different
+[0:05:26]ways. And every day on Twitter, you see many, many things just produced by deep research.
+[0:05:31]And I think that's the paradigm in how we are using these large language models. I really
+[0:05:36]enjoyed that. And then a couple of models came out throughout the past one month that
+[0:05:40]each of them were, you know, kind of outstanding from different aspects. So I believe the most
+[0:05:48]important one was the Cloud 3.7, which actually made me go back to Cursor because I had said
+[0:05:54]farewell to Cursor for a couple of months. I was just using the regular VS Code and this,
+[0:06:01]you know, GitHub copilot or other copilots that we had there. But Cloud 3.7 is so good
+[0:06:06]that I went back to Cursor. I restarted wipe coding and basically just saying what I want
+[0:06:12]to do. And I found one of these applications on Mac that even basically does a speech to
+[0:06:18]text. And it's basically, you know, you just put your cursor on the, you know, put your
+[0:06:24]mouse cursor on the sidebar of the Cursor application and just say what you want to
+[0:06:28]generate and just see that a couple of AI models work together. One translates what
+[0:06:32]you say into words, the other generates that for you, the other tests that for you. And
+[0:06:36]maybe after a couple of verbal cues, you have the application that you requested for. Cloud
+[0:06:41]3.7 was great. Grok, I know that a lot of noises were around Grok and people are still
+[0:06:47]talking about how good this model is. I personally did not work with that. To be honest, I didn't
+[0:06:51]find time to play with that that much. So if you have done so, I would be happy to hear
+[0:06:55]your insights. Gemini 2, Gemini 2 that was released, I mean, this model is insane. This
+[0:07:01]model is great. Very, very reliable, very little hallucinations, very long context window.
+[0:07:08]And I was just using a couple of, you know, less routinely explored features of that.
+[0:07:14]Like for example, how good this model is in understanding video files. As far as I
+[0:07:18]understand, this is one of the fewest models out there that you can just basically use
+[0:07:22]the API to fit in a video file and then the model is able to cache that video file and
+[0:07:27]then answer questions, even give you a screenshot of different scenes of the video that
+[0:07:32]you are describing to it, which is insane. I really like that. So kudos to Google for
+[0:07:37]this very, very complete model. And then very recently, this new model from Quentin
+[0:07:43]came out, QWQ, which was a 32 billion parameter model that basically outran DeepSeq R1 in
+[0:07:51]many different benchmarks. So it's a reasoning model in only 32 billion parameters. And 32
+[0:07:56]billion parameters means that you basically can download that from Olamo. And then if
+[0:08:00]you have a laptop or a PC with 32 gigabytes of RAM, you can, you know, almost perfectly
+[0:08:07]run that. Or, you know, if you just want to quantize that, then it's going to be
+[0:08:10]definitely runnable. And then you have something almost immediately available to you. So
+[0:08:15]that was also something that really inspired me. The CL1 device that I'm going to talk
+[0:08:20]about in detail, so I'm not going to talk about that much. And then finally, the
+[0:08:24]Majorana Quantum chip from Microsoft that really blew everybody out, blew all our
+[0:08:31]minds. So these things happened. I mean, we definitely cannot have time to go and talk
+[0:08:35]about all of this, but I just wanted to mention those really, really amazing months. I
+[0:08:39]really learned, I really, I even became more excited about AI and things that are
+[0:08:43]happening in this neighborhood.
+[0:08:46]And definitely, and just to add one thing about these advances that you mentioned, is
+[0:08:51]that the cool thing about the Grok model and how AIX is playing this game here is that
+[0:08:59]it is offering this deep research feature for free, which I think will push the other
+[0:09:05]competitors in this scene to lower their prices or either maybe provide this feature as
+[0:09:11]free as well, which is a very cool thing to just witness, that how these complicated
+[0:09:19]features that are really heavy, they need lots of heavy workloads of GPUs and probably
+[0:09:25]cost a lot to these companies, are now made to be available for free for all the users.
+[0:09:31]And this is where competition is helping the whole community to just be able to access
+[0:09:38]these features. I think that's really cool that AIX is doing that, but personally, I've
+[0:09:43]not played a lot with Grok.
+[0:09:45]I mostly play with Perplexity Deep Research, and I'm definitely thinking about getting
+[0:09:52]the subscription of Cursor because of this Glut 3.7, and I think now it is worth it.
+==== Ending of Part 1 ====
+
+==== Beginning of Part 2 ====
+[0:10:00]everyone is telling good kind of feedbacks on how Cursor has helped them build new applications
+[0:10:07]and I really like to try it as well. So if you want to give that a try let me tell you something. I
+[0:10:13]mean based on my personal experience I'm not sure if this is a valid conclusion or not but this is
+[0:10:18]something that I realized myself. So if you want a full project to be coded entirely in Cursor
+[0:10:25]you might still I mean you need to you need to come put together very very specific rules because
+[0:10:31]the models the way that Cursor prompts these models I believe behind the scene is forcing
+[0:10:37]them you know to do some things that not necessarily are the best for your project. For example they
+[0:10:44]tend to generate too too long outputs you know very verbose kind of coding lots of comments lots
+[0:10:50]of long docker strings type hinting I mean these are good practice but not all the codes that I
+[0:10:54]want to come up with needs that amount of docker string you know and some functions probably do not
+[0:10:59]need that. So I would say and a lot of times you realize that maybe because of this very very long
+[0:11:05]context window usage that Cursor has behind the scene that even the Cursor 3.7 in
+[0:11:11]the Cloud 3.7 in Cursor fails to exactly follow what you what you wanted to do. Whereas for example
+[0:11:18]if you just do this if you ask the same stuff from the Cloud 3.7 on the Cloud API you know
+[0:11:27]either if you have the Cloud application on your computer if you're just using the web-based version
+[0:11:31]of that that instance of Cloud 3.7 usually does things much better I mean at least significantly
+[0:11:38]better if not much better. And what I ended up doing throughout the past couple of weeks that I
+[0:11:44]was playing with the two of these was that I mostly used the I mean the Cloud 3.7 API itself
+[0:11:51]out of Cursor basically using the web application for putting together the founding
+[0:11:57]cornerstone of the project you know the main files the main scripts the organization of the files
+[0:12:01]everything like that and then I used Cursor mostly for fine-tuning you know if some scripts needed
+[0:12:06]some adjustments if I wanted to for example change the location of one file and a lot of scripts
+[0:12:12]needed to change accordingly things like that so I think that still there is a gap between what
+[0:12:18]the Cloud 3.7 itself is able to tell you and what the Cursor is able to tell you but the huge
+[0:12:23]advantage of Cursor is that you rarely face into context window issues with Cursor but whereas you
+[0:12:30]know Cloud 3.7 is not the best model if you just are looking at the context window there so
+[0:12:36]that this is this is a downside of Cloud but I just wanted to let you know that if you are
+[0:12:40]jumping into that be mindful that you know Cloud 3.7 at the moment is a little bit more than what
+[0:12:46]you see on Cursor. Yeah definitely I would take that into account on thanks for the mentioning it
+[0:12:53]sure I think if you agree you can start with the list and then on the topics that
+[0:13:00]we overlap we both want to share things I think that that would be simple we can talk through
+[0:13:07]it and then yeah then we can change the share screens and we continue with the recording.
+[0:13:13]Feel free to start share your screen and go ahead and yeah we can switch later on. Okay so I want to
+[0:13:21]first start with this blog post by Eric Tole. Let me share my screen here.
+[0:13:29]Okay is it's being shared now? I am seeing that. Okay so okay this is the title is When Doctors
+[0:13:39]with AI are Outperformed by AI Alone and that is in contrast to what we hear regularly in the
+[0:13:48]scene of AI that someone who uses AI will replace AI with another AI and that's not the case.
+[0:13:55]In this scene of AI that someone who uses AI will replace you not AI alone will replace you
+[0:14:01]and this is exact opposite of that and this is based on some findings of recent research projects
+[0:14:08]on how people or actually expert humans using AI were outperform yeah were underperforming AI alone
+[0:14:21]which is a really different thing that what media at least tells us what future will be like and
+[0:14:29]the interesting thing is that this is it is happening in medicine that people have some
+[0:14:35]bias against that there should be a human touch in it and physicians cannot be replaced
+[0:14:43]in general and there needs to be some sort of collaboration between human and machine. These
+[0:14:49]are not wrong statements but as this article reveals there should be some specific ways that
+[0:14:59]these two components work together and it starts with saying that okay AI systems working
+[0:15:06]independently perform better than when combined with physicians inputs and there could
+[0:15:11]be many reasons for that. It could be that the physician users were not skilled at using
+[0:15:19]these tools which I think is very probable that they didn't know how to prompt it or how to
+[0:15:25]rely on the answers and the other explanation was that maybe physicians were biased
+[0:15:34]and they undervalued what the AI said and they wanted to put more weight on what they taught
+[0:15:42]internally and whenever the AI was saying something different to theirs they were sticking
+[0:15:48]with their own opinion and not changing whatever they were thinking and this wasn't something that
+[0:15:54]was only seen in radiology tasks it was also seen in clinical decision making tasks which is
+[0:16:01]again another maybe not before taught for and maybe it wasn't expected that
+[0:16:09]this would happen and here is a table made by him summarizing some of the findings of the recent
+[0:16:17]papers as seen in chest x-ray interpretation in mammography interpretation and also in
+[0:16:26]reasoning and diagnostic accuracy most of the time or basically here all of the time AI alone
+[0:16:32]was superior the performance was superior to physicians using AI and they go on and providing
+[0:16:44]some thoughts on why this is happening that I talked about briefly on what could be some
+[0:16:50]explanations of why this is happening and also some solutions or suggestions of how this combination
+[0:16:58]or this division of labor should be done between human and machine and they say that rather than
+[0:17:05]assuming that combining both approaches always yields better results we should carefully consider
+[0:17:09]which tasks are better suited for AI which for humans and which truly benefit from collaboration
+[0:17:15]which I think really makes sense machines are better at some things some tasks at least at the
+[0:17:22]moment maybe someday they are better than everything but for now we know that AI is better suited for
+[0:17:30]analyzing very complex data sets with lots of data that could be missed when humans are looking
+[0:17:37]into them but humans probably are better at human interactions sometimes and getting some
+[0:17:44]feelings from the patient that the AI doesn't have simply access to and the path forward isn't
+[0:17:52]about replacing physicians with AI but rather about finding the optimal partnership model which I think
+[0:17:58]is the main gist of the whole article here that we are not looking for whether AI is better
+[0:18:05]or physicians are better just we need to find the optimal partnership and how to mix these two
+[0:18:11]sources of intelligence and here Irfan says the article they published in New York Times
+[0:18:21]and here they say what are the probable explanations of why MDs with AI didn't
+[0:18:30]work better than AI alone and yeah and physicians aren't completely comfortable with AI and still
+[0:18:36]doubt its utility even if it could demonstrably improve patient care and there are three distinct
+[0:18:44]approaches that Eric Topol and Pranav suggest in this article the first one let me see
+[0:18:55]yeah in the first model physicians first start interviewing patients and
+[0:19:02]they gather information and then AI systems take it from there and analyze the findings
+[0:19:09]and suggest diagnosis and probably treatments and they mention a study that revealed AI still
+[0:19:15]struggles with guiding natural conversations and I think the topic of Amy that we are next
+[0:19:22]going to talk about is exactly about this improving LLMs and AI to being more capable
+[0:19:30]at navigating human conversation especially in the context of medicine and here the study which was
+[0:19:39]on a model prior to Amy and these recent AI models they found that AI still struggles
+[0:19:46]with guiding natural conversations and knowing which follow-up questions will yield crucial
+[0:19:50]diagnostic information by having doctors gather these clinical data first AI can then apply
+[0:19:56]pattern recognition to analyze that information and suggest potential diagnosis which I think
+==== Ending of Part 2 ====
+
+==== Beginning of Part 3 ====
+[0:20:00]It makes sense to the audience that these models with this long context are good at
+[0:20:07]analyzing this complicated and heterogeneous kind of data sets or data sources about one patient
+[0:20:16]and this will take a lot more time for a human to do. In the other approach, it is kind of the
+[0:20:26]reverse of the previous process. AI begins with analyzing medical data and suggesting
+[0:20:31]possible diagnosis and treatment plans and from here the physician takes on and then
+[0:20:37]analyzes those diagnosis and treatments to see whether they make sense, whether they can be
+[0:20:42]applied and they can also take into consideration the insurance coverage and healthcare resources
+[0:20:49]which I think AI can also do so. I'm not sure why they have separated these topics
+[0:20:55]for something that humans are better at and I don't think humans are better at finding what
+[0:21:03]are the good ways for treating the patient in a way that insurance coverage is the highest.
+[0:21:11]The final solution or suggestion they provide, the most radical model basically,
+[0:21:17]might be complete separation. Having AI handle certain routine cases independently like
+[0:21:22]normal chest x-rays or low-risk mammograms basically for screening tasks while doctors
+[0:21:28]focus on more complex disorders or rare conditions with atypical features.
+[0:21:34]This is another interesting approach and I think it also makes a lot of sense because
+[0:21:40]these rare cases or novel patterns that AI is not used to based on their public data sets or
+[0:21:49]based on the physicians that have come to a certain institute.
+[0:21:54]Physicians or human experts are better at navigating these cases and probably will
+[0:22:00]yield to a better performance at last. They mentioned two studies basically.
+[0:22:10]One of them is the screening, the mammography screening that we talked about in the previous
+[0:22:16]episode of our podcast which found out that the AI-assisted approach led to the identification
+[0:22:26]of 20% more breast cancers while reducing the overall radiologist workload almost in half.
+[0:22:33]It was a case where AI was separately able to go through the cases and screen those
+[0:22:44]mammograms into healthy or need some sort of revision. By doing that, not only they
+[0:22:54]were able to increase the rate of identification of cancers, they reduced the workload. This is
+[0:23:01]basically their third approach that AI is handling simpler cases or at least cases that it's most
+[0:23:08]confident in and then it puts the rest of the labor for the human physicians. By doing so,
+[0:23:18]a lot of time is saved, a lot of cost is saved, and the overall performance is improved.
+[0:23:26]This was very interesting first because the old saying that a human with AI is definitely
+[0:23:34]going to replace you, not the AI itself, which is probably not the whole picture at least for now.
+[0:23:43]The other thing I was thinking about was that maybe it's not a good idea to
+[0:23:50]put a high-end technology like these LMs and AIs in the hands of people who are not very
+[0:23:57]accustomed to using these. Maybe we need a new AI-oriented generation of physicians
+[0:24:05]that are nurtured with these tools and they know exactly how these models are
+[0:24:14]best used. Maybe these are not something that could be taught to patients. I was thinking
+[0:24:19]about the example of the things that happen in the industry like the advance of these
+[0:24:29]online taxis like Uber in the western countries. If such an application was in the hands of
+[0:24:38]some old-fashioned kind of taxi driver, probably nothing good will happen.
+[0:24:44]But new people who were not taxi drivers were able to use this new technology in a way that
+[0:24:50]they knew would best help them and help the other users. I think something maybe similar
+[0:24:57]will happen in here. I'm not sure, but maybe just a new generation of AI-oriented physicians need
+[0:25:03]to be taught or need to be nurtured in some way that could use these tools in a way that AI plus
+[0:25:12]physicians and humans could lead to better performance in AI alone.
+[0:25:18]Or maybe one of these three approaches that these two scientists mentioned here will work out.
+[0:25:28]I really want to know your views on this and how you think about it.
+[0:25:33]And I stopped my sharing screen because of the problem we have with the
+[0:25:40]recording of our own webcams. Yeah, sure. Actually, I wanted to go ahead. I think
+[0:25:48]it might be accidental, but I had another paper that kind of matches what you were just talking
+[0:25:53]about. Let me share this one with you as well. Then I'm going to talk a little bit about what
+[0:25:59]is my take on this issue as well. Let me share the screen here. All right. Hopefully,
+[0:26:10]are you seeing that? Yes. Okay. There is this paper that I went through a few days ago,
+[0:26:19]and it's kind of an interesting paper. It was published in Nature Human Behavior.
+[0:26:26]And that's an interesting kind of a study because they think about and they go through
+[0:26:32]different combinations of human and AI and try to understand what sort of combinations are useful
+[0:26:39]and what sort of combinations are not that useful. And they kind of battle against whatever
+[0:26:46]assumptions that we have with respect to collaboration of humans and AI, specifically
+[0:26:52]in medicine. We kind of believe, as you were saying, that if AI and humans collaborate together,
+[0:26:58]the combination of the two are going to be necessarily better than either of these alone.
+[0:27:02]But they just show that this is not the case. And it's a very interesting paper. I mean,
+[0:27:07]even by looking at the abstract and what they found. So this is basically a systematic review
+[0:27:12]and meta-analysis. So they went through a lot of papers. So this is a secondary study.
+[0:27:16]But here is what they found. So first, we found that on average, human-AI combinations perform
+[0:27:23]significantly worse than the best of humans or AI alone, which is kind of interesting.
+[0:27:30]So basically, it means that if there is a certain task in which humans really excel or in which AI
+[0:27:37]really excels, the addition of the other component is not necessarily going to make it better.
+[0:27:43]In fact, it is very likely that it is going to make it worse, which is kind of in line
+[0:27:48]with what you were just talking about. Second, we found performance losses in tasks that involved
+[0:27:54]making decisions and significantly greater gains in tasks that involved creating content.
+[0:28:00]So long story short, they're saying that if you are thinking about adding AI to tasks that
+[0:28:06]involve components of creativity, then yes, your performance is probably going to increase.
+[0:28:12]But if you're thinking of adding AI to tasks that need decision-making, and it's kind of a
+[0:28:18]decision-making question mark in which you are thinking of using some aids for that process,
+[0:28:25]it's not necessarily going to result in helping you. And then finally, when humans outperformed
+[0:28:32]AI alone, we found performance gains in the combination. But when AI outperformed humans
+[0:28:37]alone, we found losses. So the thing is very clear. So if you're thinking of adding the
+[0:28:45]other entity to the task, for example, if you have a task that is being done nicely by humans,
+[0:28:51]you still might see some benefits by adding AI to that. But the reverse scenario is not correct. So
+[0:28:57]if you're seeing that AI is doing a task flawlessly, adding humans to that is going to make it worse.
+[0:29:03]So this is kind of an interesting paper. I'm not going to deep dive into that. It has very nice
+[0:29:08]figures that you can go and take a look at it, and people who are interested might also do so.
+[0:29:14]But basically, these diagrams and the very nice way that they explain everything is
+[0:29:20]going to expand the three sentences that we highlighted in the abstracts.
+[0:29:24]This is saying basically the same thing as you said. And this is my take on this conversation
+[0:29:29]as well, which I believe we are at the moment that we are basically proving to ourselves that
+[0:29:35]whatever assumptions that we had about incorporation of AI into our day-to-day practice has been
+[0:29:41]inaccurate and somehow wrong. A lot of those assumptions were generated, were created,
+[0:29:47]because at some point, maybe we were afraid that if we say that AI is going to replace us,
+[0:29:58]then we are going to basically lose.
+==== Ending of Part 3 ====
+
+==== Beginning of Part 4 ====
+[0:30:00]use our jobs and then it's going to be a very scary scenario.
+[0:30:02]So we came up with this kind of assumptions
+[0:30:05]that the combinations of AI and humans
+[0:30:08]are always better than humans or always better than AI.
+[0:30:11]We see that, I mean, these kind of very general hypothesis,
+[0:30:15]these do not necessarily hold when we deep dive
+[0:30:18]into different tasks and when we look at tasks
+[0:30:21]that are completely different from one another.
+[0:30:24]So I think that we are in a specific period of time
+[0:30:28]that we are just removing whatever assumptions
+[0:30:30]that we had already so that we clean the space
+[0:30:33]for new assumptions, for more valid assumptions to grow
+[0:30:36]that will probably come out of newer studies
+[0:30:39]like the ones that we just saw,
+[0:30:41]or the minds of scientists that you just quoted from.
+[0:30:44]So I think that we are in a very turbulent period of time
+[0:30:50]with respect to incorporating AI into our daily practices,
+[0:30:54]most importantly medicine, because it's a very sensitive
+[0:30:57]and very critical aspect of practice.
+[0:31:00]I think a lot of things are going to change
+[0:31:01]as we go forward and we cannot really stick
+[0:31:05]to those general statements like,
+[0:31:08]yes, AI is going to replace doctors
+[0:31:11]or doctors who know AI are going to replace doctors
+[0:31:13]who don't know.
+[0:31:14]These things are very, very general, very vague.
+[0:31:17]They do not necessarily hold that much of value
+[0:31:19]at the moment.
+[0:31:19]We should just wait and see what comes.
+[0:31:21]And probably the only thing that we can do at the moment
+[0:31:24]is to just keep ourselves ready to be able to adapt
+[0:31:29]to whatever changes that come in the future
+[0:31:31]as soon as possible.
+[0:31:32]That is the most important thing that we can do now.
+[0:31:35]Yeah, and I think similar to this situation that we are in
+[0:31:39]has been experienced in probably in the first years
+[0:31:44]of this century with the advent of internet
+[0:31:47]and everyone was probably guessing in the wrong ways
+[0:31:50]about internet in the first days
+[0:31:52]that like no one is going to use internet
+[0:31:55]who is going to pay for this
+[0:31:57]and who's going to connect their computer to this internet.
+[0:32:00]And I'm sure you've seen those titles or headlines
+[0:32:05]from the newspapers, the widely known newspapers
+[0:32:09]saying that this internet is going to fail.
+[0:32:11]And at some point, many companies at the dot-com bubble,
+[0:32:16]many companies went down because people got disappointed
+[0:32:21]the internet advent for some time.
+[0:32:23]So what I want to say is that the course
+[0:32:27]of these new technologies and new ages of technology
+[0:32:32]that basically are highly difficult to predict.
+[0:32:37]And as you mentioned, the only thing that is kind of
+[0:32:40]like logical to do is to just be educated enough
+[0:32:47]to adapt to whatever happens
+[0:32:49]and be fast to jump on the train,
+[0:32:52]whatever trains that comes out of the tunnel
+[0:32:54]and be able to adapt your skills
+[0:32:57]to whatever that is taking shape.
+[0:33:01]And I think many of these sayings like,
+[0:33:04]no AI is not taking your job,
+[0:33:06]only some people with AI are going to replace you
+[0:33:09]or something like this are just heartwarming sentences
+[0:33:12]that we tell ourselves in order to avoid
+[0:33:15]some probable trauma that is going to happen.
+[0:33:18]I'm not thinking about it in a way that,
+[0:33:22]okay, it is the end of the time
+[0:33:24]and we are going to be useless.
+[0:33:25]I'm sure that there are going to be lots of cooler
+[0:33:29]and more interesting jobs to do
+[0:33:30]than just to type things down about patients
+[0:33:34]and take histories of patients.
+[0:33:36]Probably our intelligence and AI intelligence
+[0:33:40]are going to be used in different places
+[0:33:42]and in the most efficient way.
+[0:33:44]We are just going to find how.
+[0:33:47]Yes, there is going to be lots of job loss and everything,
+[0:33:51]but like always, I think there will be some sorts
+[0:33:56]of new jobs that will be created.
+[0:33:58]Maybe this time there's less jobs created for humans
+[0:34:02]and most of the things that are intelligence-based
+[0:34:05]are going to be occupied by AI,
+[0:34:08]but still I think that wouldn't be a very bad scenario
+[0:34:12]because people could spend more time on creative adventures
+[0:34:17]and they won't be held without any work to do or something.
+[0:34:22]But I want to know your view about this dystopian
+[0:34:27]and utopian views of the end of the world scenarios
+[0:34:31]and what you think about it
+[0:34:34]or whether you think about it or not
+[0:34:36]and you just want to adapt to the current situation
+[0:34:40]and see what happens.
+[0:34:43]I mean, to be honest with you,
+[0:34:44]I don't know what is coming up.
+[0:34:47]And I think that very, I mean,
+[0:34:50]many different industries are currently
+[0:34:52]in an uncertain condition, uncertain situation.
+[0:34:57]It's not only about medicine,
+[0:34:58]it's about many, many different industries as well.
+[0:35:00]I mean, I believe the forefront of these changes,
+[0:35:04]whatever changes that you're talking about
+[0:35:06]is going to be software engineering, right?
+[0:35:07]You know, this software engineers,
+[0:35:09]whoever who has been spent years on that trail
+[0:35:12]now might feel like even more frustrated
+[0:35:14]than whoever doctor can feel like
+[0:35:16]because they're seeing exactly what Cursor 3.7
+[0:35:19]can do, for example, and you know.
+[0:35:21]They will be the first to be replaced
+[0:35:22]if anyone's going to be replaced
+[0:35:23]because software engineers themselves
+[0:35:26]are the most adept to whatever is happening in the field
+[0:35:28]and they will invent products to replace themselves
+[0:35:34]much sooner than the other fields, I think.
+[0:35:36]Yet, you know, if you look at them,
+[0:35:38]you still see a lot of amazing people
+[0:35:40]who are creating these new AIs,
+[0:35:42]who are basically using these new AIs
+[0:35:44]to solving new problems.
+[0:35:45]So I would say that if, you know,
+[0:35:48]of whatever scenario, whatever one-liner scenario
+[0:35:51]that comes to our mind, that this is going to happen,
+[0:35:53]that is going to happen.
+[0:35:55]I mean, the fact that you can describe a scenario
+[0:35:57]in one sentence probably means that
+[0:36:00]that scenario is not true because, you know,
+[0:36:02]I would say that the worst thing you can do
+[0:36:06]is to come up with simplified explanations
+[0:36:08]for very complicated and complex phenomena.
+[0:36:10]This is not the way that the world operates.
+[0:36:13]And if you just go back to history,
+[0:36:15]you see that most of these predictions like that
+[0:36:18]about the future has not been true.
+[0:36:20]So you just need to do a retrospective cohort
+[0:36:22]to see how many of these predictions
+[0:36:24]and modeling that people made actually came true.
+[0:36:27]How many times did we predict that AI
+[0:36:29]is going to extinct humans and it didn't?
+[0:36:32]How many times we predicted that internet
+[0:36:34]is going to replace something else
+[0:36:36]and it didn't?
+[0:36:37]One of them that I clearly remember was, for example,
+[0:36:39]regarding the future of education
+[0:36:41]once the online learning came into existence
+[0:36:44]and people thought that, you know,
+[0:36:45]online learning is going to replace in-person learning
+[0:36:48]where we know that this didn't happen.
+[0:36:50]And in fact, something came into existence
+[0:36:53]like blended learning,
+[0:36:54]which was the combination of the two.
+[0:36:55]And then some courses are now better taught
+[0:36:58]through online learning.
+[0:36:59]Some are better taught through in-person learning.
+[0:37:01]Some are better taught through blended learning.
+[0:37:03]And maybe that's the future.
+[0:37:05]I don't know, you know, some people argue
+[0:37:06]that AI is fundamentally different
+[0:37:08]from all other revolutions like that
+[0:37:10]that you're talking about.
+[0:37:12]I personally have stopped contemplating about the future
+[0:37:16]and, you know, kind of went back
+[0:37:20]and remembered that in one of my MPH classes in Iran,
+[0:37:24]one of my instructors used to say,
+[0:37:26]used to basically talk about the kind of skills
+[0:37:29]that we are going to need in the future centuries.
+[0:37:31]And always on top of the list was uncertainty tolerance.
+[0:37:35]And, you know, the fact that you and I should learn
+[0:37:39]how to live in a world that is full of uncertainties
+[0:37:41]as we expect our models to be tolerant
+[0:37:44]and comfortable with uncertainty,
+[0:37:46]I believe you and I should be
+[0:37:48]much more comfortable than them.
+[0:37:50]And this feeling comfortable with uncertainty
+[0:37:54]technically means that, okay, here I am nowadays.
+[0:37:56]This is what I am doing.
+[0:37:58]I need to do it the best way I can.
+[0:38:00]At the same time, I should be very, very ready
+[0:38:02]to switch gears, to shift gears, to switch carrier,
+[0:38:05]to switch studies, to switch what I am learning
+[0:38:08]as soon as it is necessary, right?
+[0:38:10]And, you know, to be honest,
+[0:38:12]I watched a video on YouTube a few days ago.
+[0:38:14]It was from a math, from a university math class in Iran,
+[0:38:19]I believe in Sharif University.
+[0:38:20]And instructor was just telling the students about,
+[0:38:23]you know, the fact that we are just solving
+[0:38:26]this very difficult mathematical equations on a blackboard.
+[0:38:31]And you are questioning me that,
+[0:38:32]where are we going to use these equations in real practice?
+[0:38:35]You basically are just looking at the story
+[0:38:38]from a wrong angle.
+[0:38:40]This is not about you and us just solving the equations
+[0:38:43]that we are going to use one day somewhere.
+[0:38:46]This is about just getting used to solving difficult problems
+[0:38:51]because if you just learn that skill,
+[0:38:52]sometimes in your life, you are going to apply that skill
+[0:38:55]to another problem that is now going to save your life,
+[0:38:58]save your career, and maybe, you know,
+[0:39:01]bring a lot of welfare to many other people.
+[0:39:03]I think that's the most that we can do.
+[0:39:05]You know, we should just stay up to date,
+[0:39:07]stay ready to change,
+[0:39:09]and be a little bit less frustrated about the future
+[0:39:12]because regardless of whatever happens,
+[0:39:14]we probably will find jobs, we'll find joy,
+[0:39:17]we'll find family, we'll find things to do.
+[0:39:19]And, you know, those who are really interesting
+[0:39:21]about all these new technologies
+[0:39:23]can still have a lot of different opportunities to grow
+[0:39:26]and apply these technologies to many different things.
+[0:39:28]That's my gain on it.
+[0:39:30]Yeah, I totally agree.
+[0:39:32]And yeah, so this was the first one that I had on the list.
+[0:39:39]Quite an introduction, a long discussion for the beginning.
+[0:39:43]Yeah, and to be honest, this topic was something
+[0:39:47]that one of my friends who was watching our episodes
+[0:39:50]asked me to once talk about.
+[0:39:53]I mean, there are still spaces
+[0:39:55]that we can dive deep into this question,
+[0:39:57]but he was mainly interested in.
+==== Ending of Part 4 ====
+
+==== Beginning of Part 5 ====
+[0:40:00]and what are your, I mean, me and you,
+[0:40:03]views on the future of medicine and radiology
+[0:40:06]and how AI will change that perspective.
+[0:40:08]And I was like, I don't know,
+[0:40:10]but I will try my best to share
+[0:40:16]how, what is my mindset on the whole thing
+[0:40:19]and what we can at least do in these days
+[0:40:23]to be prepared for whatever happens.
+[0:40:25]But expecting specific predictions for the future,
+[0:40:29]I think at this stage is too cruel.
+[0:40:32]I mean, that is not something that is doable.
+[0:40:35]Exactly, I agree.
+[0:40:36]I totally agree.
+[0:40:38]All right.
+[0:40:39]Okay, so I shift gears into something
+[0:40:42]that we both have on our list
+[0:40:44]and is I think related to this topic
+[0:40:49]as we talk at least to the part that,
+[0:40:52]in one part, this article by Eric Topol mentioned
+[0:40:55]that AI is still not very good
+[0:41:00]or capable at navigating human conversation
+[0:41:04]in the context of clinical reasoning
+[0:41:07]and taking patient histories.
+[0:41:10]And I want to shift gears to the AIME,
+[0:41:13]which is exactly something that is being developed
+[0:41:16]by Google on navigating human conversation
+[0:41:22]and basically replacing the whole patient-physician
+[0:41:27]interaction in the first, basically, visit.
+[0:41:31]And you can share your screen and then go through it.
+[0:41:35]And then I will maybe add whatever I think is the rest
+[0:41:40]to talk about when you were ready.
+[0:41:43]All right, so let me share the,
+[0:41:45]so I'm going to share the second paper, let's see.
+[0:41:49]Yeah, yeah.
+[0:41:50]I also wanted to start with the second paper first
+[0:41:52]and then reference the first one
+[0:41:54]to see what that was about.
+[0:41:56]Okay, so are you seeing my screen now?
+[0:41:58]Yes.
+[0:41:59]Perfect, okay.
+[0:42:00]So yeah, this is a very nice blog post,
+[0:42:02]very recent one, March 6th, all right.
+[0:42:06]And it came out of Google from Diagnostic to Treatment,
+[0:42:09]Advancing AIME for Longitudinal Disease Management.
+[0:42:13]And then AIME, if you're not familiar with it,
+[0:42:15]is a previous publication, not that old, from Google.
+[0:42:20]And this is basically from January 12th
+[0:42:23]in which they just introduced an AI system
+[0:42:26]for diagnostic medical reasoning and conversation.
+[0:42:28]So basically this was an AI-based agentic system
+[0:42:33]that could listen to some patient's history,
+[0:42:36]analyze what they are saying, go and check the evidence,
+[0:42:39]and then come up with some diagnostic tools.
+[0:42:42]And now on top of that,
+[0:42:44]what this team has come up with is another paper.
+[0:42:47]Let me go back.
+[0:42:48]And now they are saying that not only we diagnose
+[0:42:51]the diseases using our system,
+[0:42:52]but even we go through the evidence
+[0:42:54]and put together some management plans for you.
+[0:42:57]And we even take care of that empathy part
+[0:43:00]and talk with the patients and make sure
+[0:43:02]that the patients are going to receive
+[0:43:04]the best kind of responses that they deserve
+[0:43:07]from a medical provider.
+[0:43:08]So they are basically jumping towards replacing
+[0:43:15]most of the major functionalities of a doctor,
+[0:43:18]at least in a remote visit, throughout a mobile application.
+[0:43:21]And we know that this is part of the day-to-day
+[0:43:25]provider-patient interactions
+[0:43:27]because not all of the interactions happen
+[0:43:30]in a hospital setting or in an office setting.
+[0:43:32]Some of that happens, sometimes you just go ahead
+[0:43:36]and talk with your PCP on a mobile application,
+[0:43:39]and sometimes they ask you questions,
+[0:43:40]provide you with plans.
+[0:43:41]And obviously, if it is something serious,
+[0:43:43]they invite you to go and see them in clinic
+[0:43:45]or maybe go to an emergency room.
+[0:43:47]But from time to time,
+[0:43:48]these interactions happen on a mobile phone.
+[0:43:50]And what this paper is showing at the moment,
+[0:43:53]this blog post is showing is that maybe we can go ahead
+[0:43:56]and say that now AI is ready to replace
+[0:43:59]part of these interactions.
+[0:44:01]So this is my main take of the blog post.
+[0:44:03]So Moin, feel free to interrupt me,
+[0:44:05]feel free to say your own insights,
+[0:44:07]and then we can scroll and maybe wait
+[0:44:09]on some of the figures, show those,
+[0:44:11]because the figures are great here.
+[0:44:13]Yeah.
+[0:44:14]No, I mean, you mentioned what this new advances is about.
+[0:44:20]And I think the path that Google is taking on this
+[0:44:24]to kind of like complete the whole picture
+[0:44:28]of how AI is going to be integrated into clinical practice
+[0:44:31]and not just focusing on diagnosis too much
+[0:44:34]is very precious.
+[0:44:37]And these multiple visits
+[0:44:40]and then aggregating all the findings
+[0:44:42]and maybe asking for some paraclinic studies to be done
+[0:44:46]and then reason on the results of that is really cool
+[0:44:50]and really close to what actually is happening
+[0:44:54]in the real world of clinic.
+[0:44:57]The only thing that is limiting this study for now
+[0:45:00]is that they are working on
+[0:45:04]or researching with patient actors, as they mentioned,
+[0:45:10]like the OSCE exams that we have in medicine.
+[0:45:13]And this is not exactly like the real environment,
+[0:45:17]but this is a very important environment
+[0:45:21]that no mistakes could be done.
+[0:45:24]So it makes total sense that they are researching
+[0:45:29]with human actors like patients
+[0:45:32]and not real patients at this stage.
+[0:45:34]But I think this paves the way to start clinical trials
+[0:45:40]on really human patients that are not actors
+[0:45:44]to see how these tools compare with physicians.
+[0:45:50]And I think for, I mean, at the first stages,
+[0:45:54]if these clinical trials show good results,
+[0:45:58]just giving patients in rural areas
+[0:46:02]with low access to specialized physicians,
+[0:46:06]I think it is going to be a huge help
+[0:46:09]to the human community.
+[0:46:12]And I think it soon could be used in large-scale hospitals
+[0:46:18]and specialized points of cares.
+[0:46:22]And yeah, I'm really optimistic
+[0:46:25]about this line of research in Google.
+[0:46:29]And I really want to know what they are currently working on
+[0:46:32]that is going to be published there.
+[0:46:34]Yeah, I agree, I agree.
+[0:46:35]I mean, this is a very impactful research.
+[0:46:37]As you mentioned, the world of medicine as a whole
+[0:46:41]still is struggling with lots of human,
+[0:46:45]expert human workforce shortage.
+[0:46:48]This is something that we are seeing
+[0:46:50]not only in low-income countries,
+[0:46:53]but also even in some industrial countries,
+[0:46:56]even in the U.S. itself,
+[0:46:57]they have some serious shortages
+[0:46:58]in different specialties like radiology, for example,
+[0:47:01]and not all the states have access
+[0:47:03]to radiologists in an equal way.
+[0:47:06]And this is certainly the case for primary care physicians,
+[0:47:09]for many other specialties as well.
+[0:47:11]And if you go out of the U.S.,
+[0:47:12]go to some poorer part of the world,
+[0:47:15]definitely this is even a more troublesome issue.
+[0:47:19]So if you have some sort of automated solutions
+[0:47:22]that maybe can take care of at least some of the things
+[0:47:25]that are well-known in the medical literature,
+[0:47:28]are well-known with respect to their treatment plans,
+[0:47:33]with respect to how to diagnose them,
+[0:47:35]yet still people are dying from them,
+[0:47:36]or the burden of those diseases are very high
+[0:47:39]because we don't have appropriate medical workforce
+[0:47:43]to just send to those places
+[0:47:45]and take care of those diseases.
+[0:47:47]Now these systems can basically replace those
+[0:47:50]and hopefully have a very impactful effect
+[0:47:56]in public health aspects of those diseases.
+[0:47:58]This is what comes to my mind.
+[0:48:00]And to just talk a little bit about the algorithm,
+[0:48:03]so this is a very big picture.
+[0:48:04]This is an eagle eye view of their solution.
+[0:48:09]If you see here, you have the conversation
+[0:48:12]and application that looks like a chatbot.
+[0:48:15]The patient talks with an AI behind the scene.
+[0:48:18]And what happens in this AI system
+[0:48:20]is that whatever presentations that the patient has
+[0:48:25]is going to be analyzed by AI,
+[0:48:26]the content gets processed,
+[0:48:29]and then it is not going to answer your questions
+[0:48:32]based on the knowledge that the model itself has,
+[0:48:34]which is not a very limited knowledge.
+[0:48:38]We know that these models nowadays get trained
+[0:48:40]on very large corpus of data,
+[0:48:42]and their training data is being
+[0:48:44]more and more cleaned every day.
+[0:48:46]So even if it wants to answer based on its own knowledge,
+[0:48:50]it is not necessarily going to be wrong.
+[0:48:51]But just to make it even more accurate,
+[0:48:54]and just because medicine is a very critical domain,
+[0:48:57]this AI is going to ground itself
+[0:49:00]in some clinical evidence,
+[0:49:02]very well-established clinical evidence.
+[0:49:04]The guidelines that we have,
+[0:49:06]a lot of those guidelines are available to providers.
+[0:49:08]We use it in our day-to-day practice.
+[0:49:10]Whenever we are in doubt,
+[0:49:11]we just go and check those guidelines
+[0:49:13]and try to see what most recent research
+[0:49:16]has shown to be the best for the patients,
+[0:49:18]and then try to mimic those.
+[0:49:20]And this AI is going to do exactly the same thing.
+[0:49:22]It's going to search through those guidelines,
+[0:49:24]found the best management plan, bring it back,
+[0:49:26]and then it's going to come up with a response
+[0:49:28]based on that guideline.
+[0:49:30]And then finally, the user is going to receive
+[0:49:33]the final recommendation.
+[0:49:35]Another important aspect in this figure
+[0:49:37]is that they are saying that now our model,
+[0:49:40]our AI system is basically capable of handling
+[0:49:43]patient-provider interactions across longitudinal visits.
+[0:49:47]This basically means that the AI's memory
+[0:49:52]is not going to reset every time that the patient comes back
+[0:49:55]because most of the time,
+[0:49:57]the patient-provider interactions have...
+==== Ending of Part 5 ====
+
+==== Beginning of Part 6 ====
+[0:50:00]happens, you know, in a longitudinal access, you know, you come to your provider, you ask,
+[0:50:06]you present some of your symptoms, the provider gives you some recommendations, you go and
+[0:50:10]try to, you know, follow those recommendations, maybe two or three days afterwards, you come
+[0:50:15]back to your provider, maybe you have done some blood work in between, the results of
+[0:50:18]those blood work is not ready for the provider.
+[0:50:21]Maybe you try the medicine in between, and now you're going to give some feedback to
+[0:50:24]your provider about whether or not the medicine worked, and now the provider can reflect on
+[0:50:29]this new data and also have in mind the previous presentations that you shared with them and
+[0:50:35]then tell you something new, you know, come up with some new sets of recommendations.
+[0:50:39]That's what this AI system is capable of doing.
+[0:50:43]And this is the base presentation of the model, and as we go forward, they have more interesting
+[0:50:48]figures basically now sharing more details about their system.
+[0:50:53]So again, as you see here, this is the three main steps we discussed above, just showing
+[0:50:58]how the management plan is going to put together, and it's based on, again, clinical guidelines,
+[0:51:03]and they talk about what guidelines they're exactly using, I believe they also evaluated
+[0:51:08]their work against some real doctors, and both the AI system and the real doctors have
+[0:51:12]access to equal guidelines.
+[0:51:14]So they, you know, removed the confounder of real doctors working with many different
+[0:51:21]guidelines, and they say that we are going to keep the clinical guidelines on which you
+[0:51:25]need to ground yourself equal, and then let's see whose performance is going to be better.
+[0:51:32]And I think these sort of longitudinal studies, I mean, if they are done soon in a clinical
+[0:51:39]trial or on a larger scale, considering all the risks and these things, will make a highly
+[0:51:47]valuable data set for training further generations of these AI models, because you can find about
+[0:51:56]the patient's feedback on the effect of the medication, whether the diagnosis was right
+[0:52:03]or wrong, and then these really will give the model a really good source of kind of
+[0:52:10]like feedback to tune its reasoning skills, and it will make the personalized medicine
+[0:52:20]picture that we all have in mind much more realistic, because this time the model is
+[0:52:25]learning about maybe one medication is not going to work for all the patients with the
+[0:52:30]same diagnosis, and they can come up with different probably adverse reactions or something.
+[0:52:38]And yeah, the thing that makes this sort of research really valuable is when it gets done
+[0:52:46]or researched on a huge or large-scale population, and designing those clinical trials is, of
+[0:52:54]course, a really difficult task to do, but I think those are just the next steps that
+[0:52:59]we will find a way to take the risks into account and come up with a solution that works
+[0:53:07]best for both the research side and the patient side.
+[0:53:10]Very true, very true, and I guess one point that you and I keep emphasizing in every episode
+[0:53:16]of this videocast is that regardless of how much we advance in terms of architectures
+[0:53:21]and in terms of different tricks for training AI systems, the importance of the data that
+[0:53:28]these systems are trained on is incomparable to anything else, so basically the better
+[0:53:34]data you have for training, the better your model's performance is going to be, and it's
+[0:53:39]not even about the size of the data, it's about the quality of the data.
+[0:53:42]So even if you have a small data set, but if it is as insightful as this longitudinal
+[0:53:49]data that this system is currently interacting with, then probably the models that are trained
+[0:53:54]on that data is going to be much better than models which might be trained on medical textbooks,
+[0:53:59]because now these models are trained on actual patient data, what happens to the patient
+[0:54:04]in practice.
+[0:54:05]I totally agree with that.
+[0:54:06]Let's scroll down, let's talk about this two-agent architecture of this system, and this is very
+[0:54:11]important because I believe as we go forward we are going to see more and more multi-agent
+[0:54:17]architectures in the world of medicine as well.
+[0:54:21]So here they are using two agents, and this is very interesting for me because one of
+[0:54:26]these agents is only designed to handle appropriate conversation with the patient.
+[0:54:32]They call it a dialogue agent, and they mention that the purpose of this agent is to basically
+[0:54:37]empathize with the patient who is sharing their problems, and this is very interesting
+[0:54:43]because I remember, and back to our previous conversation, one of the assumptions that
+[0:54:47]people had in the beginning that AI started to incorporate, being incorporated into medical
+[0:54:53]diagnosis and treatment, people said that, yeah, you know, maybe AI replaces our clinical
+[0:54:59]reasoning one day, but it is never going to replace our power of empathy.
+[0:55:03]You know, when you have a human doctor who is talking with you, the kind of feeling and
+[0:55:09]sensation that you receive from a human doctor is incomparable to any automated robot-like
+[0:55:16]AI that might do the same thing, and yet you see now that people are actually trying to
+[0:55:21]even get rid of this assumption, and now you have AI agents that their only job is
+[0:55:26]to basically mimic a very empathic conversation with you, and, you know, and they mention
+[0:55:33]that this is behind the scenes buying time for this MX agent, which is the main reason
+[0:55:37]or agent to go and dig into the literature and come up with a plan, yet at the same time
+[0:55:41]you are feeling that, what kind of a care I am receiving, right?
+[0:55:44]And if you are a patient, and imagine that you do not know who you are talking to, I
+[0:55:49]mean, you would think that maybe this is a real doctor, maybe this is an AI doctor,
+[0:55:52]but this entity that is in front of you is able to take care of your emotions, and that
+[0:55:58]in my humble mind is the only thing that matters, because we as humans need to feel calm, right?
+[0:56:04]And a lot of time that I go to bedside, I know better than multiple different medications
+[0:56:10]that we can administer to our patients when they are anxious, say Atarax or anything that
+[0:56:15]we want to give them.
+[0:56:16]The simple fact that you just hold their hands and reassure them verbally that you are going
+[0:56:20]to do good, you know, you are going to feel better by tomorrow, this works miraculously,
+[0:56:25]right?
+[0:56:26]I mean, this is much better than anything else.
+[0:56:28]So this first agent, even though it's very simple, and it's just probably just prompted
+[0:56:32]to, you know, respond in an appropriate way to the patient, this is going to be as impactful
+[0:56:37]and as important as the reason or agent.
+[0:56:39]And the second reason or agent, as we talked about, this is the one that gets this entire
+[0:56:44]history and presentation from the first agent, goes and looks into all those guidelines,
+[0:56:50]and then tries to come up with a plan.
+[0:56:53]And you see here that these guidelines are basically used due to the long context capability
+[0:57:00]of GemIIni.
+[0:57:01]And they talk about that if we are using GemIIni, GemIIni has kind of enabled us to now feed
+[0:57:06]all these long guidelines into the context of the model, and this is one of the aspects
+[0:57:10]that makes GemIIni really shine.
+[0:57:12]And then they come up with a plan, give the plan back to the first agent that now can,
+[0:57:17]in addition to, you know, empathizing with the patient, providing some recommendations
+[0:57:22]to them.
+[0:57:23]And did you go to the book that is referenced in the first sentence of this section?
+[0:57:32]And that is a really interesting book, and it just kind of like made me interested in
+[0:57:39]it.
+[0:57:40]This is it.
+[0:57:41]And you can go to the first page of the cover, where the, I'm not sure why the cover is not
+[0:57:47]shown in here.
+[0:57:49]Let's see.
+[0:57:51]Yeah.
+[0:57:52]Yeah.
+[0:57:53]It seems that the book, original pages, maybe starting from here, front matter.
+[0:57:59]This is the...
+[0:58:00]Yeah, let's go through.
+[0:58:01]I see.
+[0:58:02]Improving diagnosis in healthcare.
+[0:58:03]Yeah.
+[0:58:04]Go on.
+[0:58:05]Improving diagnosis in healthcare, and this section that is referenced, I read that the
+[0:58:13]dual process theory and diagnosis, the diagram was really cool, and how the doctors handled
+[0:58:19]the diagnosis scenario was kind of like described in very good details, and also the next section
+[0:58:27]right after it is probabilistic or Bayesian reasoning in this book, which is about improving
+[0:58:33]diagnosis in healthcare, which really intrigued me to go peek into and see how they are actually
+[0:58:43]describing or using Bayesian theory in the diagnostic cases for physicians.
+[0:58:49]And yeah, it was just cool to see how these theories are being applied basically in something
+[0:58:56]in medicine that really needs that, really needs to, I mean, the physician really needs
+[0:59:01]to know about the probabilities of the, or the prevalence of diseases to see if it makes
+[0:59:08]sense that this patient with these symptoms really has this diagnosis.
+[0:59:13]So yeah, just something cool that was referenced in this blog post.
+[0:59:18]Yeah.
+[0:59:19]Nice.
+[0:59:20]So is this the book that...
+[0:59:21]Is this the same book?
+[0:59:22]Yes.
+[0:59:23]I think so.
+[0:59:24]Yeah.
+[0:59:25]Is this the diagram that you were talking about?
+[0:59:26]Or, I mean, do you mean the book cover?
+[0:59:30]I think it was this one.
+[0:59:32]I'm not sure if it's exactly the right edition or something.
+[0:59:39]Let's see from the authors, Erin Bollock, Brian Miller.
+[0:59:43]Can you see them in the Amazon page?
+[0:59:46]Let me go back there again.
+[0:59:51]Yeah.
+[0:59:52]Oh, I think that's the same thing, yeah.
+[0:59:55]So maybe we can see that diagram here.
+[0:59:57]Let's see.
+[0:59:58]Yeah.
+[0:59:59]Yeah.
+==== Ending of Part 6 ====
+
+==== Beginning of Part 7 ====
+[1:00:00]I think it was on page 44, I guess.
+[1:00:08]You can just click on the link again and it will directly go to that section.
+[1:00:16]The problem is that I accidentally closed the page that I need to open.
+[1:00:22]No problem. Let me see what page it was.
+[1:00:25]It's on page 59.
+[1:00:28]I'm trying to open the blog post itself. I believe I had the link somewhere here.
+[1:00:34]Probably the page.
+[1:00:37]You said to come here and click on this link again?
+[1:00:42]Yes.
+[1:00:45]It should go to the right section, the dual process theory and diagnosis.
+[1:00:49]It basically references the Daniel Kahneman system 1 and system 2 thinking
+[1:00:54]and how experts, physicians, most of the time, or after they get expert actually at what they do,
+[1:01:01]refer to system 1 of thinking when a patient is presented to them.
+[1:01:08]They really quickly can match the pattern of the symptoms and signs of that patient
+[1:01:15]to some disease model that they have in their mind.
+[1:01:19]It says that medical students and novice physicians most of the time use system 2 of thinking
+[1:01:25]because they don't have really rigorous or sophisticated mental models of diseases
+[1:01:30]and they need to just go through every sign and symptom
+[1:01:34]and they don't have a good pattern matching skill at the time.
+[1:01:39]It was a really concise but really informative section.
+[1:01:46]The next section which is on Bayesian reasoning was also really interesting to follow
+[1:01:52]as I'm probably going to read in the next few days.
+[1:01:55]This book is actually something that I didn't have on my radar.
+[1:01:58]I kind of overlooked it in this blog post as well
+[1:02:01]but I should definitely go and take a look at these chapters at least.
+[1:02:04]It looks a very nice book.
+[1:02:07]It's kind of fascinating that they are going through such literature to put together...
+[1:02:11]Yeah, exactly.
+[1:02:12]It shows that they have a really multidisciplinary kind of theme
+[1:02:17]and they are taking this really seriously
+[1:02:22]that they are diving deep into the textbooks in the medical domain
+[1:02:27]and also taking into account the concepts in there
+[1:02:34]and then applying these elements to match at least what is established
+[1:02:39]in the diagnosis field of medicine.
+[1:02:43]This is one of the reasons I really like these team's works
+[1:02:49]and I'm really optimistic about the results of their next research projects.
+[1:02:56]I agree. I agree.
+[1:02:58]Let's see if we have anything else to share from here.
+[1:03:01]We talked about most of that.
+[1:03:04]This basically now gets into the details of how these outputs are made.
+[1:03:08]I believe it's very interesting how structured the entire output
+[1:03:12]and the entire management plan is coming out of the Gemini models here.
+[1:03:17]Very, very nice work.
+[1:03:19]Let's talk maybe a little bit about the evaluation of the work as well.
+[1:03:22]As we can see here, they basically had a longitudinal kind of setup.
+[1:03:28]Here, we are looking at three different visits.
+[1:03:31]As Muin mentioned, this is with respect to patient actors.
+[1:03:36]These are not real patients.
+[1:03:38]Obviously, these are just patient actors, but they are educated patient actors.
+[1:03:41]They are well-trained about what presentations to have
+[1:03:46]and how to communicate those presentations with the physicians.
+[1:03:50]Obviously, these PCPs who participated in this study probably didn't know if they are
+[1:03:55]I assume that they didn't know that they are talking with a patient actor.
+[1:03:59]They probably were just treating a real patient.
+[1:04:02]Then what happens is that this simulated patient tries to converse
+[1:04:08]with whatever agent that is behind the mobile screen,
+[1:04:12]which could be a real PCP, which could be Amy.
+[1:04:15]Then whenever the Amy was called, the entire process that we just talked about was initiated.
+[1:04:21]Basically, they put together some conversations.
+[1:04:24]Then the data between the visits were also fed to the model.
+[1:04:28]For example, if some test results are back in between visit 1 and 2,
+[1:04:32]then the model is going to take into account those results as well.
+[1:04:36]Then it goes through NICE guidance and BMJ best practice.
+[1:04:39]These are two sets of medical guidelines.
+[1:04:42]The model tries to ground itself within those guidelines.
+[1:04:46]Then based on those coming up with some evaluation and maybe management plans or whatever,
+[1:04:51]and then it goes back to the patient.
+[1:04:53]The patient actor acts based on that.
+[1:04:56]Then the third visit happens.
+[1:04:58]Now the process goes on and on.
+[1:05:00]Then we have this very nice, very interesting evaluation results page,
+[1:05:05]and a very simple one at the same time.
+[1:05:07]You see that this is the red dots.
+[1:05:10]The red curve basically is showing Amy performance,
+[1:05:12]and the blue is the control PCP group.
+[1:05:15]You see that, for example, the appropriateness of the management plans,
+[1:05:20]preciseness of that, avoiding inappropriate recommendations.
+[1:05:25]When you look at most of these, almost in all of them, Amy actually did better,
+[1:05:30]which is kind of crazy, to be honest with you.
+[1:05:33]I understand how physicians then become kind of scared and frustrated
+[1:05:38]when they look at these kind of outputs.
+[1:05:41]Yeah, exactly.
+[1:05:44]One of the other trends that you can see is that the performance is getting better
+[1:05:54]in some of these plots after the visits get accumulated.
+[1:06:00]It's, I think, signaling that probably most of the time,
+[1:06:05]maybe the right diagnosis is not just made in the first visit,
+[1:06:08]and the treatment and the course of the whole diagnosis and treatment is best done
+[1:06:14]if multiple visits are done.
+[1:06:18]Of course, more data will be gathered, and probably test results will be back.
+[1:06:24]Yeah, I think that is another pattern that you can see,
+[1:06:28]at least in some of the plots here.
+[1:06:30]Yeah.
+[1:06:31]Most of the times, the AI is, again, outperforming physicians.
+[1:06:36]Yeah, and I'm mostly interested in this diagram, Moin, specifically.
+[1:06:41]This is the third diagram on the investigation section.
+[1:06:45]You see that the way that I understand it is that when the patient first comes in,
+[1:06:49]both the human doctors and AI doctor kind of order the same sort of labs
+[1:06:55]or tests to be done for the patient.
+[1:06:58]But from the second visit onwards, it seems that the AI acts much better
+[1:07:03]in keeping the list of investigations proposed to the patient short,
+[1:07:09]whereas probably humans are actually ordering more and more diagnostic tests.
+[1:07:14]Some of those might not even be necessary.
+[1:07:16]And this is something that we do see in practice as well.
+[1:07:19]I mean, sometimes we just order too many labs, too many diagnostic tests for the patient.
+[1:07:24]Part of that might be because the provider is not that certain about the diagnosis.
+[1:07:29]Maybe they don't have the intuition.
+[1:07:31]And as you were just talking about, you know, type 1, type 2 thinking,
+[1:07:35]maybe they are not that well-trained in pattern matching and intuitive thinking.
+[1:07:40]But, I mean, looking at it from a patient's perspective,
+[1:07:44]this is just a huge amount of money saved between these two lines, right?
+[1:07:48]Because the patient has a lot of money for tests that are not that necessary,
+[1:07:53]whereas if AI is proposing those tests,
+[1:07:56]maybe the number of tests that they need to go through is actually much fewer,
+[1:08:01]and then the amount of money that they need to spend for their own health is actually much less.
+[1:08:05]And this means a lot.
+[1:08:07]And also the gap is even bigger for the same title in the treatment part,
+[1:08:14]the treatment is sufficiently precise, which is, again, another interesting finding.
+[1:08:20]And all the three comparisons are significant in the statistical tests that they have done.
+[1:08:28]And, yeah, again, lots of costs will be saved here by not probably too much prescribing things,
+[1:08:38]and lots of adverse reactions are avoided.
+[1:08:41]Yeah, very, very interesting figure, very interesting work.
+[1:08:45]And I guess we can talk for the entire video about this article,
+[1:08:49]which let's just bring it up for the sake of being loyal to their work.
+[1:08:55]So this is the first paper that came out, Amy.
+[1:08:57]And this is also a nice one.
+[1:08:59]I mean, I think we probably do not need to deep dive into this,
+[1:09:02]unless if you have something to say or share about this one.
+[1:09:05]But I guess this is exactly the engine that they used in their second work as well.
+[1:09:09]So two very interesting blog posts for people who want to learn a little bit about the work that Google did,
+[1:09:14]and probably is going to lead the future of AI incorporation into medicine.
+[1:09:19]Yeah, just something about the last figure of this very blog post.
+[1:09:25]Yeah, this one.
+[1:09:27]And I think you remember when this paper was published.
+[1:09:31]At the time, they weren't called this Amy.
+[1:09:34]They just mentioned it is a specialized kind of Gemini model that we are working on.
+[1:09:39]But now they say that this was basically the precursor of Amy.
+[1:09:44]And again, the pattern that was mentioned in the first blog post by Eric Topol
+[1:09:50]was first probably seen here,
+[1:09:52]when Amy alone was doing much better than clinicians assisted by Amy,
+[1:09:57]or by Serge, or unassisted.
+==== Ending of Part 7 ====
+
+==== Beginning of Part 8 ====
+[1:10:00]which was the first findings showing that maybe the picture that we have,
+[1:10:05]that physicians with AR are always superior to either of them alone.
+[1:10:10]Here you see that again,
+[1:10:12]the AI performed the clinicians even using AIME itself.
+[1:10:18]It was cool that I found finally that the model
+[1:10:23]used there was basically AIME or the precursor to AIME.
+[1:10:27]This is a very nice figure as you said.
+[1:10:31]Again, I'm very happy that I will have a chance to present.
+[1:10:36]I'm definitely going to present this paper in front of
+[1:10:38]some of our medical colleagues in
+[1:10:40]the hospital that I'm currently practicing in next Wednesday.
+[1:10:43]I really want to see how they react to that.
+[1:10:45]Maybe by the time that we come back together to record the next episode,
+[1:10:49]I can tell you some of their feedback about this.
+[1:10:52]I can imagine what their reaction would be,
+[1:10:56]but I don't want to go ahead of myself and try to get something that is wrong.
+[1:11:03]But yeah, I can imagine that.
+[1:11:05]Yeah. I remember at the time that one of the complaints that
+[1:11:10]physicians or the community as a whole was making about this research was that,
+[1:11:16]okay, maybe those Najm cases,
+[1:11:19]those complicated Najm cases that these were evaluated on,
+[1:11:23]maybe those were in the training sets of the AI model,
+[1:11:27]so it made sense that they are working better.
+[1:11:29]But based on the figure I shared from the Erick Topol blog post,
+[1:11:34]this result is replicated in many other research projects as well.
+[1:11:40]Of course, there are controversial results in other projects showing that,
+[1:11:45]yeah, people or physicians with AI are outperforming AI alone.
+[1:11:50]But I think this is some finding that is being
+[1:11:53]replicated by other projects that couldn't be ignored.
+[1:11:57]Of course, there isn't going to be a simple solution or
+[1:12:03]explanation of when this is happening or on what task this is happening.
+[1:12:08]But this is some finding that at least in some tasks in medicine,
+[1:12:13]AI itself should be let alone doing whatever it wants probably,
+[1:12:18]or maybe not that extreme.
+[1:12:19]But AI alone is at least outperforming others.
+[1:12:23]Maybe some other tasks,
+[1:12:26]maybe humans alone are better.
+[1:12:28]This was basically what the article,
+[1:12:30]the first article was suggesting that we should just separate
+[1:12:34]the tasks and maybe let them do their work,
+[1:12:38]and then aggregate them on some higher level after they worked separately on
+[1:12:43]their own tasks in order not to interrupt
+[1:12:46]or basically bias one's conclusions with the other mindset,
+[1:12:52]something like that, yeah.
+[1:12:54]I totally agree, and let's wait.
+[1:12:57]Let's wait to see what happens in maybe one year from now
+[1:13:00]if such tools are actually used in practice.
+[1:13:03]I think that there are some people out there that unless they really see
+[1:13:06]some patients being treated by these AI systems,
+[1:13:09]they're not going to believe their efficiency and their efficacy.
+[1:13:12]But I believe that sooner or later,
+[1:13:15]we will see some of these tools being used in medical practice,
+[1:13:18]as some people never believe that we are going to have autonomous cars,
+[1:13:23]and now we are seeing those on our streets.
+[1:13:25]These things will also come into existence.
+[1:13:27]Yeah.
+[1:13:28]All right. Moin, let's go forward.
+[1:13:31]I have a couple of things to share,
+[1:13:32]but do you want to shift gears and maybe you share something,
+[1:13:36]or do you want to go ahead and share something?
+[1:13:38]To be honest, because of the problem of the webcam sharing,
+[1:13:42]I prefer that you share the screens on the cases that we now shared material.
+[1:13:48]I was thinking maybe it's a good time to just mention the MedR&R
+[1:13:52]that we both have on our list.
+[1:13:54]Exactly, that's what I was going to say.
+[1:13:57]Let's go through that.
+[1:13:58]I have that one to share,
+[1:14:00]and another thing that I found interesting as well.
+[1:14:03]Yeah, feel free to.
+[1:14:04]Yeah, whatever you want to cover next,
+[1:14:06]but that was just one suggestion.
+[1:14:08]To be honest, and you're not taking a look at behind the scenes.
+[1:14:11]This is how I put together these articles usually.
+[1:14:14]Let's take a look at this one.
+[1:14:16]I want to find that out.
+[1:14:19]Hard truths about AI in health care.
+[1:14:21]I'm not sure if you have seen this website.
+[1:14:23]This is a nice blog post that I came about.
+[1:14:28]Very nicely done by Jan Beger.
+[1:14:31]I mean, this looks like a blog.
+[1:14:33]Yeah, I think I know him.
+[1:14:34]He usually posts kind of like summarizes important AI papers
+[1:14:41]in the field of health care.
+[1:14:42]I really like his posts on LinkedIn.
+[1:14:45]Yeah, exactly.
+[1:14:47]Nice social media presence,
+[1:14:48]but I didn't know that he has also put together this blog post.
+[1:14:51]And this is kind of interesting.
+[1:14:53]I mean, one day in the hospital when I had time,
+[1:14:56]I started to just carelessly scrolling this and see what I found.
+[1:15:00]But even though the sentences are very short,
+[1:15:03]you will probably end up thinking about some of them for an hour at least.
+[1:15:07]So, and this is a living document as he has mentioned himself.
+[1:15:10]So this is just being updated.
+[1:15:12]The last time I checked this, it was 60 facts.
+[1:15:14]Now it has become 80.
+[1:15:15]So he's keeping adding to that.
+[1:15:17]And as people see that he is going to add things.
+[1:15:19]So it just starts with very simple statements.
+[1:15:21]AI in health care isn't coming.
+[1:15:22]It's already here.
+[1:15:23]The real question, will we use it wisely or let it fail?
+[1:15:27]The era of AI pilots is over.
+[1:15:29]It's not adopt or fall behind.
+[1:15:30]So some of those, I mean, not necessarily you're going to agree
+[1:15:33]with all of the things that he's mentioned here.
+[1:15:36]But the fact that these sentences are here and some people are thinking
+[1:15:40]about these sentences is valuable.
+[1:15:42]So basically, you can also ask yourself whether or not you are going
+[1:15:45]to have an argument for or against any of these.
+[1:15:49]For example, today, AI backs up radiologists' expertise,
+[1:15:52]reinforcing their knowledge and decision making,
+[1:15:54]which we already know is true.
+[1:15:56]Many of our, at least in the US, many of the radiology centers,
+[1:16:03]many of the imaging centers or even academic centers have AI already
+[1:16:06]deployed into their PAC systems.
+[1:16:08]And AI is auto-detecting some of the abnormalities for them, at least.
+[1:16:13]And this is, for example, I found this sentence very interesting
+[1:16:16]the first time I read it.
+[1:16:17]The real AI revolution is happening in the back office.
+[1:16:20]While everyone focuses on clinical applications,
+[1:16:23]AI is quietly transforming healthcare operations.
+[1:16:26]This is very important.
+[1:16:27]I mean, we think that, and we tend to think that, I think even more
+[1:16:31]than us people who are out of the world of medicine tend to think
+[1:16:34]that medicine is all about diagnosing diseases,
+[1:16:37]coming up with a management plan and then treating patients.
+[1:16:40]It's not like that.
+[1:16:41]Behind the scene, this entire huge industry of medicine is being operated
+[1:16:46]by a lot of different operations.
+[1:16:49]That is something like, you know, how to keep the hospitals clean,
+[1:16:52]how to keep record of whatever patients that come to the hospitals,
+[1:16:56]you know, how to manage the workflow of the patients,
+[1:16:59]how to do teraging in the rooms,
+[1:17:01]things like that that are less talked about.
+[1:17:04]They are very, very important.
+[1:17:05]And I believe AI is already being applied to those as well,
+[1:17:08]even though we just have a detection by us and tend not to discuss them.
+[1:17:13]So anyway, this is...
+[1:17:14]When you were mentioning this, one other example that came to my mind
+[1:17:17]was how to optimize the distribution of human labor in medicine
+[1:17:23]into the whole country.
+[1:17:25]I mean, where to put which kind of specialties,
+[1:17:29]how the population is growing in certain areas to care about
+[1:17:33]what specialties they're going to need.
+[1:17:35]And I think these are really problems that AI is very fit to solve.
+[1:17:41]And it's not that risky to put it on the AI side.
+[1:17:47]And probably not many people are thinking about these kind of applications.
+[1:17:52]As you mentioned, everyone, when AI is mentioned in medicine,
+[1:17:56]just thinks about diagnosis and radiology and something like that.
+[1:17:59]Exactly. I agree with you.
+[1:18:01]And again, so this is a nice read for people who are interested.
+[1:18:04]And this is the statement that you just talked about.
+[1:18:06]AI doesn't need more data, it needs better data.
+[1:18:08]And I believe you probably can find a lot of the things that are talked about here.
+[1:18:14]Yeah. So this is one thing.
+[1:18:15]And now let's talk about that medRNA that I introduced earlier.
+[1:18:21]And this is a very cool website that came out.
+[1:18:25]So some of the people who are watching us might already be familiar with LLMCIS,
+[1:18:30]if I'm not wrong.
+[1:18:32]Because the name was changed to chatbot RNA, if I'm not wrong.
+[1:18:36]Something like that.
+[1:18:37]LM RNA, yeah, chatbot RNA.
+[1:18:39]Formerly LLMCIS, yeah.
+[1:18:41]So this is a website that comes out of the engineering part of the world.
+[1:18:48]And these people who are in the software engineering, developing LLMs and LMMs,
+[1:18:52]they just put together kind of a head-to-head battle between different models
+[1:18:57]in an anonymous format so that you and I can go there and just try to,
+[1:19:02]for example, ask whatever question that we have in our mind from two random models
+[1:19:08]that we don't know what they exactly are.
+[1:19:10]And then see their responses.
+[1:19:12]And then, you know, for example, tell me a joke.
+[1:19:16]And let's see what happens.
+[1:19:18]And then two models will start to generate a response for us.
+[1:19:21]And I believe this is just based on Grad.io as far as I understand.
+[1:19:24]Yeah, it really looks familiar.
+[1:19:26]Yeah, Grad.io.
+[1:19:28]So basically, you just see it here, you know, here's a classic.
+[1:19:31]Here's a classic one.
+[1:19:32]Why don't skeletons fight each other?
+[1:19:34]Because they don't have the guts.
+[1:19:36]And then here, why don't scientists trust atoms?
+[1:19:39]Because they make up everything.
+[1:19:41]I believe A was a little bit better, to be honest with you.
+[1:19:45]Yeah.
+[1:19:46]So now that I scored this, you just simply understand that, interestingly,
+[1:19:50]model B was Cloud 3.5 Sonnet, and model A is Roman Empire.
+[1:19:55]Model A was Roman Empire?
+[1:19:58]I'm not even sure what Roman Empire is.
+==== Ending of Part 8 ====
+
+==== Beginning of Part 9 ====
+[1:20:00]but apparently it does a very good job in telling you jokes, right?
+[1:20:04]So I think this is one of those kind of names that one model is being published just to see what the score is going to be
+[1:20:13]and then we find out, okay, this is the next project by OpenAI, they just didn't want to share the name.
+[1:20:19]No, you're right, you're right. So probably this is such a model that has not yet been released.
+[1:20:23]But whatever it is, I would love to see. Now keep this name in mind.
+[1:20:29]Next time you understand about Roman Empire.
+[1:20:31]It looks like some name that Elon Musk will give his models.
+[1:20:35]So I really doubt whether it's the next version of Glock.
+[1:20:39]Glock 4 maybe. But anyways, so this was the original chatbot arena or LM arena that came out
+[1:20:47]and people used to work with it. This is one of the most reliable kind of benchmarks
+[1:20:52]whenever we are ranking LLMs because it is very fair.
+[1:20:56]AI can go there and as simple as you just saw, it can rank one of these models better than the other.
+[1:21:01]And now we have the same thing in medical worlds.
+[1:21:03]So people, and I would like to find out who actually created this so that we can give them some credit.
+[1:21:10]Yeah, from Joe Lab from Stanford.
+[1:21:13]He's a really good researcher. I mean, I really like his work. James Zhao, I think.
+[1:21:21]So Dr. Zhao, very, very incredible and impactful piece of work that he and his lab did from Stanford.
+[1:21:30]And they put together something very similar to LM arena, only for the LLMs used in clinical area.
+[1:21:38]And they call that MedArena. And it is MedArena.ai. You just can't come here.
+[1:21:42]At the moment, if you want to play with this, you just need to have an MPI.
+[1:21:46]An MPI is basically a national provider identification number that physicians in the U.S. have.
+[1:21:51]I'm not sure if they have or they will have any way for physicians from other parts of the world to also take part in.
+[1:21:58]Yeah, they were opening up and I mean, there was a cool comment when they shared this MedArena on their own LinkedIn page.
+[1:22:10]Someone in the comments said, you know that MDs exist in the other parts of the world other than the U.S.
+[1:22:17]And they said, yeah, we know this and we are doing our best to make it possible for MDs from other parts of the world to take part in it.
+[1:22:25]And I think for now they are asking for a kind of like a license number or something equivalent to MPI.
+[1:22:34]And they go probably manually through them to verify them. But they are thinking about adding that.
+[1:22:40]Yeah, exactly. I hope so. I hope so. Because this is a very interesting piece of work.
+[1:22:44]And I believe these models will benefit from more people evaluating them in the long run.
+[1:22:48]And specifically if the people are from medical industries in different places of the world.
+[1:22:52]This ranking will basically become better and better in terms of addressing needs from different geographical regions.
+[1:23:01]So this is something very cool. And again, the way that it works is very similar.
+[1:23:05]So say for example, if I ask a question here, what is the best antipsychotic medication for an admitted patient with delirium and long QTc?
+[1:23:21]And so we know that these antipsychotic medications are not the best choices for people who are delirious in the hospital
+[1:23:28]and have long QTc in the hospital under EKGs because it can make things even worse.
+[1:23:33]So now let's see. Two random models are going to come up with an answer.
+[1:23:37]I am not quite sure. Based on my knowledge, once I looked this up for a real patient,
+[1:23:41]and the best answer was Quetiapine if I'm not wrong. But we can take a quick look at it.
+[1:23:47]So this one is saying that I am not a medical professional.
+[1:23:51]And this information is for general educational purposes. Always consult.
+[1:23:55]And they are going to talk about...
+[1:23:58]Could you zoom in a little bit?
+[1:24:01]Yeah, yeah, yeah. Thanks for the reminder. Let's zoom in.
+[1:24:04]So I'm first reading Model B because Model A apparently answered the answer that I like more.
+[1:24:10]I just want to see what Model B is saying.
+[1:24:12]So it starts by saying that don't rely on my recommendation, which is a good starting thing.
+[1:24:19]And then it says that the usual go-to antipsychotics,
+[1:24:24]while every antipsychotic carries some degree of QT prolongation risk, which is a true statement.
+[1:24:29]One of the agents considered to have among the lowest impact on the QT interval is Aripreprazole.
+[1:24:34]To be honest, I've never used inpatient for any patient,
+[1:24:37]but maybe lower propensity for QT prolongation than many atypical.
+[1:24:43]And then some explanations, important considerations in practice.
+[1:24:47]All right. The very first thing that I really wanted to see here was citing some references that I'm not seeing.
+[1:24:53]Now let's go to this one. This one is saying that it's Quetiapine.
+[1:24:57]And I honestly am more in agreement with this with my very limited medical knowledge at this point,
+[1:25:02]but I prefer Quetiapine to other ones.
+[1:25:07]And then here are the key points from the studies.
+[1:25:09]And this one is actually citing some references for me.
+[1:25:13]Let's just open one of them, make sure that this is not a hallucination.
+[1:25:17]There we go. Comparisons of antipsychotics for the treatments of patients with delirium and QTC interval prolongation.
+[1:25:23]A clinical decision analysis.
+[1:25:25]This is exactly the kind of paper that I needed for answering this question.
+[1:25:29]So for me, the winner of this head-to-head battle is very clear.
+[1:25:33]It's definitely model A. It is using references.
+[1:25:36]It is giving me the answer that I have already heard about, and I know that it's going to be the good choice.
+[1:25:43]So this medication usually goes with the name Zyprexa in the hospitals,
+[1:25:48]and we usually order that for the patients who become delirious and have long QTC.
+[1:25:52]And then we can go ahead and continue the conversation.
+[1:25:56]Or we can just, as we did with the LM-RNA, just say that I prefer model A.
+[1:26:02]And when we do so, we understand that, look at this one, model B is OpenAI-01,
+[1:26:09]which is basically their best reasoner model that actually gave me an answer that looks like to be wrong,
+[1:26:15]and it's not citing any references.
+[1:26:17]Model A is perplexity based on Lama 3.1, even not the Lama 3.2, small or large.
+[1:26:25]So, I mean, perplexity, meaning this small battle that we had here,
+[1:26:32]and it shows to me that, I'm not jumping to conclusions based on one comparison,
+[1:26:36]but I think that for such questions, perplexity is going to be better than just asking chatGPT what to do and what not to do.
+[1:26:44]Yeah, I think those kinds of models that can search internet and look for the guidelines
+[1:26:52]or the latest research in the field are going to be much more suited for questions in the medical domain,
+[1:27:00]because everything is changing very fast.
+[1:27:03]And these guidelines may not be available in the weights of the model very easily,
+[1:27:09]probably buried with lots of other information that will make it difficult for the model to differentiate
+[1:27:16]which source of information was in the guidelines and which weren't.
+[1:27:20]But most of them are available online, so if the model has access to the internet and can search,
+[1:27:25]I think that would be much more reliable.
+[1:27:27]I agree, I totally agree with you.
+[1:27:29]And then let's just take a look at their leaderboard and see what models are standing on top.
+[1:27:33]So, interesting, I didn't know this.
+[1:27:36]Interestingly, the best model so far is Gemini 2 FlashThinking,
+[1:27:41]which, if I'm not wrong, is the same model behind the AIME AI system we just talked about.
+[1:27:48]I'm not sure if they are using the Thinking version of Gemini 2,
+[1:27:51]but I believe they were using Gemini 2.
+[1:27:53]Amoyan, correct me if I'm wrong.
+[1:27:55]Yeah, again, I'm not sure for the Thinking part,
+[1:27:58]but yeah, this is the latest version of the Gemini family model,
+[1:28:05]and it was basically the thing that is powering AIME.
+[1:28:08]Yeah, and very, very nice that we see that on top.
+[1:28:11]And then we have GPT-40, and then O3 Mini is on rank 5.
+[1:28:16]And again, very interesting, Gemini 2 Flash is better than the Reasoner model from OpenAI on doing things.
+[1:28:24]I am now becoming more and more a fan of Gemini, to be honest with you.
+[1:28:28]Even on simple use cases, when you are just using API,
+[1:28:33]my recent codings were mostly based on Gemini, and it's doing a great job.
+[1:28:38]The API is good.
+[1:28:39]Even you can just use it with OpenAI-like APIs,
+[1:28:42]and now you see that on these rankings, it's also two of the Gemini models are in 1-4,
+[1:28:48]and they are outrunning the O3 model from OpenAI.
+[1:28:52]And the interesting thing is that I'm not sure if other LLMs were included in the whole competition here,
+[1:29:02]but you don't see any specifically medical LLM here.
+[1:29:08]All of them are general LLMs that are answering medical questions on the side,
+[1:29:14]but some of the fine-tuned versions of these LLMs that are published for the medical domain,
+[1:29:22]they aren't listed here.
+[1:29:24]It would be cool if they are included.
+[1:29:26]Maybe they are included and they're losing. I'm not sure.
+[1:29:28]So I don't think so, because if you scroll down,
+[1:29:31]they have this head-to-head comparison of every single model in their RNI against each other,
+[1:29:37]and I believe that the only models that they have included are these nine models that we are seeing here.
+[1:29:43]So maybe in the future they add more models.
+[1:29:47]To be honest with you, I think that part of the story is also the copyright issues that such models usually have,
+[1:29:52]because very few of those models, as far as I understand, are available as kind of...
+==== Ending of Part 9 ====
+
+==== Beginning of Part 10 ====
+[1:30:00]of open source on github or maybe somewhere to use and if they are
+[1:30:03]maybe the copyright does not permit that and even if the copyright works
+[1:30:07]maybe those models are not yet prepared for
+[1:30:10]whatever question answering general question answering in all fields of
+[1:30:14]medicine that might be the reason but i would be
+[1:30:17]happy to see some of those models here as well as you said so
+[1:30:20]again very cool very cool website and i believe we need to
+[1:30:24]advocate using github as much as possible
+[1:30:27]another interesting thing that i found in this leaderboard that
+[1:30:31]makes my previous claim kind of wrong is that
+[1:30:35]the first model is not it doesn't support rag
+[1:30:39]so it's just answering questions based on whatever knowledge it has
+[1:30:42]and this is crazy that it knows this much about medicine
+[1:30:47]so that that makes me think that maybe it is because the very large context
+[1:30:52]window that gemini 2 has let's see let's see if we can find any
+[1:30:55]comparison of the llm context window comparison i think that we
+[1:31:02]should see some sort of yeah but i think most of the questions
+[1:31:06]people will ask in this scenario will not
+[1:31:09]occupy lots of input context no i believe that because it's
+[1:31:14]so maybe they are using that with rag it's not it's not so gemini do you say
+[1:31:20]that gemini 2 flash cannot do rag uh in this uh if you go back to med
+[1:31:24]rnr uh they use the icon of these those
+[1:31:28]books on the book pile for the models that
+[1:31:30]support right and this doesn't have that
+[1:31:33]the perplexity model of course that uh have supports right because it's such
+[1:31:37]uh internet and then augments the whole thing
+[1:31:40]um with the results uh and gemini 2 flash
+[1:31:44]itself supports rag but the thinking version
+[1:31:47]as we have seen this with the deep seek r1
+[1:31:51]they the reasoning ones don't support rag in their raw form i agree now i
+[1:31:57]understand what you say though i think that what they probably
+[1:32:01]meant here is that if you want to upload an image or maybe upload some
+[1:32:05]references and test the models grounded in those uh then for that
+[1:32:10]sake you should be careful of which models you are playing with um
+[1:32:14]yeah that could be another explanation of what they mean by these but
+[1:32:18]yeah i'm not sure which it's still true yeah very interesting very interesting
+[1:32:22]regardless of how gemini did that the fact that among a lot of battles
+[1:32:27]136 battles 136 battles there are still
+[1:32:31]uh a top there makes me very amazed that there were
+[1:32:35]all right so uh this is mid rnr what else do you want to talk about
+[1:32:41]um i'm okay with whatever direction you take it on
+[1:32:45]uh let me see what i have
+[1:32:50]yeah there is the large language diffusion models
+[1:32:55]in the um topics that we are uh talking about
+[1:33:00]and there you there will be the uh tools from the product hunt
+[1:33:05]uh that i wanted to cover which is again another
+[1:33:09]whole uh different thing maybe just a quick mention of a paper and
+[1:33:15]an article on the medical part and then i
+[1:33:19]the rest of my list are just technical things
+[1:33:22]not too much relevant on the medicine okay so feel free to go ahead
+[1:33:28]okay so i start with this one
+[1:33:35]uh i think you can see this again from the
+[1:33:44]sub stack of eryctopo uh and i really quickly
+[1:33:48]covered this because my knowledge of this space is really limited but i think
+[1:33:54]it's another important area that you're going to
+[1:33:56]um see more from in the uh in the next few months probably and the first
+[1:34:03]diagnostic immunum and this is uh related uh scientists
+[1:34:08]going to um sequencing and let me
+[1:34:12]cover here uh yeah uh they go and sequenced uh the heavy chain
+[1:34:20]of the b cells uh on on which is one of the receptors
+[1:34:25]and also the beta chain of the t cells and these receptors are built in these
+[1:34:31]cells based on what antigens the patient is exposed to
+[1:34:36]or what disease they have and the theory was here that okay
+[1:34:40]loss of information is encoded in the sequence of these
+[1:34:44]receptors of the immune cells of patients
+[1:34:49]why not we gather a big data set of these sequences and train a generative
+[1:34:55]model on these sequences and then try to
+[1:34:59]use these generative models to classify basically based on the new unseen
+[1:35:06]blood samples of new patients to see what diseases they have based on
+[1:35:11]i mean those generative models had access to
+[1:35:14]what diseases those patients in the training data set had
+[1:35:17]and what sequences these receptors
+[1:35:24]had so they find a kind of a pattern among
+[1:35:29]the sequences and the diseases so this knowledge could be used on unseen cases
+[1:35:34]to go from the receptor sequence to what
+[1:35:38]the disease they have so the promise here is to just take a blood
+[1:35:41]sample from a patient and based on the sequences in the immune
+[1:35:45]cells or in combination with other features like
+[1:35:49]some other proteins in the blood sample and lots of other
+[1:35:54]clinical features come up with a more accurate diagnosis and this is
+[1:35:59]in the space of the proteomics and immunomics
+[1:36:03]this omics kind of like world that you gather
+[1:36:08]whatever data you can from the patients and then
+[1:36:11]you come up with the more personalized and more accurate diagnosis
+[1:36:15]for that patient so it was new to me that
+[1:36:18]this sort of information from the immune cells
+[1:36:22]is going to be used again with AI to help with the diagnosis
+[1:36:27]and based on the paper let me share the blog post by Nature as well on this
+[1:36:33]topic
+[1:36:36]this was the first work that was done on the successful
+[1:36:43]use of immunome to diagnose diseases and it was done for
+[1:36:51]autoimmune diseases like lupus which are very difficult to diagnose
+[1:36:55]and the criteria for the diagnosis is changing every
+[1:36:59]few years as you've seen in the textbooks and
+[1:37:03]Nature had an article AI tool diagnosis diabetes HIV and COVID from a
+[1:37:07]blood sample and the one-shot approach that uses
+[1:37:10]machine learning to screen immune cells could help to detect
+[1:37:13]conditions with overlapping symptoms and I think with what
+[1:37:19]AlphaFold is doing on proteins and with what
+[1:37:23]these teams are doing with these receptors of immune cells
+[1:37:28]we are going to have lots of and lots and lots more information about each
+[1:37:32]patient in the future and these will really make help
+[1:37:37]make more accurate diagnosis for the patients based on just probably simple
+[1:37:41]blood samples and yeah this was something that I just
+[1:37:44]wanted to mention in this episode but I've not
+[1:37:50]dug deep into how the model is trained and I think it wasn't
+[1:37:56]that detailed in the paper as well so this was one thing and then the rest
+[1:38:03]of the things on my list are non-medical things so if you
+[1:38:07]have anything else you want to cover first
+[1:38:10]feel free to share first of all this was very interesting I really like the idea
+[1:38:14]of taking a look at into immunological cells and then looking at the receptor
+[1:38:18]proteins which is something that you know
+[1:38:21]but will not immediately come to mind but you know if again if you have an
+[1:38:25]interdisciplinary knowledge you might find very interesting niche
+[1:38:30]areas of science to work on and back to our very
+[1:38:33]very first conversation on this episode that
+[1:38:36]you know there are going to be lots of new opportunities for people who are
+[1:38:41]still interested to remain in science I mean
+[1:38:43]who thought that one day we can just come up and
+[1:38:47]basically look at immunological cells like these and then apply
+[1:38:51]AI on that to come up with some diagnosis and a lot of cool other things
+[1:38:54]could also happen in future thank you for sharing I have two things
+[1:38:58]that might kind of shift us
+[1:39:03]I mean help us shift gear from medical world to voluntary engineering world
+[1:39:07]both very futuristic kind of studies
+[1:39:11]that I would like to share with you let me open those
+[1:39:15]and share my screen with you both of those actually raised a lot of
+[1:39:22]attention I am going to first
+[1:39:27]go to this one so let me share sure and then we are here
+[1:39:34]hopefully you're seeing my screen now
+[1:39:39]all right so this is the first paper towards an AI
+[1:39:43]co-scientist came out on February 26th
+[1:39:47]and this is from Google and Stanford and I bring from Imperial
+[1:39:53]College so multi-institute kind of work and with
+[1:39:57]lots of co-authors as you can see
+==== Ending of Part 10 ====
+
+==== Beginning of Part 11 ====
+[1:40:00]And they did a phenomenal job.
+[1:40:01]I mean, this is not the first time that we are covering an AI system to help with the research.
+[1:40:06]I believe that we've once talked about a kind of simulating...
+[1:40:10]Virtual lab idea kind of thing.
+[1:40:12]Exactly. Virtual lab with some agents trying to mimic the entire processes that happen in a lab.
+[1:40:19]This paper is basically just focusing on the first part of any research, which is to come up with...
+[1:40:26]I mean, worthy proposals, or maybe a worthful kind of hypothesis to work on.
+[1:40:34]So they are not going to do an entire research using AI.
+[1:40:37]They are basically putting together a multi-agentic AI framework to just look at the literature,
+[1:40:43]maybe receive some feedback from the human user to understand what field they're interested to work on,
+[1:40:48]or what is the problem that they are mostly interested in.
+[1:40:52]And then they come up with some proposals and hypotheses for them to work on.
+[1:40:57]And this is a very interesting paper,
+[1:41:00]not only for the sake of the multi-agentic AI framework they propose that we're going to talk about,
+[1:41:06]but because they basically tested their protocol,
+[1:41:10]tested the system on three different problems, three different real problems.
+[1:41:14]And then they kind of tried to validate the proposals that the model came up with,
+[1:41:20]or the AI system came up with.
+[1:41:22]And it created a lot of hype around how AI is going to revolutionize research,
+[1:41:27]because some of the hypotheses were so cool and state-of-the-art,
+[1:41:31]that even the actual experts who are working in the field were kind of amazed
+[1:41:36]that how this AI system could basically come up with those proposals
+[1:41:39]in as short as maybe a couple of hours, or I believe the longest one was two days only.
+[1:41:45]So this is a very cool work.
+[1:41:46]So let's take a look at the way that they are doing this.
+[1:41:49]And again, if you look at the entire framework, it's not that complicated.
+[1:41:54]Something that you can easily do, I mean,
+[1:41:58]easily might be too much of an oversimplification or underestimation of their work,
+[1:42:02]but basically not that challenging to do with now all these agentic frameworks that we have.
+[1:42:07]So here's the human scientist.
+[1:42:08]The human scientist interacts with the system by specifying a research goal in the natural language.
+[1:42:15]And then they can also suggest their own ideas and proposals,
+[1:42:19]provide feedback and reviews,
+[1:42:20]and interact via a chat interface to guide the co-scientist system.
+[1:42:24]So exactly, you are just dealing with an intern.
+[1:42:27]Imagine, but this is just a PhD-level intern,
+[1:42:30]somehow a body of someone who knows a lot.
+[1:42:33]So the scientific inputs could be something like that.
+[1:42:35]Scientific describes a research goal along with preferences,
+[1:42:38]experiment constraints, and other attributes.
+[1:42:40]And then from that point onwards, something happens.
+[1:42:45]So first of all, the first agent is going to receive this kind of research goal and
+[1:42:51]some configuration and go through the literature
+[1:42:55]and figure out what is happening in the world that the scientist is interested in.
+[1:42:58]So it basically is a literature review agent that
+[1:43:01]digs all the possible literature that they can access using regular search.
+[1:43:08]Then whatever they find comes to a reflection agent,
+[1:43:12]and the reflection agent is going to just reflect on whatever things that we found,
+[1:43:16]trying to write full review,
+[1:43:18]trying to somehow simulate a review.
+[1:43:20]And they even have something that they call a tournament review,
+[1:43:23]which is very interesting.
+[1:43:25]And tournament review is basically a kind of competition between different hypotheses or proposals.
+[1:43:30]So imagine that this AI agent is coming up with five different proposals,
+[1:43:33]and now they are putting together a contest
+[1:43:37]in which these different proposals are going to be challenged against each other,
+[1:43:41]are going to be tested against each other.
+[1:43:42]And who is going to test that?
+[1:43:44]Again, another agent that is now going to take care of
+[1:43:48]just comparing these hypotheses towards each other and, you know,
+[1:43:51]ranking them from the best to the worst.
+[1:43:53]And then afterwards, this is a loop itself,
+[1:43:56]so it can go on and on unless, you know,
+[1:43:58]we are kind of satisfied with the proposals that we have.
+[1:44:02]And then another agent named evolution agent is going to
+[1:44:06]make them a little bit simplified, you know,
+[1:44:10]make sure that parts of those that could be inspired from
+[1:44:13]already developed ideas or already mature ideas are actually changed as necessary.
+[1:44:18]And then the research is extended.
+[1:44:22]So basically, this makes the proposal a little bit more mature.
+[1:44:24]And then finally, the proximity agent,
+[1:44:27]to be honest with you, I'm not quite sure what this one is doing here,
+[1:44:29]but I believe the meta review agent is going to finally put together
+[1:44:33]in the format of a proposal.
+[1:44:35]And these proposals are going to be shown to the user.
+[1:44:38]The user can obviously provide feedback,
+[1:44:40]and this loop goes on and on.
+[1:44:42]And whenever the user is satisfied,
+[1:44:44]basically, they are going to have the proposals.
+[1:44:47]And there is obviously, these are agents,
+[1:44:49]so they have access to memory,
+[1:44:50]they have access to some tools to use.
+[1:44:52]The first obvious tool is a search tool.
+[1:44:54]They can search the internet,
+[1:44:56]and they can come up with additional tools as needed.
+[1:44:58]And this is how the system works.
+[1:45:00]And now, the three systems that they've worked on,
+[1:45:03]which is basically this second,
+[1:45:07]I'm not sure if you've seen this part,
+[1:45:09]this second part is talking about those three different experiments.
+[1:45:14]So this is three different cases studies, better to say.
+[1:45:18]The first one is on drug repurposing for acute myeloid leukemia, or AML.
+[1:45:25]So they said that let's use this system to see
+[1:45:28]if we can put together some new medications to treat AML.
+[1:45:32]And this was the prompt.
+[1:45:34]As short as you can see on the screen,
+[1:45:36]suggest an existing drug that could be repurposed
+[1:45:38]for acute myeloid leukemia treatment
+[1:45:40]and provide experimentally testable concentrations
+[1:45:43]for an IC50 assay, which is an immunologic assay, apparently.
+[1:45:47]The drug should inhibit the proliferation of AML cell lines,
+[1:45:50]particularly this specific cell line that I'm not familiar with,
+[1:45:54]this one of the cell lines within AML.
+[1:45:57]And with preclinical evidence,
+[1:45:59]and so this is the AI co-scientist generates predictions
+[1:46:02]for AML drug repurposing,
+[1:46:03]scientists review and select candidates for in vitro experiments.
+[1:46:06]This is the interesting part of that.
+[1:46:08]So they took some of those medications
+[1:46:10]and they went to the lab, to the wet lab,
+[1:46:11]to create those and see how they do.
+[1:46:14]So some of the medications that were repurposed,
+[1:46:16]or basically AI proposed that this could have some benefits here,
+[1:46:19]where Binimetinib or Pacritinib,
+[1:46:22]some of those immunologic medications.
+[1:46:25]And then they went to the lab and in vitro experiments
+[1:46:28]show that the proposed co-scientists drug repurposing candidates
+[1:46:31]inhibit tumor activity in AML cell lines,
+[1:46:34]which is kind of interesting.
+[1:46:35]So let me just quickly scroll down
+[1:46:37]and see if I can find a better kind of figure
+[1:46:42]for this one to share with you,
+[1:46:43]because this is a very long paper, by the way,
+[1:46:45]this is about 80 pages.
+[1:46:47]Yeah, and they evaluate everything very, very nicely.
+[1:46:51]To be honest with you, I'm a little bit,
+[1:46:54]I want to be a little bit naughty here and say that,
+[1:46:55]you know, nowadays I'm a little bit pessimistic
+[1:46:59]about how much of this very, very long articles
+[1:47:02]are written by human.
+[1:47:03]But this is a very solid work.
+[1:47:04]So I'm pretty much sure that even if it is part of that,
+[1:47:06]it's AI generated,
+[1:47:07]everybody has gone through it to review that.
+[1:47:10]But let's come here.
+[1:47:12]This is one of the results figures for that first task.
+[1:47:17]No, sorry, it should be here.
+[1:47:18]Oh, yeah, I think this is it.
+[1:47:22]This one or the previous one, I guess, maybe this one.
+[1:47:25]Yeah, so yeah, this is the one.
+[1:47:27]So they are basically showing how these three medications
+[1:47:30]that the AI agent proposed
+[1:47:32]are reducing the concentration of those cells
+[1:47:35]within the in vivo environment,
+[1:47:37]so in vitro environment.
+[1:47:38]So basically you see that, you know,
+[1:47:40]as we increase the concentration, I believe,
+[1:47:44]so this is a dose response curve.
+[1:47:46]So those three medications inhibit MOL-M13 cell viability.
+[1:47:51]X-axis is the drug concentration.
+[1:47:53]So this is the drug concentration.
+[1:47:55]And then, and Y-axis is normalized cell viability.
+[1:48:00]So definitely if a medication is more effective,
+[1:48:04]then the viability of the cells should be lower
+[1:48:06]as the concentration of the medication increases.
+[1:48:08]And it seems that some of these medications,
+[1:48:10]specifically this one, Binimetinib,
+[1:48:12]is going to be super effective against that.
+[1:48:15]This was one task.
+[1:48:16]And let's also look at another task.
+[1:48:19]And this is also interesting.
+[1:48:22]So again, they are looking at another
+[1:48:25]kind of big challenges in medicine,
+[1:48:28]GI, basically the concept of liver fibrosis.
+[1:48:31]And they are saying to,
+[1:48:32]let's look for novel treatment targets for liver fibrosis.
+[1:48:36]So propose a novel hypothesis
+[1:48:38]about the specific epigenetic alterations
+[1:48:40]contributing to myofibroblast formation in liver fibrosis.
+[1:48:45]Okay.
+[1:48:45]So they're looking for what is causing that fibrosis.
+[1:48:48]The AI co-scientist identifies three novel epigenetic targets.
+[1:48:53]Now, in vitro experiments show that the drugs
+[1:48:56]based on co-scientists suggested epigenetic targets
+[1:48:58]reduce the fibrogenesis in human hepatic organoids.
+[1:49:01]So what they are saying here is that
+[1:49:03]the AI co-scientists actually proposed a few antigens,
+[1:49:09]let's simplify that,
+[1:49:10]that if targeted by appropriate medications
+[1:49:12]could reduce the amount of fibrosis within the liver.
+[1:49:16]And they actually went to the vet lab,
+[1:49:17]developed those medications,
+[1:49:20]and then checked it out on liver cells in vitro
+[1:49:24]and saw that actually those medications
+[1:49:27]reduced the amount of fibrosis within the liver cells,
+[1:49:31]which is really cool, right?
+[1:49:33]You know, you just give two hours
+[1:49:35]or maybe a few hours at most two days to an AI system
+[1:49:39]that is just working with a couple of agents
+[1:49:41]and entire internet search to do.
+[1:49:44]And then it comes back to you
+[1:49:45]and gives you some proposals, hypothesis,
+[1:49:48]that is not just something that you and I can think of,
+[1:49:51]even if you were experts in that field in a second.
+[1:49:53]This is very, very, very well taught.
+[1:49:56]And now if you actually go and test those,
+[1:49:58]they are very likely to be...
+==== Ending of Part 11 ====
+
+==== Beginning of Part 12 ====
+[1:50:00]valleys. And again, I unfortunately don't remember what a specific problem this
+[1:50:06]story happened about, but one of the main scientists working in the field actually
+[1:50:12]claimed that, I mean, they were so amazed that they just wrote to Google and asked
+[1:50:15]them, hey, did you by any chance have access to years of heart, years of
+[1:50:20]information and data that I had saved on my personal hard drives? Because the
+[1:50:25]results that you came into overnight, but something that I found after I figured
+[1:50:30]after years of research, and I have not yet published those, they are just on my
+[1:50:34]laptop. And I don't, I'm pretty much sure that nobody has access to that. But this
+[1:50:38]actually, this system actually came up. So very, very fascinating work.
+[1:50:44]I mean, yeah, this is mind blowing. And it reminded me of a recent, I mean, I
+[1:50:51]think it was published probably in the previous year. But it was the discovery
+[1:50:58]of a new family of antibiotics. After, I think, 40 years, I think, we haven't had
+[1:51:06]lots of discoveries in the antibiotics. Before this new discovery by AI, that
+[1:51:14]exactly it was like AI was used to propose new chemicals that are easy to build in the
+[1:51:23]lab, and they are able to kill bacteria or suppress their growth. And it was, I
+[1:51:33]mean, this task was something that would take probably millions of dollars by these
+[1:51:39]pharmacy companies to research on. And one model with a large pool of chemical
+[1:51:48]proposed chemicals was able to reduce their pool of viable structures to build in the
+[1:51:55]lab into, I think, 20 or something. So the researchers only needed to experiment with
+[1:52:02]those few structures. And then they found one of them that was easy to build, was stable in
+[1:52:08]the human body, and it wasn't that harmful to the other human, to the human cells. And it
+[1:52:14]was able to kill those resistance bacteria. And I think these are things that we are
+[1:52:22]already seeing the effect of AI into discovering new knowledge. And I think this line
+[1:52:28]of research where AI is used to amplify the literature, the scientific literature, is the
+[1:52:35]kind of the highest level of AI usage that will lead to the explosion of knowledge, as they
+[1:52:43]say, and to the singularity that basically you don't know what will happen after AI is
+[1:52:50]going to be able to generate new knowledge that was not before known. Because in the
+[1:52:56]other cases, okay, AI is probably diagnosing something, I mean, the case of medicine, that
+[1:53:03]even you put lots of human effort into, people could also come up with the same results.
+[1:53:12]But coming up with the new knowledge that is going to be discovered, and then automating
+[1:53:17]this process and scaling it is something that you don't know where it's going to end. And
+[1:53:23]it is the one of the most interesting results of these advances in the LLMs and AI picture.
+[1:53:32]I agree. I agree. I mean, lots of mind blowing stuff happening. And I think that as we go
+[1:53:36]forward, more of these things will come into real practice. I would say that research is
+[1:53:41]an area that we have less obstacles for seeing AI entering into. So compared to clinical
+[1:53:48]research, where you have less regulations to deal with. So if an AI agent works like
+[1:53:54]this, or, you know, a little bit simpler than these, all those deep research agents that
+[1:53:59]nowadays are very common, since one month ago. So I believe that the research labs are
+[1:54:05]going to become very, very much more productive. And this is just a transient phase until we
+[1:54:12]see some agents or some AI systems that are fully automated. So they even don't need any
+[1:54:16]human in the loop to generate new science. And then that would be more interesting phase
+[1:54:22]of research that might be that we might see in the future years. But at least for now, a
+[1:54:27]lot of AI copilots to help with research. And maybe Moin, just very quickly, let's talk
+[1:54:32]about so far, we have talked about how AI has actually helped biology and medicine. And
+[1:54:37]now let's talk a little bit about how biology can help AI. And this was something that I
+[1:54:42]saw two days ago, I don't think that the entire idea is very new. I saw some papers from
+[1:54:47]2022 to 2024. But something that caught my eyes recently, was the release of a product
+[1:54:57]that was named CL1. Let me Google it again, because I think this paper that I came up
+[1:55:03]with, yeah, from Cortical Labs. And so this is a company that produces devices like this,
+[1:55:11]which is very interesting, because it's basically just using real biologic neurons for computing.
+[1:55:19]And this basically is a computer case. But within that, instead of having mother birds or
+[1:55:25]chips or things like that, I mean, we do have some chips, obviously, but the core is going to be
+[1:55:30]just a very well controlled culture of human or other animal brain neurons. So and those neurons
+[1:55:40]are going to take care of all the computations. Now, obviously, this is a very, very primitive
+[1:55:45]idea. But if you just scroll down, I believe I saw it here. But if not, I can go back to the
+[1:55:50]previous paper and show that to you. Maybe they also have it here. Yeah, they're going to disrupt
+[1:55:56]the NVIDIA's kind of like a structure. I do think that if one thing, if one phenomenon can put an
+[1:56:03]end to this, NVIDIA's dominance in the world of processors are startups like this that try to
+[1:56:10]disrupt the entire paradigm of processors as a whole. And NVIDIA is also probably having an eye
+[1:56:19]on this. And they might even come and buy some of these startups before they become too dangerous
+[1:56:23]for them. But at least the current idea of processors might change, not in the very far
+[1:56:30]future. And this is the figure that I just wanted to share with you. So what you see here is
+[1:56:35]actually a very nice representation, a schematic representation of the processor. And you see that
+[1:56:44]this is a very nice controlled closed loop system. You have a chip here and you see some real
+[1:56:53]biological neurons growing on that. And then you have a sensory region and an output region. And
+[1:56:59]these are basically just chips, perceptory chips, I mean computer-like chips that are there.
+[1:57:07]And then what they achieved to do was that by just providing this system with some examples
+[1:57:14]that reminded me of reinforcement learning, but I'm not quite sure if it is reinforcement
+[1:57:18]learning or something else. But basically by just showing this system some imaging or some
+[1:57:25]intuitions of a Pong game, they came up with a system that could play that game.
+[1:57:30]And this is very interesting because now the brain behind the system is not any artificial
+[1:57:36]neurons on our NVIDIA chips, but it's basically just real biological neurons that are like your
+[1:57:43]brain, your brain, and my brain, and they're just doing this. This basically means that now we can
+[1:57:48]come up with very nice interactions between biological processors and actual, I mean,
+[1:57:54]traditional electronic processors. And this is interesting. This could revolutionize everything.
+[1:58:01]And I believe if nothing else, it can at least, you know, help a lot with the cost of those
+[1:58:07]electronic processors. Because not to say that these biological ones are cheap to develop and
+[1:58:13]grow, but I believe in the long term, these are going to be much more accessible and much easier
+[1:58:18]to regenerate and, you know, grow compared to the ones that are electronic. So very mind-blowing
+[1:58:23]piece of research. And again, that, you know, lab that we called, talked about, Cortical Labs,
+[1:58:30]it seems that that company is doing a lot of things in this field. There are multiple research
+[1:58:34]papers already released by them. If you're interested, you can go and take a look at that.
+[1:58:38]And then the sealed one is actually now for sale. I'm not sure how much they're going to sell it for.
+[1:58:44]Yeah, they have not put any actual price here, but no, maybe if you are wealthy enough, go ahead
+[1:58:49]and buy one of these and see if you can play a game on it. And if you did, let us know as well.
+[1:58:54]Yeah. And one thing that has really blew my mind here, and I'm still thinking about, is how they
+[1:59:02]were able to kind of convey the information from the game, probably some pixels or maybe some
+[1:59:10]inputs, some digital inputs to these cells. What was that interface? I mean, we are seeing this
+[1:59:18]sort of silicon interface with the natural kind of neurons with what Neuralink, for example,
+[1:59:28]is doing. But I've always been curious about how those signals from the digital world is going or
+[1:59:35]directed into these biologic neurons and how they know to direct these signals in an appropriate way
+[1:59:46]and how they train those cells. I mean, yeah, on a technological level, I think this is a
+[1:59:53]great advancement and lots of potential is there to do more complicated.
+==== Ending of Part 12 ====
+
+==== Beginning of Part 13 ====
+[2:00:00]things in there.
+[2:00:01]Definitely.
+[2:00:02]I mean, to be honest with you, I did try to read the last paper, this one, and try to
+[2:00:06]understand it, but I failed.
+[2:00:08]It's very complicated, and it needs some level of biological understanding and chemical science
+[2:00:13]understanding, but they have released so many papers, so I believe that, you know, if we
+[2:00:20]can just go through them, maybe we can learn the tricks behind this, and probably some
+[2:00:23]people are interested in the field, but very mind-blowing research, and I guess this is
+[2:00:28]going to be another trend like quantum computing that is coming up.
+[2:00:33]Now we might also see this biological computing to be another trend following that.
+[2:00:39]Not maybe very soon, but these systems are evolving, and, you know, now that we just
+[2:00:44]see the first version that could be purchased, who knows, maybe in one year, two years, three
+[2:00:48]years, we see now more and more powerful versions of those as well.
+[2:00:52]Exactly.
+[2:00:53]And I'm also thinking about how this similar technology could be used in the other way
+[2:00:58]to augment our own brains with AI instead of augmenting digital world with biological
+[2:01:05]neurons, and this is the area that really excites me about the future, to augment our
+[2:01:11]consciousness with AI or with computers, basically, in a way that we have a way to convey our
+[2:01:19]thoughts, our feelings into machines in a very efficient way, not just with words.
+[2:01:25]I mean, imagine, I think we covered this in the previous episode as well, to just be able to
+[2:01:34]talk to computers in a much more efficient way than just words, or look at it in this way,
+[2:01:41]instead of just training models on the purpose of words that are generated by humans,
+[2:01:48]training them on the neural activity of humans that then gets translated into words by our brain.
+[2:01:57]But, you know, if you trained on the raw signals of the neurons before they're translated into
+[2:02:05]words by our brain, I mean, that would be a much more detailed data sets to train
+[2:02:13]models on, and I think lots of more intricate relationships will be found in that sort of data set.
+[2:02:20]I think that is a really exciting line of research that will be soon, I think,
+[2:02:27]available probably in the next few years. That's the first step towards a cyberpunk kind of world.
+[2:02:34]I mean, we are just moving to cyberpunk, and I'm very happy because I do like cyberpunk 27.7 game,
+[2:02:40]so I really hope that by the time that I'm gonna leave, I see something like that happening in this world.
+[2:02:45]Anyways, these are very futuristic kind of works, and then I don't have anything
+[2:02:52]else apart from some tools and resources to share, so I guess this is also the kind of case
+[2:02:57]with you as well, so feel free to share your screen, and let's go ahead and maybe do a last round of...
+[2:03:03]Yeah, sure, and okay, let me bring up the Product Hunt list here.
+[2:03:20]Okay, at the end of each year, Product Hunt, which is a website that the new tools
+[2:03:28]in technology, not just AI, is introduced by its developers and are voted and ranked by the
+[2:03:38]users in the community. At the end of each year, Product Hunt kind of like
+[2:03:44]gathers a list of the winners based on the people's votes, and it's called the Golden Kitty Awards,
+[2:03:50]and these are for the 2024, so we know lots of new and mostly AI-powered tools were introduced
+[2:03:57]in 2024, at least a lot of focus was on AI. There are other tools that are not AI-focused
+[2:04:05]or not AI-first in this list, but as you can see, the winner is Cursor, so this is the winner
+[2:04:12]of all the categories, and it is Cursor, the AI code editor, and you can probably guess what
+[2:04:19]impact it had on the developer communities that basically most of the people voting for
+[2:04:26]these products are developers, so if developers picked this, they had probably a really good
+[2:04:31]experience using this tool, and it's going to be probably the future of maybe development,
+[2:04:37]at least on the indie or independent developers. Maybe it takes some time for companies to take
+[2:04:44]on this Cursor AI tool as a companion to their developer teams, but for independent developers,
+[2:04:53]this will be a great help, and I think we covered this in the previous section as well,
+[2:05:00]and the runner-ups were Superbase, which is a really cool tool that I just found out from this
+[2:05:06]list, but it has long been around, I just hadn't heard about it before, and the OpenAI Award.
+[2:05:15]I'm going to cover this in here. Superbase is basically a service, is backend as a service,
+[2:05:24]so it provides tools for making very efficient and scalable backends, like the services that
+[2:05:33]you need for database services, need for authentication of the users when they want
+[2:05:38]to register to your website, or some of these serverless features as a service, basically,
+[2:05:47]so you don't need to serve your own database on your own machine, you just use their API and
+[2:05:57]use their database as a service, and let me share the, I think I'm sharing one tab here, and I need
+[2:06:06]to, let me share my desktop so I don't have to reshare my screen every time I open a tab.
+[2:06:17]I think you can see my whole screen here now with all the tabs. Yeah, this is the
+[2:06:25]Superbase website. It is basically an open source Firebase alternative. Firebase is a service by
+[2:06:32]Google that has been lying around. It's not open source, it's closed source, but it was maybe one
+[2:06:39]of the most successful backend as a service tools that was provided to the developer community,
+[2:06:47]so that people didn't have to just develop everything from scratch, have their own
+[2:06:52]database. They could use a database served on Google servers, but connected to their other parts,
+[2:06:59]other components by some API, and it is the open source version or alternative to Firebase,
+[2:07:07]and the cool thing is that the free tier version of Superbase provides lots of cool and
+[2:07:15]lots of interesting features that are sufficient for running maybe a small to medium
+[2:07:23]size website, and then for the more advanced and those that need a really high scale scenarios,
+[2:07:30]you can go to the paid plans, but the free plan, as I investigated, provides lots of
+[2:07:41]features for free. That is cool, and I'm thinking to maybe whenever I wanted to build that personal
+[2:07:47]blog, maybe I use some of these features from here and don't develop it on myself, but most of the
+[2:07:53]time these features and this service basically is more suitable for the big companies that they
+[2:08:01]want to be scalable and they don't want to risk the authentication part to be, I don't know,
+[2:08:09]easy to scam or something, and they also provide vector embeddings, which is cool. So this was the
+[2:08:18]second kind of runner-up for the title of the winner here, and the first, the winner in
+[2:08:27]the developers tool after the cursor, but cursor generally was the winner of the whole category
+[2:08:33]based on probably the votes. The other cool tool was Bolt. I think I introduced it to you
+[2:08:44]someday, I'm not sure, but it wasn't recorded in the episodes. It's basically a tool,
+[2:08:51]yeah, it's basically a simple, here at least, interface that lets you type in the app you
+[2:08:57]want to develop and start developing it, as unbelievable as that sounds, and I tried it with
+[2:09:06]some ideas and it is good on the HTML CSS part. It probably takes a lot of prompt engineering
+[2:09:17]and trial and error to make a whole functioning website with it, and it's not probably very
+[2:09:23]efficient on, I don't know, handling the database or something like that, but it is definitely a good
+[2:09:31]starting point if you have some idea to work on and want to just play with the idea and see
+[2:09:39]how you can develop it as fast as possible. As I said, the web coding thing, and see
+[2:09:45]if that is feasible to do, and I saw some of the tutorials on YouTube that were using this tool as
+[2:09:55]the main kind of like tool to develop the frontend.
+==== Ending of Part 13 ====
+
+==== Beginning of Part 14 ====
+[2:10:00]end of their website and it's really intrigued me to try it for the cases that, because I'm not good
+[2:10:06]at front-end, I know a little bit back-end to develop with Python, but for developing the front-end
+[2:10:13]I think this one is going to be a really good tool at least to try out. And it is much more
+[2:10:19]complicated than just the front-end. You can basically, or in theory at least, develop and
+[2:10:26]deploy full-stack web and mobile apps, but in the cases that I was playing with, the part that
+[2:10:36]really intrigued me was the front-end applications. So I'm not sure if you had any experience,
+[2:10:44]any successful experience with this one. I did not, and to be honest with you the reason that
+[2:10:48]I did not, it was on purpose because I just, I am just learning, you know, as you know,
+[2:10:52]these front-end frameworks and I really didn't want to hinder my progress by just relying on
+[2:11:00]these automated tools. I know that they do great, yet I still believe that if you really want to
+[2:11:06]become a web developer for developing something that really is, you know, a comprehensive solution
+[2:11:13]to the problem, you just need to know the basics as, yeah, I mean you can certainly rely on Cursor
+[2:11:18]or Bolt or everything to come up with a web block for you, but the moment that you just want to
+[2:11:22]change one aspect of those, if these models themselves cannot do that for you, then you are
+[2:11:26]in a big trouble because now you're looking at a code base with maybe thousands of scripts and
+[2:11:31]thousands of lines and then you don't know how it is actually put together. So I really like this,
+[2:11:37]I think that these automated tools are great, I mean Cursor itself is great, but when I am in the
+[2:11:43]learning mode I usually use VS Code itself, not Cursor, because I just want to force myself to
+[2:11:48]code and learn how things are in the first place and then go and use that. And Moin, actually you
+[2:11:54]reminded me of something very nice that I read past couple of weeks on Twitter, I don't remember
+[2:11:59]from whom unfortunately, but it was like this, that every time that you use one of these automated
+[2:12:05]tools, I believe I sent it to you, I'm not sure, that you are kind of financing a very nice
+[2:12:14]product that you desire, which is going to be super useful in the beginning, but in the long
+[2:12:20]run you need to pay the money for it back. So it's a typical this kind of thing, yeah, that you take,
+[2:12:27]yeah. You just borrow a huge amount of money, you just basically borrow a full stack
+[2:12:34]project, a very good looking website in the beginning, but the moment that you want to change
+[2:12:39]something in it, now you need to go back and you need to debug lots of codes, that even if you know
+[2:12:45]that language, the entire project is written with, you still need to figure out the logic of the code.
+[2:12:51]So I would say that these things are great and hopefully there will be a time,
+[2:12:57]and I do think that there will be a time, that they can be 100% automated, so they can
+[2:13:03]create everything for you and they themselves can take care of just debugging whatever problems
+[2:13:08]that are there, you know, addressing every single request that the user has, adding whatever
+[2:13:13]features, they are not necessarily too verbose, they are not necessarily too concise, and we will
+[2:13:20]see that day, but we are not yet there, and this means that if you just rely on these tools to
+[2:13:26]build something for you and you yourself don't want to touch anything, you don't know anything
+[2:13:30]about that language that is being used, if you are dealing with something that is not simple enough,
+[2:13:36]then you are going to be in a big trouble later on, unless if you don't want to. So that's my
+[2:13:40]take on these things, but these are very cool and I believe these are the preliminary steps towards
+[2:13:45]those 100% automated solutions. Yeah, definitely, and most of the tutorials and applications I've
+[2:13:52]seen online using these tools are most of the time for building demos of some ideas that you have in
+[2:13:57]mind, and I think it makes sense to, when you are not sure whether something is feasible and you just
+[2:14:05]want to play with it and see if it can be made into an app, an actual app, it makes sense to
+[2:14:13]maybe start with these tools and then when you had some evidence that, okay, this is doable
+[2:14:21]and it could look nice if done right, then you can start from scratch and develop it
+[2:14:29]with a long-term view so that it would be easy to maintain in the future and in the long run,
+[2:14:38]and yeah, I agree with that. Okay, nice. And for the design tools, Figma seemingly has a
+[2:14:51]Figma AI extension that I didn't play with these myself. I'm far from the design
+[2:15:00]area, but probably maybe you want to try them out. This one had a really good idea. I'm not
+[2:15:10]going to share the website. I'm not sure if the internet bandwidth would allow, but this is
+[2:15:16]actually a gathering or gallery kind of like of all the design inspirations and includes the
+[2:15:28]user journeys of applications that you can get some inspirations from. So you have some idea
+[2:15:37]in mind, but you don't know how to design the app, how the interaction of the user
+[2:15:44]with the application should be, and this is just a gathering of all the good products out there,
+[2:15:49]and you can just get some examples from. I think it was a really good idea to just build it.
+[2:15:56]Nice. So do you want me to share the screen for that app?
+[2:16:00]Yeah, yeah. So if you have other things to share, maybe, oh, you already stopped sharing. I just
+[2:16:06]wanted to say maybe that. Yeah, it's fine. Yeah. Okay. So let's see. So this is the website that
+[2:16:14]you're talking about, right? Yes. And again, so this is just showing a UI for different applications.
+[2:16:23]What does it exactly do? I didn't get it. Yeah, it shows the UI. We were too much using the AI
+[2:16:31]word. And it shows the, as far as I understood from the examples that I was seeing there,
+[2:16:40]the user journey in those applications. So what are the first pages that the user sees when they
+[2:16:47]log in, and what are the different features that those previous applications provided? So when you
+[2:16:54]have access to all those high quality applications that are already existing, you can
+[2:17:02]probably come up with your own design much more simpler by having access to such a kind of like
+[2:17:08]database of user interactions. I see. So I tried to do a quick sign up on their website, and I am
+[2:17:16]seeing now a lot of applications here. Nice. So it's basically just a user journey, a compilation
+[2:17:23]of user journeys across different apps. I mean, this is a great idea. Yeah. This was something
+[2:17:29]that needed to be done, gathering these user journeys. Exactly. And it really helps designers
+[2:17:39]to just come up with the new design much more or take the best elements from each of the designs
+[2:17:44]and put into a new application. Yeah. As you can see, every page that the user sees during the
+[2:17:53]sign up, for example, in the cloud application is gathered here. So you can get a whole view on
+[2:18:00]how user interacts with these applications. All right. Yeah. And they're charging $10 per month
+[2:18:06]for the full usage. But even this one is actually already two enough, I mean, for lots of the things
+[2:18:11]that you want to do. This is Arc Search. And by the way, I mean, I should want to talk about Arc
+[2:18:17]as well. I just basically set up Chrome and kept using it. This is Arc. This is the problem.
+[2:18:23]I was going to mention that, but I was seeing this tab that you were opening, and it was,
+[2:18:31]this seems familiar to me. Which browser are you using? And yeah. My Chrome was just getting
+[2:18:38]too slow. I'm not sure why, but this has some very cool features. The one that I really like
+[2:18:42]and I use is this two tabs in the same tab that you can use. And this is super nice.
+[2:18:51]During browsing, this helps a lot. And it is a very cool project. You basically have all the
+[2:18:56]extensions from Chrome available here as well. So nice one. Yeah. Arc Search is the third in the
+[2:19:05]category of mobile apps in the Product Hunt Award. So it itself is listed in this award.
+[2:19:12]Cool. Cool. Yeah. And they have lots of screenshots from that. Okay. Nice product.
+[2:19:17]Thanks for sharing this. This is also very interesting. Yeah. And I think the last application
+[2:19:23]I wanted to share from this list is this one, which is a really helpful aid for myself, at least.
+[2:19:35]It's Postgres.new. And let's see how this works. This is basically an AI-assisted version of
+[2:19:44]Postgres. So you can just describe the application that you want to build, and it tells you what
+[2:19:51]should be the structure of the databases or the tables in the database, and gives you the code
+[2:19:58]for the migrations.
+==== Ending of Part 14 ====
+
+==== Beginning of Part 15 ====
+[2:20:00]just you can copy and paste into your development environment. For example you can say I want to
+[2:20:09]make a to-do list application and it designs the tables and you can just chat with it to
+[2:20:15]change the architecture of those tables and yeah it says okay for the tasks you need a table with
+[2:20:21]these characteristics and and it should be related to this category to this categories table.
+[2:20:32]It tries to give you the most efficient way that you can design the database and the migrations
+[2:20:40]are available here so you can just copy and paste these codes into your code yeah and yeah you can
+[2:20:47]chat with it here to say okay I want for example the users table to also have a profile picture
+[2:20:54]section so it adds that and I can just go on and ask it add to the users
+[2:21:08]table the profile pictures kind of like feature as well and it updates probably the
+[2:21:22]table yeah the profile picture url and then the migrations is also updated here at Cone.
+[2:21:31]One question, can you directly edit the diagram itself? Let me see
+[2:21:42]I think I clicked something wrong let's yeah just do it once more
+[2:21:52]maybe edit maybe renaming some of the keys or adding a new row something like that because if
+[2:22:00]that is also included then this is this is a great solution I mean even right now it is a great
+[2:22:05]solution that you can just chat with it but sometimes it's much easier rather than asking
+[2:22:09]it to do something for you just go there and add that row there yeah I'm not sure what happened
+[2:22:16]here but yeah rename column make nullable make unique so yeah you can change some of the
+[2:22:25]characteristics here as well create index maybe click on that create index and see what happens
+[2:22:32]oh nothing okay I'm just let me choose the best index for the
+[2:22:36]id in the so it basically wrote a prompter for example you can make
+[2:22:44]the password hash the index maybe let's see how that works out
+[2:22:48]it tells you that there are security concerns so the fact that it tries to come up with the
+[2:22:57]efficient and efficient architecture for a database is very cool because
+[2:23:05]this is the area that I'm not very familiar with how to design efficient and these related
+[2:23:12]tables and it's cool that these AI assisted tools are proliferating in all areas of coding so
+[2:23:21]it makes it much more simpler I mean you could put a lot of time on learning how to write
+[2:23:28]a good skill code for making tables but using these tools you can have an easy start
+[2:23:35]I'm not sure if this is the best start that you can have based on what we talked about
+[2:23:41]in the long if we want to consider the long-term effects but it really helps just to start
+[2:23:48]coding and working on the projects that you had long in your mind I agree and this is a very cool
+[2:23:55]I don't know what was the name again moving this one postgres dot database dot build database dot
+[2:24:01]build yeah the website I guess the combination of this tool and the first one that you mentioned
+[2:24:09]yeah something like that the superbase and this is basically a tool I think by the superbase team
+[2:24:16]and you can connect it to so that's when you created your database you can deploy it directly
+[2:24:22]so yeah so help me understand now for example if you want to build a rag application that you
+[2:24:29]I mean and it's going to be I mean if I wanted to do that conventionally I would probably just
+[2:24:34]put together a server and put a set of a postgres database on that and then maybe come up with a
+[2:24:42]fast api kind of very simple back end for that and then the front end could be an xjs or whatever
+[2:24:48]application and I would just use that I mean as I will keep the server on and whenever someone
+[2:24:54]logs into my api they are going to interact using the front end with that back end and they receive
+[2:25:01]now I believe this could be easily handled in a serverless manner using these tools
+[2:25:06]right yeah yeah you can outsource the database part of your project and lots of other features
+[2:25:12]of your project to superbase and just maybe you all I think there is the possibility that
+[2:25:19]you can also outsource the front deployments or the server that is serving the front also to
+[2:25:26]superbase but just imagine the case that you yourself want to serve the front end on some
+[2:25:33]server you can connect that front end with these apis to those databases that is being served on
+[2:25:39]superbase servers and yeah you just outsource a big part of your project there but we have
+[2:25:47]we have a couple of very nice solutions for frontend already one of them is versil as far as
+[2:25:52]yes yes and uh let's see if they can be connected to each other versil and superbase
+[2:25:59]uh superbase for versil yeah by integrating superbase with versil developers can leverage
+[2:26:06]a superbase postgres database out and storage edge functions in real time while benefiting
+[2:26:11]from versil's free deployment capabilities so it seems that yeah you can do both which basically
+[2:26:19]means that now you have a free solution for your front and now you have a serverless free option
+[2:26:23]for your back and it's going to be very nice one yeah and one thing that is definitely happening
+[2:26:30]in the whole picture of these tools is that developing new applications is just getting
+[2:26:35]easier and easier the bar is getting lower and lower yeah yeah yeah and again this means that
+[2:26:43]everybody can now come up with their own ideas and maybe as they mentioned really in across the
+[2:26:47]weekend just put together something a project a product and launch it and people are saying that
+[2:26:53]you know very soon we are going to see one percent two percent worse off i mean i mean the startups
+[2:26:59]with one billion percent of money so this is something that is going to happen if thanks
+[2:27:05]to these tools that we have now i mean you you do not need to have a full engineering team to
+[2:27:10]build a website where you can just leverage these tools and do everything yourself very nice tools
+[2:27:16]very very nice tools all right and so um my list it finishes here somehow and yeah oh i have
+[2:27:27]sure but i'm gonna be very quick because i think we already have been spoken for two hours and a
+[2:27:32]half so i'm gonna make it very quick now let's see what to talk about i'm going to
+[2:27:38]maybe one thing to talk about very quickly is chain of draft i guess this is a nice paper to
+[2:27:44]talk about let's go through it together all right so i mean we are all familiar with chain of thought
+[2:27:52]i mean i i believe there is no one here that does not that is hearing us that does not know what
+[2:27:57]chain of thought is so chain of draft is actually an advancement of uh thinking acceleration tips
+[2:28:05]for non-reasoning uh llms meaning if you're if your llms are for the reasoning we do not usually
+[2:28:12]use chain of thought with them right this is mostly for gpt for all kind of models that are
+[2:28:17]not reasoner at baseline or maybe some people can later on use this trip use this trick
+[2:28:22]to train uh you know reasoner models based on that but for now uh say for example if you are
+[2:28:28]just dealing with gpt for omni or you're typically dealing with a model that is not reasoner cloud
+[2:28:33]3.5 sonnet for example you can just use this trick and it is very very easy and cute to implement
+[2:28:40]to get much better results from your models compared to chain of tasks so uh let's first
+[2:28:46]take a look at this diagram here this basically shows uh the performance of these three different
+[2:28:52]modes of question and answering the standard mode which basically means that without any chain of
+[2:28:56]thought or chain of draft uh the chain of thought is the yellow one and then we have the chain of
+[2:29:02]draft uh the chain of draft which is the orange one and as you can see when you look at the
+[2:29:07]accuracy in most of these benchmarks the chain of draft is actually on par if not better than
+[2:29:14]the chain of thought and if you look at the token count which translates to cost chain of draft is
+[2:29:19]much much more efficient and the way that it works is super simple so in chain of thought
+[2:29:25]you basically ask your model to start thinking and reasoning before it answers you right say
+[2:29:31]for example you have this question here and the model goes through the question let's think through
+[2:29:35]this step by step in chain of draft your model is still thinking about that but it is tasked and it
+[2:29:42]is forced to think as short and concise as possible say for example this question here is basically
+[2:29:49]asking the model to solve a very simple equation and here instead of just having the model in chain
+[2:29:55]of thought to basically as you can see it has just generated lots of sentences it just puts
+==== Ending of Part 15 ====
+
+==== Beginning of Part 16 ====
+[2:30:00]together a very short concise annotation of the equation and this solves that for you.
+[2:30:06]This is the entire story and they're saying that this is much closer to how humans actually reason
+[2:30:10]about the stuff. They say that you know however humans typically employ a more efficient strategy
+[2:30:16]they draft concise intermediate touts that capture only essential information so basically humans are
+[2:30:23]not using chain of touts they are mostly using something that is similar to chain of draft and
+[2:30:28]again the prompt for doing this is very simple so this is the standard prompt uh let's let's find
+[2:30:35]out the here you go this is answer the question directly do not return any pre-ml explanation or
+[2:30:41]reasoning chain of tout think step by step to answer the following question return the answer
+[2:30:46]at the end of the response after separator and now chain of draft think step by step but only
+[2:30:52]keep a minimum draft for each thinking step with the five words at most return the answer at the
+[2:30:58]end of the response after separator and the key here is this five words at most and apparently
+[2:31:05]this cute trick works so beautifully that it's this technique outruns chain of tout across almost
+[2:31:12]all of the stuff and it is it kind of makes sense when you look at this retrospectively i mean this
+[2:31:17]these tricks do not come to mind prospectively that easy so kudos to these researchers but when
+[2:31:22]you look at it from a retrospective angle i mean this makes sense because you are just shortening
+[2:31:27]the context window of the amount that you put in the context window of those models and it still
+[2:31:31]works very nicely so this is one cute paper yeah go ahead and really interesting that i mean i was
+[2:31:39]expecting some sophisticated rl that has been utilized to make the model uh use the least
+[2:31:46]amount of tokens when we just uh that prompt everything has changed it's so cool that these
+[2:31:53]new types of research is being published and yeah definitely it's not easy when you are researching
+[2:32:00]this question it only seems simple or cute when you look backward yeah exactly and and to be honest
+[2:32:07]with you it seems that this same way of thinking is also being explored by other researchers so
+[2:32:12]for example this paper i'm not going to deep dive into it but these are these people are
+[2:32:16]basically using the same trick but not during inference during training so it is the paper is
+[2:32:22]named light thinker so they are basically offering a schema for training a model but instead of
+[2:32:28]having that being trained on the entire reasoning schema just being trained on very concise schema
+[2:32:34]during the training so again this is a line of work that we probably are going to see more and
+[2:32:38]more and i guess that the next line of reasoner models are going to be using this trick more and
+[2:32:44]more often because we know that reasoning and inference reasoning during inference time is also
+[2:32:49]not that cheap so you need to pay money for every single token that the model is generating
+[2:32:55]all right so that is it let me see if anything is uh left here a couple of things to mention to you
+[2:33:01]one of the nice ones is actually i'm going to introduce two resources uh one is a kind of book
+[2:33:08]that is released or released on archive a comprehensive guide to explainable ai and if
+[2:33:14]you open it this book is very long i mean this is not this is an entire book right a very very nice
+[2:33:21]one released on december 2024 so it's still very up to date and if you just go and it's coming out
+[2:33:27]of a lot of different centers and people with multiple different affiliations so kudos to all
+[2:33:32]of them and they are they put together a very nice piece of reading on introduction of
+[2:33:38]explainable ai foundations of that what does it mean to have explainable models in deep learning
+[2:33:45]and then they talk about interpretability of large language models and transform architecture
+[2:33:49]which is state-of-the-art at the moment so if some people are interested in doing research on
+[2:33:54]explainable ai i believe this is this book is 230 pages obviously not an easy read but this is this
+[2:34:01]is the most comprehensive introduction that you can find to any explainable ai territory so
+[2:34:08]definitely give it a try if you're interested very interesting yeah yeah this is one and then the very
+[2:34:16]quickly the next one which is uh probably less relevant to people like you and i mean who are
+[2:34:23]not training our own models but still it might satisfy our curiosity this is the ultra scale
+[2:34:29]playbook regarding training llms on gpu clusters so basically a group of researchers revealed all
+[2:34:36]the tricks for training llms on gpu clusters this basically means that now and this is a very very
+[2:34:43]very long blog post this is also kind of a book it's very nice with great figures and i believe
+[2:34:50]they start from the scratch they explain all the concepts and then how you can train a modern llm
+[2:34:56]on a gpu cluster of 500 gpus for example because neither of us are used to that number of gpus i
+[2:35:02]mean the most number of gpus i've ever trained on my life has been eight using ddp and 500 gpus
+[2:35:09]definitely will open the door to many different errors and issues and challenges that i even
+[2:35:15]cannot imagine at the moment so if people want this go ahead yeah this is a really precious resource
+[2:35:21]and uh the type of resource that and content that is not shared regularly and it is probably
+[2:35:30]only locked into the teams of google and open ai and it's really valuable that they are sharing
+[2:35:37]their experiences here and i can see thomas wolf in the authors who is i think the cto of hiding
+[2:35:44]face or c yes cto is i think yeah very definitely um it's going to be helpful for many people
+[2:35:52]no not me but we don't have we don't have to we don't have the resources to train on this amount
+[2:35:58]of gpus but again many researchers might benefit from it and kudos to hogging face for open sourcing
+[2:36:03]such a precious uh document then let's see what else do i have here to share with you guys
+[2:36:10]uh this paper was kind of interesting i'm just quickly going through that uh this is a blog post
+[2:36:16]for the paper the paper itself is also available it's called it's named minions embracing a small
+[2:36:21]language model shifting compute on device and cutting cloud costs in the process the idea again
+[2:36:27]is very simple yet very effective they are saying that you know basically we cannot use our own
+[2:36:33]laptops and computers for very complicated tasks because we cannot run state-of-the-art large
+[2:36:38]language models on them what if a state-of-the-art large language model acts like guru and tells a
+[2:36:46]lot of smaller language models each of which could be a minion to do what exactly and then
+[2:36:53]the complicated piece of computation is still done by the guru on the cloud so the idea is very
+[2:36:59]simple they said that you know whenever the user asks for something a look at a cloud-based model
+[2:37:05]let's figure out the paper here you go a cloud-based model is going to come up with a plan
+[2:37:10]and it's going to give very very small tasks to those on-site local models like for example if
+[2:37:18]we are just thinking about a very complicated framework this is a small piece of that that
+[2:37:22]go and read this document tell me this answer which you know maybe a quen or you know a mistral
+[2:37:28]or a llama 3.28 billion parameter can easily do can handle that those small models go and
+[2:37:35]do everything and they come back to their boss say that here's the results and then the boss on
+[2:37:38]the cloud takes care of concluding everything and answering the user the main magic happens because
+[2:37:45]those compute heavy part that for example a model should go and go through a very large
+[2:37:50]corpus of document to find a small answer could be done by a local model and the amount of money
+[2:37:55]that you are spending on the cloud models is very very limited to those few tokens that are
+[2:38:01]exchanged between your computer and the cloud again very nice interesting piece of work
+[2:38:09]and i want to share something oh no i mean i said thanks for sharing it's really
+[2:38:17]a useful concept to have in mind on how this whole thing could be more efficient yeah very very
+[2:38:24]cute idea i mean i did this past month i found a couple of cute works and let me finish by
+[2:38:29]the one that i really enjoyed which is this mistral ocr i'm not sure if yeah yeah if you heard
+[2:38:36]this is this is great man i mean i used that past couple of weeks and i it was such a flawless
+[2:38:42]experience i mean this is a paid api but you are going to end up paying one dollar for 1000 pd 1000
+[2:38:48]pages of pdf to be translated to markdown it's amazing which is nothing and it works so nicely
+[2:38:57]that i believe i mean if you just try to come up with your own hard-coded script to do these
+[2:39:02]things it's going to be much much more challenging it's a very nice api you just go to mistral
+[2:39:07]you basically uh click on this tried api i have already uh activated my own api it's very simple
+[2:39:14]i will get some api keys you can manage your usage and limits and again i believe somewhere
+[2:39:20]they talk about uh their the way that they do that if it's not here probably in the world in
+[2:39:26]there i believe i is rated somewhere but this is the amount of so look at this this is the pdf
+[2:39:33]and then this is the markdown generated and they can come up with a very accurate with imaging a
+[2:39:40]very accurate representation of the pdf in markdown taking care of the tables and everything
+[2:39:45]this is the table if you see yeah translated the images are gonna be extracted are gonna be
+[2:39:51]saved locally you can easily save this markdown to disk and then you know we know that markdowns
+[2:39:57]are much easier to be processed by
+==== Ending of Part 16 ====
+
+==== Beginning of Part 17 ====
+[2:40:00]language models and images are saved and the images are going to be saved with
+[2:40:05]appropriate hyperlinks within the Markdown files. So you can just easily use OpenAI API for example
+[2:40:11]or Gemini API to pass the imaging with their names and then the Markdown and those models
+[2:40:17]behind the scene can understand that okay this is the image that has come in this specific part of
+[2:40:21]the page. Great. Very handy. I just wanted to share that with you. I've been using that. Thank you.
+[2:40:28]It's really interesting and it's cool that each of these companies are coming up with their own
+[2:40:34]unique features to open source, not open source, just to give access, give people access to these
+[2:40:43]different features. I think not OpenAI or Entropiq are working on this OCR API but
+[2:40:51]this could be something that I mean you don't have to now rely on your own code base if you
+[2:40:58]want to build a rack system. You can just pipe the whole PDF to this API and it will probably be fast
+[2:41:04]and then get back the Markdown and use it in the context of the LLM. It's really interesting.
+[2:41:10]Everything is going to be cloud-based. Cloud-based and AI. You basically need to come up with a
+[2:41:17]way to manage your APIs. To be honest, one of my biggest frustrations at the moment, Moin, is that
+[2:41:21]I have too many APIs and I should keep track of those, know how much I'm spending on any of these
+[2:41:27]and things could get easily out of hand but this is the future. This is the future of development
+[2:41:32]world at least so we need to get used to that. Yeah, an interesting future of course. Very
+[2:41:39]interesting future. All right so I'm also over now. It was great. I mean I learned a lot. Lots
+[2:41:46]of new content and interesting things to just dive deeper into after this meeting and yeah
+[2:41:53]like always I really enjoyed it. Thank you very much. Likewise for me as well. Thanks for
+[2:41:58]introducing the last piece that was super awesome. Those nice products on Product Hunt.
+[2:42:04]I'm going to study two of those at least tonight and understand what they are doing.
+[2:42:09]Very handy. All right thank you very much Moin and thank you everyone who were watching us.
+[2:42:13]This was a very long one but this was never supposed to be. We needed to cover a lot of
+[2:42:17]things so yeah. I mean this is not a problem. These videos are not supposed to be short and
+[2:42:21]I believe Moin and I never stopped shorter. We never had shorter than two hours conversations
+[2:42:28]even recording this meeting so yeah and we are not going to limit ourselves so hopefully you
+[2:42:33]enjoyed that as well and see you in the next episode. All right goodbye guys. Goodbye.
+==== Ending of Part 17 ====
+

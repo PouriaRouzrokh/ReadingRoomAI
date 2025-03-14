@@ -1,0 +1,107 @@
+==== Beginning of Part 1 ====
+[0:00:00]to this. All right, so I mean, how are you? Hey, how are you? I'm doing fine. How are
+[0:00:08]you? Good as well. Thank you. Thank you very much. It has been about a month that we could
+[0:00:12]not record any video. And you and I were just talking that it was because you are an intern
+[0:00:16]in Iran. I'm an intern in the US. And unfortunately, when two interns decide to record a video
+[0:00:22]together, the matter of finding an appropriate time could take one year. All right, so that's
+[0:00:29]for us. We are lucky that it took only one month. So anyway, yeah, we really wanted to
+[0:00:35]put together a couple of times to talk earlier. But unfortunately, neither of us could do
+[0:00:39]that. A lot of stuff happened throughout the past one month. I mean, one month in AI world
+[0:00:45]is actually too, too long. But yeah, at least we are here today to talk about everything
+[0:00:51]that happened. Feel free to go ahead and let's talk about things that you felt like that
+[0:00:57]were amazing during the past one month, things that inspired you. And then I can talk a little
+[0:01:01]bit about everything. And then we can start going through all of them. Yeah, sure. Like
+[0:01:08]last time, we can first talk briefly about what are the main topics or what are the sort
+[0:01:14]of like, the main concepts that we are covering. For myself, I am not covering comprehensively
+[0:01:22]whatever happened in these one months, just the most recent ones, and maybe one or two
+[0:01:29]things that really stuck with me during this time. And then we can find a solution how
+[0:01:35]to start with these presentations. Okay, I start with myself. And let me see. Okay, I
+[0:01:45]first want to cover two kind of like articles about how human physicians and AI can perform
+[0:01:54]together to integrate their knowledge to solve cases. And that brings me to the new updates
+[0:02:03]on the AIME project by Google. And then I shift gears a little bit and go to something
+[0:02:11]technical about large language diffusion models, which was very cool, which was released
+[0:02:18]in the, I think, two weeks ago. And then after that, I go to something very different about
+[0:02:24]some applications and tools, mainly AI-powered, but this is a basically a list of cool products
+[0:02:33]that are rated each year by Product Hunt. And I'm going to cover some of the winners
+[0:02:38]and some of the cool tools I found there. So these are the main topics. I'm not, as
+[0:02:43]I mentioned, going to be very comprehensive here, just, I don't know, to cover some cool
+[0:02:50]topics that I found during these weeks. Perfect. Yeah, very nice set of topics. I think that
+[0:02:56]we have some overlap there. I'm also going to talk about AIME. AIME was one of the papers
+[0:03:01]that really inspired me. The second version of that specifically, that was just last week.
+[0:03:06]I have a couple of nice medical stuff to talk about. I wanted to first talk about MedArena
+[0:03:13]and that was one of the things that we can talk about and introduce it to people. And
+[0:03:19]then some nice products in the world of medicine and AI that is coming out. A couple of nice
+[0:03:26]LLM techniques, chain of draft, for example, that was a very cute technique that I really
+[0:03:30]enjoyed. And then I also went through some different studies, mostly research studies
+[0:03:38]that try to understand where we are at the moment with real deployment of AI in medicine
+[0:03:44]and what kind of issues might happen if we nowadays just go ahead and incorporate AI
+[0:03:50]into everything. I guess those papers are also important. A couple of, I mean, I have
+[0:03:55]a couple of futuristic topics to also talk about. One of them was the AI co-scientist
+[0:04:01]at Stanford and Google together released that. That was also very inspiring. And also the
+[0:04:06]CL1, the CL1 device that basically used human or animal neurons to do computations and then
+[0:04:16]up with AI on top of that. That was so futuristic. I really enjoyed that. And that brings me
+[0:04:22]to one simple question because I have some topics that I'm not going to deeply talk to,
+[0:04:26]I mean, to deep dive into, you know, to very extensively talk about, but still they really
+[0:04:31]inspired me throughout the past one month. So I'm going to quickly name those for myself
+[0:04:36]and I would be happy to hear what also inspired you the most before we talk about these items
+[0:04:41]that we have already collected. So, I mean, if you remember the last time that we recorded
+[0:04:46]one of these videos, it was almost the beginning of deep research being published by OpenAI.
+[0:04:52]It was only released to pro users and not too many people were able to play with that.
+[0:04:57]We already had something like that coming out on Gemini, but I believe throughout the
+[0:05:01]past one month, a few things happened. First of all, the deep research from OpenAI was
+[0:05:07]also released to plus users. So I had the leverage to play with that a little bit. And
+[0:05:11]then Perplexity also released that, that I know that you have been playing with so far.
+[0:05:16]And I know that Grok from X and Elon Musk's team also came out and it also has deep research.
+[0:05:21]So I guess now people are basically leveraging this deep research very nicely in different
+[0:05:26]ways. And every day on Twitter, you see many, many things just produced by deep research.
+[0:05:31]And I think that's the paradigm in how we are using these large language models. I really
+[0:05:36]enjoyed that. And then a couple of models came out throughout the past one month that
+[0:05:40]each of them were, you know, kind of outstanding from different aspects. So I believe the most
+[0:05:48]important one was the Cloud 3.7, which actually made me go back to Cursor because I had said
+[0:05:54]farewell to Cursor for a couple of months. I was just using the regular VS Code and this,
+[0:06:01]you know, GitHub copilot or other copilots that we had there. But Cloud 3.7 is so good
+[0:06:06]that I went back to Cursor. I restarted wipe coding and basically just saying what I want
+[0:06:12]to do. And I found one of these applications on Mac that even basically does a speech to
+[0:06:18]text. And it's basically, you know, you just put your cursor on the, you know, put your
+[0:06:24]mouse cursor on the sidebar of the Cursor application and just say what you want to
+[0:06:28]generate and just see that a couple of AI models work together. One translates what
+[0:06:32]you say into words, the other generates that for you, the other tests that for you. And
+[0:06:36]maybe after a couple of verbal cues, you have the application that you requested for. Cloud
+[0:06:41]3.7 was great. Grok, I know that a lot of noises were around Grok and people are still
+[0:06:47]talking about how good this model is. I personally did not work with that. To be honest, I didn't
+[0:06:51]find time to play with that that much. So if you have done so, I would be happy to hear
+[0:06:55]your insights. Gemini 2, Gemini 2 that was released, I mean, this model is insane. This
+[0:07:01]model is great. Very, very reliable, very little hallucinations, very long context window.
+[0:07:08]And I was just using a couple of, you know, less routinely explored features of that.
+[0:07:14]Like for example, how good this model is in understanding video files. As far as I
+[0:07:18]understand, this is one of the fewest models out there that you can just basically use
+[0:07:22]the API to fit in a video file and then the model is able to cache that video file and
+[0:07:27]then answer questions, even give you a screenshot of different scenes of the video that
+[0:07:32]you are describing to it, which is insane. I really like that. So kudos to Google for
+[0:07:37]this very, very complete model. And then very recently, this new model from Quentin
+[0:07:43]came out, QWQ, which was a 32 billion parameter model that basically outran DeepSeq R1 in
+[0:07:51]many different benchmarks. So it's a reasoning model in only 32 billion parameters. And 32
+[0:07:56]billion parameters means that you basically can download that from Olamo. And then if
+[0:08:00]you have a laptop or a PC with 32 gigabytes of RAM, you can, you know, almost perfectly
+[0:08:07]run that. Or, you know, if you just want to quantize that, then it's going to be
+[0:08:10]definitely runnable. And then you have something almost immediately available to you. So
+[0:08:15]that was also something that really inspired me. The CL1 device that I'm going to talk
+[0:08:20]about in detail, so I'm not going to talk about that much. And then finally, the
+[0:08:24]Majorana Quantum chip from Microsoft that really blew everybody out, blew all our
+[0:08:31]minds. So these things happened. I mean, we definitely cannot have time to go and talk
+[0:08:35]about all of this, but I just wanted to mention those really, really amazing months. I
+[0:08:39]really learned, I really, I even became more excited about AI and things that are
+[0:08:43]happening in this neighborhood.
+[0:08:46]And definitely, and just to add one thing about these advances that you mentioned, is
+[0:08:51]that the cool thing about the Grok model and how AIX is playing this game here is that
+[0:08:59]it is offering this deep research feature for free, which I think will push the other
+[0:09:05]competitors in this scene to lower their prices or either maybe provide this feature as
+[0:09:11]free as well, which is a very cool thing to just witness, that how these complicated
+[0:09:19]features that are really heavy, they need lots of heavy workloads of GPUs and probably
+[0:09:25]cost a lot to these companies, are now made to be available for free for all the users.
+[0:09:31]And this is where competition is helping the whole community to just be able to access
+[0:09:38]these features. I think that's really cool that AIX is doing that, but personally, I've
+[0:09:43]not played a lot with Grok.
+[0:09:45]I mostly play with Perplexity Deep Research, and I'm definitely thinking about getting
+[0:09:52]the subscription of Cursor because of this Glut 3.7, and I think now it is worth it.
+==== Ending of Part 1 ====

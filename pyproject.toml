@@ -10,4 +10,5 @@ dependencies = [
     "numpy>=2.2.3",
     "openai>=1.65.5",
     "pillow>=10.4.0",
+    "pydub>=0.25.1",
 ]

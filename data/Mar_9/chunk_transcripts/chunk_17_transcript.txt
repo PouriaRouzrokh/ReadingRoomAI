@@ -1,0 +1,29 @@
+==== Beginning of Part 17 ====
+[2:40:00]language models and images are saved and the images are going to be saved with
+[2:40:05]appropriate hyperlinks within the Markdown files. So you can just easily use OpenAI API for example
+[2:40:11]or Gemini API to pass the imaging with their names and then the Markdown and those models
+[2:40:17]behind the scene can understand that okay this is the image that has come in this specific part of
+[2:40:21]the page. Great. Very handy. I just wanted to share that with you. I've been using that. Thank you.
+[2:40:28]It's really interesting and it's cool that each of these companies are coming up with their own
+[2:40:34]unique features to open source, not open source, just to give access, give people access to these
+[2:40:43]different features. I think not OpenAI or Entropiq are working on this OCR API but
+[2:40:51]this could be something that I mean you don't have to now rely on your own code base if you
+[2:40:58]want to build a rack system. You can just pipe the whole PDF to this API and it will probably be fast
+[2:41:04]and then get back the Markdown and use it in the context of the LLM. It's really interesting.
+[2:41:10]Everything is going to be cloud-based. Cloud-based and AI. You basically need to come up with a
+[2:41:17]way to manage your APIs. To be honest, one of my biggest frustrations at the moment, Moin, is that
+[2:41:21]I have too many APIs and I should keep track of those, know how much I'm spending on any of these
+[2:41:27]and things could get easily out of hand but this is the future. This is the future of development
+[2:41:32]world at least so we need to get used to that. Yeah, an interesting future of course. Very
+[2:41:39]interesting future. All right so I'm also over now. It was great. I mean I learned a lot. Lots
+[2:41:46]of new content and interesting things to just dive deeper into after this meeting and yeah
+[2:41:53]like always I really enjoyed it. Thank you very much. Likewise for me as well. Thanks for
+[2:41:58]introducing the last piece that was super awesome. Those nice products on Product Hunt.
+[2:42:04]I'm going to study two of those at least tonight and understand what they are doing.
+[2:42:09]Very handy. All right thank you very much Moin and thank you everyone who were watching us.
+[2:42:13]This was a very long one but this was never supposed to be. We needed to cover a lot of
+[2:42:17]things so yeah. I mean this is not a problem. These videos are not supposed to be short and
+[2:42:21]I believe Moin and I never stopped shorter. We never had shorter than two hours conversations
+[2:42:28]even recording this meeting so yeah and we are not going to limit ourselves so hopefully you
+[2:42:33]enjoyed that as well and see you in the next episode. All right goodbye guys. Goodbye.
+==== Ending of Part 17 ====

@@ -1,0 +1,91 @@
+==== Beginning of Part 14 ====
+[2:10:00]end of their website and it's really intrigued me to try it for the cases that, because I'm not good
+[2:10:06]at front-end, I know a little bit back-end to develop with Python, but for developing the front-end
+[2:10:13]I think this one is going to be a really good tool at least to try out. And it is much more
+[2:10:19]complicated than just the front-end. You can basically, or in theory at least, develop and
+[2:10:26]deploy full-stack web and mobile apps, but in the cases that I was playing with, the part that
+[2:10:36]really intrigued me was the front-end applications. So I'm not sure if you had any experience,
+[2:10:44]any successful experience with this one. I did not, and to be honest with you the reason that
+[2:10:48]I did not, it was on purpose because I just, I am just learning, you know, as you know,
+[2:10:52]these front-end frameworks and I really didn't want to hinder my progress by just relying on
+[2:11:00]these automated tools. I know that they do great, yet I still believe that if you really want to
+[2:11:06]become a web developer for developing something that really is, you know, a comprehensive solution
+[2:11:13]to the problem, you just need to know the basics as, yeah, I mean you can certainly rely on Cursor
+[2:11:18]or Bolt or everything to come up with a web block for you, but the moment that you just want to
+[2:11:22]change one aspect of those, if these models themselves cannot do that for you, then you are
+[2:11:26]in a big trouble because now you're looking at a code base with maybe thousands of scripts and
+[2:11:31]thousands of lines and then you don't know how it is actually put together. So I really like this,
+[2:11:37]I think that these automated tools are great, I mean Cursor itself is great, but when I am in the
+[2:11:43]learning mode I usually use VS Code itself, not Cursor, because I just want to force myself to
+[2:11:48]code and learn how things are in the first place and then go and use that. And Moin, actually you
+[2:11:54]reminded me of something very nice that I read past couple of weeks on Twitter, I don't remember
+[2:11:59]from whom unfortunately, but it was like this, that every time that you use one of these automated
+[2:12:05]tools, I believe I sent it to you, I'm not sure, that you are kind of financing a very nice
+[2:12:14]product that you desire, which is going to be super useful in the beginning, but in the long
+[2:12:20]run you need to pay the money for it back. So it's a typical this kind of thing, yeah, that you take,
+[2:12:27]yeah. You just borrow a huge amount of money, you just basically borrow a full stack
+[2:12:34]project, a very good looking website in the beginning, but the moment that you want to change
+[2:12:39]something in it, now you need to go back and you need to debug lots of codes, that even if you know
+[2:12:45]that language, the entire project is written with, you still need to figure out the logic of the code.
+[2:12:51]So I would say that these things are great and hopefully there will be a time,
+[2:12:57]and I do think that there will be a time, that they can be 100% automated, so they can
+[2:13:03]create everything for you and they themselves can take care of just debugging whatever problems
+[2:13:08]that are there, you know, addressing every single request that the user has, adding whatever
+[2:13:13]features, they are not necessarily too verbose, they are not necessarily too concise, and we will
+[2:13:20]see that day, but we are not yet there, and this means that if you just rely on these tools to
+[2:13:26]build something for you and you yourself don't want to touch anything, you don't know anything
+[2:13:30]about that language that is being used, if you are dealing with something that is not simple enough,
+[2:13:36]then you are going to be in a big trouble later on, unless if you don't want to. So that's my
+[2:13:40]take on these things, but these are very cool and I believe these are the preliminary steps towards
+[2:13:45]those 100% automated solutions. Yeah, definitely, and most of the tutorials and applications I've
+[2:13:52]seen online using these tools are most of the time for building demos of some ideas that you have in
+[2:13:57]mind, and I think it makes sense to, when you are not sure whether something is feasible and you just
+[2:14:05]want to play with it and see if it can be made into an app, an actual app, it makes sense to
+[2:14:13]maybe start with these tools and then when you had some evidence that, okay, this is doable
+[2:14:21]and it could look nice if done right, then you can start from scratch and develop it
+[2:14:29]with a long-term view so that it would be easy to maintain in the future and in the long run,
+[2:14:38]and yeah, I agree with that. Okay, nice. And for the design tools, Figma seemingly has a
+[2:14:51]Figma AI extension that I didn't play with these myself. I'm far from the design
+[2:15:00]area, but probably maybe you want to try them out. This one had a really good idea. I'm not
+[2:15:10]going to share the website. I'm not sure if the internet bandwidth would allow, but this is
+[2:15:16]actually a gathering or gallery kind of like of all the design inspirations and includes the
+[2:15:28]user journeys of applications that you can get some inspirations from. So you have some idea
+[2:15:37]in mind, but you don't know how to design the app, how the interaction of the user
+[2:15:44]with the application should be, and this is just a gathering of all the good products out there,
+[2:15:49]and you can just get some examples from. I think it was a really good idea to just build it.
+[2:15:56]Nice. So do you want me to share the screen for that app?
+[2:16:00]Yeah, yeah. So if you have other things to share, maybe, oh, you already stopped sharing. I just
+[2:16:06]wanted to say maybe that. Yeah, it's fine. Yeah. Okay. So let's see. So this is the website that
+[2:16:14]you're talking about, right? Yes. And again, so this is just showing a UI for different applications.
+[2:16:23]What does it exactly do? I didn't get it. Yeah, it shows the UI. We were too much using the AI
+[2:16:31]word. And it shows the, as far as I understood from the examples that I was seeing there,
+[2:16:40]the user journey in those applications. So what are the first pages that the user sees when they
+[2:16:47]log in, and what are the different features that those previous applications provided? So when you
+[2:16:54]have access to all those high quality applications that are already existing, you can
+[2:17:02]probably come up with your own design much more simpler by having access to such a kind of like
+[2:17:08]database of user interactions. I see. So I tried to do a quick sign up on their website, and I am
+[2:17:16]seeing now a lot of applications here. Nice. So it's basically just a user journey, a compilation
+[2:17:23]of user journeys across different apps. I mean, this is a great idea. Yeah. This was something
+[2:17:29]that needed to be done, gathering these user journeys. Exactly. And it really helps designers
+[2:17:39]to just come up with the new design much more or take the best elements from each of the designs
+[2:17:44]and put into a new application. Yeah. As you can see, every page that the user sees during the
+[2:17:53]sign up, for example, in the cloud application is gathered here. So you can get a whole view on
+[2:18:00]how user interacts with these applications. All right. Yeah. And they're charging $10 per month
+[2:18:06]for the full usage. But even this one is actually already two enough, I mean, for lots of the things
+[2:18:11]that you want to do. This is Arc Search. And by the way, I mean, I should want to talk about Arc
+[2:18:17]as well. I just basically set up Chrome and kept using it. This is Arc. This is the problem.
+[2:18:23]I was going to mention that, but I was seeing this tab that you were opening, and it was,
+[2:18:31]this seems familiar to me. Which browser are you using? And yeah. My Chrome was just getting
+[2:18:38]too slow. I'm not sure why, but this has some very cool features. The one that I really like
+[2:18:42]and I use is this two tabs in the same tab that you can use. And this is super nice.
+[2:18:51]During browsing, this helps a lot. And it is a very cool project. You basically have all the
+[2:18:56]extensions from Chrome available here as well. So nice one. Yeah. Arc Search is the third in the
+[2:19:05]category of mobile apps in the Product Hunt Award. So it itself is listed in this award.
+[2:19:12]Cool. Cool. Yeah. And they have lots of screenshots from that. Okay. Nice product.
+[2:19:17]Thanks for sharing this. This is also very interesting. Yeah. And I think the last application
+[2:19:23]I wanted to share from this list is this one, which is a really helpful aid for myself, at least.
+[2:19:35]It's Postgres.new. And let's see how this works. This is basically an AI-assisted version of
+[2:19:44]Postgres. So you can just describe the application that you want to build, and it tells you what
+[2:19:51]should be the structure of the databases or the tables in the database, and gives you the code
+[2:19:58]for the migrations.
+==== Ending of Part 14 ====

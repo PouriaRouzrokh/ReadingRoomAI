@@ -1,0 +1,89 @@
+==== Beginning of Part 2 ====
+[0:10:00]everyone is telling good kind of feedbacks on how Cursor has helped them build new applications
+[0:10:07]and I really like to try it as well. So if you want to give that a try let me tell you something. I
+[0:10:13]mean based on my personal experience I'm not sure if this is a valid conclusion or not but this is
+[0:10:18]something that I realized myself. So if you want a full project to be coded entirely in Cursor
+[0:10:25]you might still I mean you need to you need to come put together very very specific rules because
+[0:10:31]the models the way that Cursor prompts these models I believe behind the scene is forcing
+[0:10:37]them you know to do some things that not necessarily are the best for your project. For example they
+[0:10:44]tend to generate too too long outputs you know very verbose kind of coding lots of comments lots
+[0:10:50]of long docker strings type hinting I mean these are good practice but not all the codes that I
+[0:10:54]want to come up with needs that amount of docker string you know and some functions probably do not
+[0:10:59]need that. So I would say and a lot of times you realize that maybe because of this very very long
+[0:11:05]context window usage that Cursor has behind the scene that even the Cursor 3.7 in
+[0:11:11]the Cloud 3.7 in Cursor fails to exactly follow what you what you wanted to do. Whereas for example
+[0:11:18]if you just do this if you ask the same stuff from the Cloud 3.7 on the Cloud API you know
+[0:11:27]either if you have the Cloud application on your computer if you're just using the web-based version
+[0:11:31]of that that instance of Cloud 3.7 usually does things much better I mean at least significantly
+[0:11:38]better if not much better. And what I ended up doing throughout the past couple of weeks that I
+[0:11:44]was playing with the two of these was that I mostly used the I mean the Cloud 3.7 API itself
+[0:11:51]out of Cursor basically using the web application for putting together the founding
+[0:11:57]cornerstone of the project you know the main files the main scripts the organization of the files
+[0:12:01]everything like that and then I used Cursor mostly for fine-tuning you know if some scripts needed
+[0:12:06]some adjustments if I wanted to for example change the location of one file and a lot of scripts
+[0:12:12]needed to change accordingly things like that so I think that still there is a gap between what
+[0:12:18]the Cloud 3.7 itself is able to tell you and what the Cursor is able to tell you but the huge
+[0:12:23]advantage of Cursor is that you rarely face into context window issues with Cursor but whereas you
+[0:12:30]know Cloud 3.7 is not the best model if you just are looking at the context window there so
+[0:12:36]that this is this is a downside of Cloud but I just wanted to let you know that if you are
+[0:12:40]jumping into that be mindful that you know Cloud 3.7 at the moment is a little bit more than what
+[0:12:46]you see on Cursor. Yeah definitely I would take that into account on thanks for the mentioning it
+[0:12:53]sure I think if you agree you can start with the list and then on the topics that
+[0:13:00]we overlap we both want to share things I think that that would be simple we can talk through
+[0:13:07]it and then yeah then we can change the share screens and we continue with the recording.
+[0:13:13]Feel free to start share your screen and go ahead and yeah we can switch later on. Okay so I want to
+[0:13:21]first start with this blog post by Eric Tole. Let me share my screen here.
+[0:13:29]Okay is it's being shared now? I am seeing that. Okay so okay this is the title is When Doctors
+[0:13:39]with AI are Outperformed by AI Alone and that is in contrast to what we hear regularly in the
+[0:13:48]scene of AI that someone who uses AI will replace AI with another AI and that's not the case.
+[0:13:55]In this scene of AI that someone who uses AI will replace you not AI alone will replace you
+[0:14:01]and this is exact opposite of that and this is based on some findings of recent research projects
+[0:14:08]on how people or actually expert humans using AI were outperform yeah were underperforming AI alone
+[0:14:21]which is a really different thing that what media at least tells us what future will be like and
+[0:14:29]the interesting thing is that this is it is happening in medicine that people have some
+[0:14:35]bias against that there should be a human touch in it and physicians cannot be replaced
+[0:14:43]in general and there needs to be some sort of collaboration between human and machine. These
+[0:14:49]are not wrong statements but as this article reveals there should be some specific ways that
+[0:14:59]these two components work together and it starts with saying that okay AI systems working
+[0:15:06]independently perform better than when combined with physicians inputs and there could
+[0:15:11]be many reasons for that. It could be that the physician users were not skilled at using
+[0:15:19]these tools which I think is very probable that they didn't know how to prompt it or how to
+[0:15:25]rely on the answers and the other explanation was that maybe physicians were biased
+[0:15:34]and they undervalued what the AI said and they wanted to put more weight on what they taught
+[0:15:42]internally and whenever the AI was saying something different to theirs they were sticking
+[0:15:48]with their own opinion and not changing whatever they were thinking and this wasn't something that
+[0:15:54]was only seen in radiology tasks it was also seen in clinical decision making tasks which is
+[0:16:01]again another maybe not before taught for and maybe it wasn't expected that
+[0:16:09]this would happen and here is a table made by him summarizing some of the findings of the recent
+[0:16:17]papers as seen in chest x-ray interpretation in mammography interpretation and also in
+[0:16:26]reasoning and diagnostic accuracy most of the time or basically here all of the time AI alone
+[0:16:32]was superior the performance was superior to physicians using AI and they go on and providing
+[0:16:44]some thoughts on why this is happening that I talked about briefly on what could be some
+[0:16:50]explanations of why this is happening and also some solutions or suggestions of how this combination
+[0:16:58]or this division of labor should be done between human and machine and they say that rather than
+[0:17:05]assuming that combining both approaches always yields better results we should carefully consider
+[0:17:09]which tasks are better suited for AI which for humans and which truly benefit from collaboration
+[0:17:15]which I think really makes sense machines are better at some things some tasks at least at the
+[0:17:22]moment maybe someday they are better than everything but for now we know that AI is better suited for
+[0:17:30]analyzing very complex data sets with lots of data that could be missed when humans are looking
+[0:17:37]into them but humans probably are better at human interactions sometimes and getting some
+[0:17:44]feelings from the patient that the AI doesn't have simply access to and the path forward isn't
+[0:17:52]about replacing physicians with AI but rather about finding the optimal partnership model which I think
+[0:17:58]is the main gist of the whole article here that we are not looking for whether AI is better
+[0:18:05]or physicians are better just we need to find the optimal partnership and how to mix these two
+[0:18:11]sources of intelligence and here Irfan says the article they published in New York Times
+[0:18:21]and here they say what are the probable explanations of why MDs with AI didn't
+[0:18:30]work better than AI alone and yeah and physicians aren't completely comfortable with AI and still
+[0:18:36]doubt its utility even if it could demonstrably improve patient care and there are three distinct
+[0:18:44]approaches that Eric Topol and Pranav suggest in this article the first one let me see
+[0:18:55]yeah in the first model physicians first start interviewing patients and
+[0:19:02]they gather information and then AI systems take it from there and analyze the findings
+[0:19:09]and suggest diagnosis and probably treatments and they mention a study that revealed AI still
+[0:19:15]struggles with guiding natural conversations and I think the topic of Amy that we are next
+[0:19:22]going to talk about is exactly about this improving LLMs and AI to being more capable
+[0:19:30]at navigating human conversation especially in the context of medicine and here the study which was
+[0:19:39]on a model prior to Amy and these recent AI models they found that AI still struggles
+[0:19:46]with guiding natural conversations and knowing which follow-up questions will yield crucial
+[0:19:50]diagnostic information by having doctors gather these clinical data first AI can then apply
+[0:19:56]pattern recognition to analyze that information and suggest potential diagnosis which I think
+==== Ending of Part 2 ====
